@@ -1,5 +1,5 @@
 // Offline support: the app shell + data are precached; map tiles are cached as they are viewed.
-const SHELL = 'shell-v2';
+const SHELL = 'shell-v3';
 const TILES = 'tiles-v1';
 const MAX_TILES = 6000;
 const SHELL_FILES = [

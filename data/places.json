@@ -31,7 +31,11 @@
    "khaosok": "קאו סוק",
    "krabi": "קראבי / אאו נאנג"
   },
-  "food_rule": "מסעדות נכנסות רק אם הן במדריך מישלן, או שיש להן בגוגל 4.5+ עם 500+ ביקורות, או 4.7+ עם 300+ ביקורות, וגם ביקורות עקביות."
+  "food_rule": "אוכל מקומי ואותנטי קודם. מסעדות מישלן, ומקומות שהמקומיים אוכלים בהם (חיפוש בתאילנדית לפי מנות מקומיות, עם ביקורות עקביות). מקומות מקומיים מקבלים לרוב דירוג נמוך יותר בגוגל, אז הרף אצלם הוא 4.3+. מסעדות לתיירים הוסרו.",
+  "vibe": {
+   "local": "🇹🇭 מקומי ואותנטי",
+   "mixed": "מקומי, אבל גם הרבה תיירים"
+  }
  },
  "places": [
   {
@@ -560,7 +564,8 @@
       "1900"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "gibbon-project",
@@ -989,7 +994,8 @@
       "2300"
      ]
     ]
-   }
+   },
+   "vibe": "mixed"
   },
   {
    "id": "one-chun",
@@ -1069,7 +1075,8 @@
      ]
     ]
    },
-   "rec": "מישלן Bib Gourmand 2026"
+   "rec": "מישלן Bib Gourmand 2026",
+   "vibe": "local"
   },
   {
    "id": "central-phuket",
@@ -2136,7 +2143,8 @@
       "2300"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "khuk-khak-fresh-market",
@@ -2215,7 +2223,8 @@
       "2000"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "nai-muang",
@@ -2289,236 +2298,8 @@
      ]
     ]
    },
-   "rec": "Google 4.5 (1,366+)"
-  },
-  {
-   "id": "qcumber",
-   "name": "Qcumber Khao Lak",
-   "name_he": "Qcumber",
-   "region": "khaolak",
-   "category": "cafe",
-   "lat": 8.64173,
-   "lon": 98.251106,
-   "baby": 3,
-   "tip_he": "סלטים, ראפים ושייקים. בריא ומהיר.",
-   "geo": {
-    "status": "ok",
-    "google_name": "Qcumber",
-    "address": "4 32, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
-    "place_id": "ChIJ9SIMvMPuUDARub-mKBE2J9c",
-    "maps_url": "https://maps.google.com/?cid=15503419689570582457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.1,
-    "prev": [
-     8.642,
-     98.252
-    ],
-    "rating": 4.7,
-    "reviews": 789,
-    "business_status": "OPERATIONAL",
-    "hours": [
-     "Monday: 12:00 – 9:00 PM",
-     "Tuesday: 12:00 – 9:00 PM",
-     "Wednesday: Closed",
-     "Thursday: 12:00 – 9:00 PM",
-     "Friday: 12:00 – 9:00 PM",
-     "Saturday: 12:00 – 9:00 PM",
-     "Sunday: 12:00 – 9:00 PM"
-    ],
-    "periods": [
-     [
-      0,
-      "1200",
-      0,
-      "2100"
-     ],
-     [
-      1,
-      "1200",
-      1,
-      "2100"
-     ],
-     [
-      2,
-      "1200",
-      2,
-      "2100"
-     ],
-     [
-      4,
-      "1200",
-      4,
-      "2100"
-     ],
-     [
-      5,
-      "1200",
-      5,
-      "2100"
-     ],
-     [
-      6,
-      "1200",
-      6,
-      "2100"
-     ]
-    ]
-   },
-   "rec": "Google 4.7 (789+)"
-  },
-  {
-   "id": "bussaba",
-   "name": "Bussaba Thai Restaurant",
-   "name_he": "בוסאבה",
-   "region": "khaolak",
-   "category": "food",
-   "lat": 8.642994,
-   "lon": 98.251351,
-   "baby": 3,
-   "tip_he": "תאילנדי ביתי, זכה בכמה פרסים. על כביש פטקסם.",
-   "geo": {
-    "status": "ok",
-    "google_name": "Bussaba Thai Restaurant",
-    "address": "4, 54 Phetkasem Rd Moo 7, Khuekkhak, Takua Pa District, Phang Nga 82190, Thailand",
-    "place_id": "ChIJhYFdfcTuUDAR_ipVMYma4c0",
-    "maps_url": "https://maps.google.com/?cid=14835308561563986686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.21,
-    "prev": [
-     8.644,
-     98.253
-    ],
-    "rating": 4.6,
-    "reviews": 646,
-    "business_status": "OPERATIONAL",
-    "hours": [
-     "Monday: 12:00 – 10:00 PM",
-     "Tuesday: 12:00 – 10:00 PM",
-     "Wednesday: 12:00 – 10:00 PM",
-     "Thursday: 12:00 – 10:00 PM",
-     "Friday: 12:00 – 10:00 PM",
-     "Saturday: 12:00 – 10:00 PM",
-     "Sunday: 12:00 – 10:00 PM"
-    ],
-    "periods": [
-     [
-      0,
-      "1200",
-      0,
-      "2200"
-     ],
-     [
-      1,
-      "1200",
-      1,
-      "2200"
-     ],
-     [
-      2,
-      "1200",
-      2,
-      "2200"
-     ],
-     [
-      3,
-      "1200",
-      3,
-      "2200"
-     ],
-     [
-      4,
-      "1200",
-      4,
-      "2200"
-     ],
-     [
-      5,
-      "1200",
-      5,
-      "2200"
-     ],
-     [
-      6,
-      "1200",
-      6,
-      "2200"
-     ]
-    ]
-   },
-   "rec": "Google 4.6 (646+)"
-  },
-  {
-   "id": "pams",
-   "name": "Pam's Restaurant & Bar",
-   "name_he": "פאמ'ס",
-   "region": "khaolak",
-   "category": "food",
-   "lat": 8.70399,
-   "lon": 98.25338,
-   "baby": 3,
-   "days": "סגור בא'",
-   "tip_he": "גריל ומנות תאילנדיות. יש איסוף מהמלון.",
-   "geo": {
-    "status": "ok",
-    "google_name": "Pam's Restaurant & Cooking class",
-    "address": "41, 60 หมู่ 3 Phet Kasem Rd, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
-    "place_id": "ChIJw1Ee3afpUDARR25Imubjg5Q",
-    "maps_url": "https://maps.google.com/?cid=10701647719132851783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 7.0,
-    "prev": [
-     8.641,
-     98.2525
-    ],
-    "rating": 4.8,
-    "reviews": 926,
-    "business_status": "OPERATIONAL",
-    "hours": [
-     "Monday: 12:00 – 10:30 PM",
-     "Tuesday: 12:00 – 10:30 PM",
-     "Wednesday: 12:00 – 10:30 PM",
-     "Thursday: 12:00 – 10:30 PM",
-     "Friday: 12:00 – 10:30 PM",
-     "Saturday: 12:00 – 10:30 PM",
-     "Sunday: Closed"
-    ],
-    "periods": [
-     [
-      1,
-      "1200",
-      1,
-      "2230"
-     ],
-     [
-      2,
-      "1200",
-      2,
-      "2230"
-     ],
-     [
-      3,
-      "1200",
-      3,
-      "2230"
-     ],
-     [
-      4,
-      "1200",
-      4,
-      "2230"
-     ],
-     [
-      5,
-      "1200",
-      5,
-      "2230"
-     ],
-     [
-      6,
-      "1200",
-      6,
-      "2230"
-     ]
-    ]
-   },
-   "rec": "Google 4.8 (926+)"
+   "rec": "Google 4.5 (1,366+)",
+   "vibe": "local"
   },
   {
    "id": "takuapa-hospital",
@@ -3647,7 +3428,8 @@
       "2400"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "krabi-walking-street",
@@ -3704,7 +3486,8 @@
       "2200"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "maharat-market",
@@ -3784,7 +3567,8 @@
       "1200"
      ]
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "ao-nang-landmark-market",
@@ -3865,7 +3649,8 @@
       "2300"
      ]
     ]
-   }
+   },
+   "vibe": "mixed"
   },
   {
    "id": "wat-kaew",
@@ -4012,7 +3797,8 @@
      ]
     ]
    },
-   "rec": "Google 4.7 (10,373+)"
+   "rec": "Google 4.7 (10,373+)",
+   "vibe": "mixed"
   },
   {
    "id": "ruen-mai",
@@ -4134,7 +3920,8 @@
      ]
     ]
    },
-   "rec": "Google 4.7 (1,744+)"
+   "rec": "Google 4.7 (1,744+)",
+   "vibe": "local"
   },
   {
    "id": "big-c-krabi",
@@ -4422,7 +4209,8 @@
      "Saturday: 10:00 AM – 10:00 PM",
      "Sunday: 10:00 AM – 10:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "siam-dragon",
@@ -4502,7 +4290,8 @@
      "Saturday: 11:00 AM – 10:00 PM",
      "Sunday: 11:00 AM – 10:00 PM"
     ]
-   }
+   },
+   "vibe": "mixed"
   },
   {
    "id": "heng-heng-heng",
@@ -4582,7 +4371,8 @@
      "Saturday: 10:00 AM – 8:30 PM",
      "Sunday: 10:00 AM – 8:30 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "kin-kub-ei",
@@ -4650,7 +4440,8 @@
      "Saturday: 12:00 – 7:00 PM",
      "Sunday: 12:00 – 7:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "krua-baan-platong",
@@ -4730,7 +4521,8 @@
      "Saturday: 11:30 AM – 8:00 PM",
      "Sunday: 11:30 AM – 8:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "krua-praya",
@@ -4804,7 +4596,8 @@
      "Saturday: 11:00 AM – 10:00 PM",
      "Sunday: 11:00 AM – 10:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "krachang-khao-lak",
@@ -4878,7 +4671,8 @@
      "Saturday: 12:00 – 8:00 PM",
      "Sunday: 12:00 – 8:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "mun-pochana",
@@ -4958,7 +4752,8 @@
      "Saturday: 10:30 AM – 10:30 PM",
      "Sunday: 10:30 AM – 10:30 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "krua-luang-ten",
@@ -5080,7 +4875,8 @@
      "Saturday: 11:00 AM – 1:00 PM, 5:00 – 8:00 PM",
      "Sunday: 11:00 AM – 1:00 PM, 5:00 – 8:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "roe-dang",
@@ -5178,7 +4974,8 @@
      "Saturday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM",
      "Sunday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "hok-kee-lao",
@@ -5300,7 +5097,8 @@
      "Saturday: 10:30 AM – 1:30 PM, 4:30 – 9:30 PM",
      "Sunday: 10:30 AM – 1:30 PM, 4:30 – 9:30 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "tonfon-bistro",
@@ -5374,7 +5172,8 @@
      "Saturday: 10:00 AM – 8:00 PM",
      "Sunday: 10:00 AM – 8:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "mae-pa",
@@ -5450,7 +5249,8 @@
      "Saturday: 10:00 AM – 10:00 PM",
      "Sunday: 10:00 AM – 10:00 PM"
     ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "ko-yot",
@@ -5560,209 +5360,8 @@
      "Saturday: 12:00 – 3:00 PM, 5:00 – 9:00 PM",
      "Sunday: 12:00 – 3:00 PM, 5:00 – 9:00 PM"
     ]
-   }
-  },
-  {
-   "id": "tik-thai",
-   "name": "Tik Thai Restaurant",
-   "name_he": "טיק תאי",
-   "region": "khaolak",
-   "category": "food",
-   "lat": 8.698586,
-   "lon": 98.264053,
-   "baby": 3,
-   "tip_he": "מסעדה קטנה ושקטה מחוץ לכביש, עם בעלים חמים. קארי פננג ואורז מוקפץ באננס. קרוב לג'סמין.",
-   "rec": "Google 4.9 (360+)",
-   "geo": {
-    "status": "ok",
-    "prev": [
-     8.69859,
-     98.26405
-    ],
-    "google_name": "Tik Thai Restaurant",
-    "address": "33 ป้านัส 10 หมู่ที่ 4 Phet Kasem Rd, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
-    "place_id": "ChIJ5f_bxQHpUDARmvMw8XYuX1o",
-    "maps_url": "https://maps.google.com/?cid=6511974674588562330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.0,
-    "rating": 4.9,
-    "reviews": 367,
-    "business_status": "OPERATIONAL",
-    "periods": [
-     [
-      0,
-      "0830",
-      0,
-      "2200"
-     ],
-     [
-      1,
-      "0830",
-      1,
-      "2200"
-     ],
-     [
-      2,
-      "0830",
-      2,
-      "2200"
-     ],
-     [
-      3,
-      "0830",
-      3,
-      "2200"
-     ],
-     [
-      4,
-      "0830",
-      4,
-      "2200"
-     ],
-     [
-      5,
-      "0830",
-      5,
-      "2200"
-     ],
-     [
-      6,
-      "0830",
-      6,
-      "2200"
-     ]
-    ],
-    "hours": [
-     "Monday: 8:30 AM – 10:00 PM",
-     "Tuesday: 8:30 AM – 10:00 PM",
-     "Wednesday: 8:30 AM – 10:00 PM",
-     "Thursday: 8:30 AM – 10:00 PM",
-     "Friday: 8:30 AM – 10:00 PM",
-     "Saturday: 8:30 AM – 10:00 PM",
-     "Sunday: 8:30 AM – 10:00 PM"
-    ]
-   }
-  },
-  {
-   "id": "seaside-seafood-kitchen",
-   "name": "Seaside Seafood Kitchen Khao Lak",
-   "name_he": "סיסייד סיפוד קיצ'ן",
-   "region": "khaolak",
-   "category": "food",
-   "lat": 8.653815,
-   "lon": 98.247558,
-   "baby": 3,
-   "tip_he": "מסעדת חוף בריזורט, ממש על הים. מתאים לארוחת שקיעה.",
-   "rec": "Google 4.9 (430+)",
-   "geo": {
-    "status": "ok",
-    "prev": [
-     8.65382,
-     98.24756
-    ],
-    "google_name": "Seaside Seafood Kitchen Khao Lak",
-    "address": "38/9 Moo 6, Petchakasem Road, Khao Lak, Khuk Khak Khao Lak, ตำบลคึกคัก อำเภอตะกั่วป่า พังงา 82220, Thailand",
-    "place_id": "ChIJ3V2v3yfpUDARgNYAl5eKGzQ",
-    "maps_url": "https://maps.google.com/?cid=3754747098021549696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.0,
-    "rating": 4.9,
-    "reviews": 431,
-    "business_status": "OPERATIONAL",
-    "periods": [
-     [
-      0,
-      "1200",
-      0,
-      "1530"
-     ],
-     [
-      0,
-      "1800",
-      0,
-      "2200"
-     ],
-     [
-      1,
-      "1200",
-      1,
-      "1530"
-     ],
-     [
-      1,
-      "1800",
-      1,
-      "2200"
-     ],
-     [
-      2,
-      "1200",
-      2,
-      "1530"
-     ],
-     [
-      2,
-      "1800",
-      2,
-      "2200"
-     ],
-     [
-      3,
-      "1200",
-      3,
-      "1530"
-     ],
-     [
-      3,
-      "1800",
-      3,
-      "2200"
-     ],
-     [
-      4,
-      "1200",
-      4,
-      "1530"
-     ],
-     [
-      4,
-      "1800",
-      4,
-      "2200"
-     ],
-     [
-      5,
-      "1200",
-      5,
-      "1530"
-     ],
-     [
-      5,
-      "1800",
-      5,
-      "2200"
-     ],
-     [
-      6,
-      "1200",
-      6,
-      "1530"
-     ],
-     [
-      6,
-      "1800",
-      6,
-      "2200"
-     ]
-    ],
-    "hours": [
-     "Monday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Tuesday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Wednesday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Thursday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Friday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Saturday: 12:00 – 3:30 PM, 6:00 – 10:00 PM",
-     "Sunday: 12:00 – 3:30 PM, 6:00 – 10:00 PM"
-    ]
-   }
+   },
+   "vibe": "mixed"
   },
   {
    "id": "ton-ma-yom",
@@ -5872,167 +5471,8 @@
      "Saturday: 8:00 AM – 2:00 PM, 5:00 – 9:00 PM",
      "Sunday: 8:00 AM – 2:00 PM, 5:00 – 9:00 PM"
     ]
-   }
-  },
-  {
-   "id": "enjoy-thai",
-   "name": "Enjoy Thai Restaurant",
-   "name_he": "אנג'וי תאי",
-   "region": "krabi",
-   "category": "food",
-   "lat": 8.036606,
-   "lon": 98.83424,
-   "baby": 3,
-   "tip_he": "אוכל תאילנדי ותיק שחוזרים אליו כל שנה. קארי מסמן וקארי קוקוס.",
-   "rec": "Google 4.8 (590+)",
-   "geo": {
-    "status": "ok",
-    "prev": [
-     8.03661,
-     98.83424
-    ],
-    "google_name": "Enjoy Thai Restaurant",
-    "address": "69, 20 Soi 11, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
-    "place_id": "ChIJyVon5bHBUTARVpiJJ7Pq38I",
-    "maps_url": "https://maps.google.com/?cid=14042200218347870294&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.0,
-    "rating": 4.8,
-    "reviews": 590,
-    "business_status": "OPERATIONAL",
-    "periods": [
-     [
-      0,
-      "1030",
-      0,
-      "2200"
-     ],
-     [
-      1,
-      "1030",
-      1,
-      "2230"
-     ],
-     [
-      2,
-      "1000",
-      2,
-      "2200"
-     ],
-     [
-      3,
-      "1030",
-      3,
-      "2200"
-     ],
-     [
-      4,
-      "1030",
-      4,
-      "2200"
-     ],
-     [
-      5,
-      "1030",
-      5,
-      "2200"
-     ],
-     [
-      6,
-      "0900",
-      6,
-      "2230"
-     ]
-    ],
-    "hours": [
-     "Monday: 10:30 AM – 10:30 PM",
-     "Tuesday: 10:00 AM – 10:00 PM",
-     "Wednesday: 10:30 AM – 10:00 PM",
-     "Thursday: 10:30 AM – 10:00 PM",
-     "Friday: 10:30 AM – 10:00 PM",
-     "Saturday: 9:00 AM – 10:30 PM",
-     "Sunday: 10:30 AM – 10:00 PM"
-    ]
-   }
-  },
-  {
-   "id": "phupha",
-   "name": "PHUPHA Thai food",
-   "name_he": "פופה",
-   "region": "krabi",
-   "category": "food",
-   "lat": 8.031809,
-   "lon": 98.828783,
-   "baby": 3,
-   "tip_he": "אוכל זול ומנות נדיבות. קארי, סום טאם ודג מטוגן.",
-   "rec": "Google 4.8 (540+)",
-   "geo": {
-    "status": "ok",
-    "prev": [
-     8.03181,
-     98.82878
-    ],
-    "google_name": "PHUPHA Thai food",
-    "address": "2RJH+QQF, Ao Nang, Mueang Krabi District, Krabi 81000, Thailand",
-    "place_id": "ChIJ1_dIcgDBUTAR72KwJepKx_4",
-    "maps_url": "https://maps.google.com/?cid=18358724775514235631&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.0,
-    "rating": 4.8,
-    "reviews": 548,
-    "business_status": "OPERATIONAL",
-    "periods": [
-     [
-      0,
-      "0630",
-      0,
-      "2200"
-     ],
-     [
-      1,
-      "0630",
-      1,
-      "2200"
-     ],
-     [
-      2,
-      "0630",
-      2,
-      "2200"
-     ],
-     [
-      3,
-      "0630",
-      3,
-      "2200"
-     ],
-     [
-      4,
-      "0630",
-      4,
-      "2200"
-     ],
-     [
-      5,
-      "0630",
-      5,
-      "2200"
-     ],
-     [
-      6,
-      "0630",
-      6,
-      "2200"
-     ]
-    ],
-    "hours": [
-     "Monday: 6:30 AM – 10:00 PM",
-     "Tuesday: 6:30 AM – 10:00 PM",
-     "Wednesday: 6:30 AM – 10:00 PM",
-     "Thursday: 6:30 AM – 10:00 PM",
-     "Friday: 6:30 AM – 10:00 PM",
-     "Saturday: 6:30 AM – 10:00 PM",
-     "Sunday: 6:30 AM – 10:00 PM"
-    ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "loong-wich",
@@ -6106,7 +5546,8 @@
      "Saturday: 11:00 AM – 11:00 PM",
      "Sunday: 11:00 AM – 11:00 PM"
     ]
-   }
+   },
+   "vibe": "mixed"
   },
   {
    "id": "kotung",
@@ -6186,75 +5627,8 @@
      "Saturday: 11:00 AM – 10:00 PM",
      "Sunday: 11:00 AM – 10:00 PM"
     ]
-   }
-  },
-  {
-   "id": "thai-me",
-   "name": "Thai Me Restaurant",
-   "name_he": "תאי מי",
-   "region": "krabi",
-   "category": "food",
-   "lat": 8.054521,
-   "lon": 98.758489,
-   "baby": 3,
-   "tip_he": "⭐ כמה דקות מהווילה. אוכל תאילנדי-וייטנאמי טרי ושירות מוקפד. לפעמים יש המתנה לשולחן.",
-   "rec": "Google 4.9 (370+)",
-   "geo": {
-    "status": "ok",
-    "prev": [
-     8.05452,
-     98.75849
-    ],
-    "google_name": "Thai Me restaurant (formerly, Sandwich Me)",
-    "address": "บ้านเลขที่ 481 หมู่ 2 ซอย. คลองม่วง28 Tambon Nong Thale, อำเภอเมือง Chang Wat Krabi 81180, Thailand",
-    "place_id": "ChIJXT6L-LK_UTARnKk-tdhpVvE",
-    "maps_url": "https://maps.google.com/?cid=17390203390612384156&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-    "moved_km": 0.0,
-    "rating": 4.9,
-    "reviews": 374,
-    "business_status": "OPERATIONAL",
-    "periods": [
-     [
-      0,
-      "1200",
-      0,
-      "2130"
-     ],
-     [
-      1,
-      "1200",
-      1,
-      "2130"
-     ],
-     [
-      2,
-      "1200",
-      2,
-      "2130"
-     ],
-     [
-      5,
-      "1200",
-      5,
-      "2130"
-     ],
-     [
-      6,
-      "1200",
-      6,
-      "2130"
-     ]
-    ],
-    "hours": [
-     "Monday: 12:00 – 9:30 PM",
-     "Tuesday: 12:00 – 9:30 PM",
-     "Wednesday: Closed",
-     "Thursday: Closed",
-     "Friday: 12:00 – 9:30 PM",
-     "Saturday: 12:00 – 9:30 PM",
-     "Sunday: 12:00 – 9:30 PM"
-    ]
-   }
+   },
+   "vibe": "local"
   },
   {
    "id": "wat-phra-thong",
@@ -7399,6 +6773,1627 @@
      "Sunday: Open 24 hours"
     ]
    }
+  },
+  {
+   "id": "jia-dimsum",
+   "name": "Jia Dim Sum & Bak Kut Teh",
+   "name_he": "ג'יה – דים סאם ובאק קוט טה",
+   "region": "phuket-north",
+   "category": "food",
+   "lat": 8.094592,
+   "lon": 98.313528,
+   "baby": 3,
+   "tip_he": "ארוחת בוקר פוקטית קלאסית: דים סאם ומרק באק קוט טה (מרק צלעות בציר צמחים). 5 דק' מנאי יאנג.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Jea Dim Sum - Bak Kut Teh",
+    "address": "145, Tambon Sa Khu, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJCwF-WLxJUDARk1ALNOhkqA0",
+    "maps_url": "https://maps.google.com/?cid=984147467048800403&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 1183,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1500"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1500"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1500"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1500"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1500"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1500"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1500"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 3:00 PM",
+     "Tuesday: 6:00 AM – 3:00 PM",
+     "Wednesday: 6:00 AM – 3:00 PM",
+     "Thursday: 6:00 AM – 3:00 PM",
+     "Friday: 6:00 AM – 3:00 PM",
+     "Saturday: 6:00 AM – 3:00 PM",
+     "Sunday: 6:00 AM – 3:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (1,183)"
+  },
+  {
+   "id": "dimsum-house-phuket",
+   "name": "Dimsum House Phuket (Baan Dim Sum)",
+   "name_he": "בית הדים סאם של פוקט",
+   "region": "phuket",
+   "category": "food",
+   "lat": 8.009935,
+   "lon": 98.315485,
+   "baby": 3,
+   "tip_he": "⭐ דים סאם טרי בבוקר, אהוב מאוד על המקומיים. כ-15 דק' מנאי יאנג.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "บ้านติ่มซำภูเก็ต Dimsum House Phuket",
+    "address": "50, 87 หมู่ที่4 Thanon Bandon-Cherngtalay, Tambon Choeng Thale, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJHQ5id0E3UDARcqD38f7trF4",
+    "maps_url": "https://maps.google.com/?cid=6822089214796472434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 810,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      1,
+      "0700",
+      1,
+      "1400"
+     ],
+     [
+      2,
+      "0700",
+      2,
+      "1400"
+     ],
+     [
+      3,
+      "0700",
+      3,
+      "1400"
+     ],
+     [
+      4,
+      "0700",
+      4,
+      "1400"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:00 AM – 2:00 PM",
+     "Tuesday: 7:00 AM – 2:00 PM",
+     "Wednesday: 7:00 AM – 2:00 PM",
+     "Thursday: 7:00 AM – 2:00 PM",
+     "Friday: Closed",
+     "Saturday: Closed",
+     "Sunday: Closed"
+    ]
+   },
+   "rec": "Google 4.8 (810)"
+  },
+  {
+   "id": "khanom-jeen-ji-liu",
+   "name": "Khanom Jeen Ji Liu",
+   "name_he": "קאנום ג'ין ג'י ליאו",
+   "region": "phuket",
+   "category": "food",
+   "lat": 8.021855,
+   "lon": 98.33497,
+   "baby": 3,
+   "tip_he": "⭐ ארוחת בוקר דרום תאילנדית: אטריות אורז טריות עם קארי לבחירה וירקות חיים מסביב. יש גם באג'אנג פוקטי (אורז דביק עטוף בעלים).",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khanom Jeen Jee-Liu : Ba Chang Phuket",
+    "address": "355/3 Thep Krasattri Rd, Tambon Thep Krasatti, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJhQgqILw3UDARbT7cQpLzIug",
+    "maps_url": "https://maps.google.com/?cid=16727199775519948397&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 798,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0740",
+      0,
+      "1500"
+     ],
+     [
+      1,
+      "0740",
+      1,
+      "1500"
+     ],
+     [
+      2,
+      "0740",
+      2,
+      "1500"
+     ],
+     [
+      3,
+      "0740",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0740",
+      4,
+      "1500"
+     ],
+     [
+      5,
+      "0740",
+      5,
+      "1500"
+     ],
+     [
+      6,
+      "0740",
+      6,
+      "1500"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:40 AM – 3:00 PM",
+     "Tuesday: 7:40 AM – 3:00 PM",
+     "Wednesday: 7:40 AM – 5:00 PM",
+     "Thursday: 7:40 AM – 3:00 PM",
+     "Friday: 7:40 AM – 3:00 PM",
+     "Saturday: 7:40 AM – 3:00 PM",
+     "Sunday: 7:40 AM – 3:00 PM"
+    ]
+   },
+   "rec": "Google 4.4 (798)"
+  },
+  {
+   "id": "ton-makham-maikhao",
+   "name": "Ton Makham – The Old Mai Khao Restaurant",
+   "name_he": "טון מקהאם – המסעדה הוותיקה של מאי קאו",
+   "region": "phuket-north",
+   "category": "food",
+   "lat": 8.116467,
+   "lon": 98.308591,
+   "baby": 3,
+   "tip_he": "מסעדה מקומית ותיקה עם אוכל דרום תאילנדי, ליד השדה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "The old Mai Khao restaurant",
+    "address": "59 2 Tambon Mai Khao, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJy4T22R9GUDARlc6Exq9PBe8",
+    "maps_url": "https://maps.google.com/?cid=17223259966316793493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 341,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (341)"
+  },
+  {
+   "id": "krua-khon-khon",
+   "name": "Krua Khon Khon (Laem Pakarang)",
+   "name_he": "קרואה קון קון",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.724081,
+   "lon": 98.25255,
+   "baby": 3,
+   "tip_he": "⭐ אוכל דרום תאילנדי בסגנון נקון סי תמראט, בדרך לכף פקרנג. מקומי ואמיתי.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "ร้านครัวฅนคอน ซอยแหลมปะการังเขาหลัก (Krua Khonkhon) อาหารพื้นเมืองใต้",
+    "address": "Laem Pa Ka Rang Rd Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
+    "place_id": "ChIJOT-LSzDpUDARUn3IgMt-Gd8",
+    "maps_url": "https://maps.google.com/?cid=16076019757379779922&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 417,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "2030"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "2030"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "2030"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "2030"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "2030"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "2030"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "2030"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 8:30 PM",
+     "Tuesday: 9:00 AM – 8:30 PM",
+     "Wednesday: 9:00 AM – 8:30 PM",
+     "Thursday: 9:00 AM – 8:30 PM",
+     "Friday: 9:00 AM – 8:30 PM",
+     "Saturday: 9:00 AM – 8:30 PM",
+     "Sunday: 9:00 AM – 8:30 PM"
+    ]
+   },
+   "rec": "Google 4.8 (417)"
+  },
+  {
+   "id": "waankarn",
+   "name": "Waankarn Khao Lak",
+   "name_he": "וואנקארן",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.648004,
+   "lon": 98.252359,
+   "baby": 3,
+   "tip_he": "אוכל תאילנדי מקומי בבית עץ, עם דירוג גבוה מאוד ואהוב גם על התאילנדים.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Waankarn Khao Lak - วันคาร ร้านอาหารเขาหลัก",
+    "address": "5, 58, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJ9zux1gvvUDARGk9Mvy_O-Zg",
+    "maps_url": "https://maps.google.com/?cid=11023068267434233626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.9,
+    "reviews": 898,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.9 (898)"
+  },
+  {
+   "id": "khanom-jeen-ama",
+   "name": "Khanom Jeen Ama Khao Lak",
+   "name_he": "קאנום ג'ין אמה",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.612202,
+   "lon": 98.24244,
+   "baby": 3,
+   "tip_he": "ארוחת בוקר מקומית: אטריות אורז עם קארי דרומי וירקות טריים.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ama Khanom Jeen Khao Lak",
+    "address": "5/29 Tambon Lam Kaen, Amphoe Thai Mueang, Chang Wat Phang-nga 82210, Thailand",
+    "place_id": "ChIJodmgQNvvUDARn9qsbOV7DyQ",
+    "maps_url": "https://maps.google.com/?cid=2598431735317060255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 103,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0730",
+      0,
+      "1430"
+     ],
+     [
+      1,
+      "0730",
+      1,
+      "1430"
+     ],
+     [
+      2,
+      "0730",
+      2,
+      "1430"
+     ],
+     [
+      3,
+      "0730",
+      3,
+      "1430"
+     ],
+     [
+      4,
+      "0730",
+      4,
+      "1430"
+     ],
+     [
+      5,
+      "0730",
+      5,
+      "1430"
+     ],
+     [
+      6,
+      "0730",
+      6,
+      "1430"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:30 AM – 2:30 PM",
+     "Tuesday: 7:30 AM – 2:30 PM",
+     "Wednesday: 7:30 AM – 2:30 PM",
+     "Thursday: 7:30 AM – 2:30 PM",
+     "Friday: 7:30 AM – 2:30 PM",
+     "Saturday: 7:30 AM – 2:30 PM",
+     "Sunday: 7:30 AM – 2:30 PM"
+    ]
+   },
+   "rec": "Google 4.6 (103)"
+  },
+  {
+   "id": "pan-thong-dimsum",
+   "name": "Pan Thong Dim Sum (Takua Pa)",
+   "name_he": "פאן תונג – דים סאם",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.868209,
+   "lon": 98.34605,
+   "baby": 3,
+   "tip_he": "⭐ טאקואה פה מפורסמת בדים סאם של הבוקר מימי מכרות הבדיל הסיניים. מגיעים מוקדם.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pun Thong Dim Sum",
+    "address": "V89W+7CM, Takua Pa, Takua Pa District, Phang Nga 82110, Thailand",
+    "place_id": "ChIJsYCcPgTbUDARz6hp-esQjPY",
+    "maps_url": "https://maps.google.com/?cid=17765593235757574351&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 360,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1200"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1200"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1200"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1200"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1200"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1200"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1200"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 12:00 PM",
+     "Tuesday: 6:00 AM – 12:00 PM",
+     "Wednesday: 6:00 AM – 12:00 PM",
+     "Thursday: 6:00 AM – 12:00 PM",
+     "Friday: 6:00 AM – 12:00 PM",
+     "Saturday: 6:00 AM – 12:00 PM",
+     "Sunday: 6:00 AM – 12:00 PM"
+    ]
+   },
+   "rec": "Google 4.4 (360)"
+  },
+  {
+   "id": "khanom-jeen-pa-mom",
+   "name": "Khanom Jeen Pa Mom (Takua Pa)",
+   "name_he": "קאנום ג'ין פה מום",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.868182,
+   "lon": 98.341958,
+   "baby": 3,
+   "tip_he": "קאנום ג'ין מקומי בטאקואה פה, אותנטי לגמרי.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Auntie Paa Mom’s Kanom Chin!",
+    "address": "V89R+7QG, Bang Nai Si, Takua Pa District, Phang Nga 82110, Thailand",
+    "place_id": "ChIJCzTzywTbUDARCcVt--bDdt4",
+    "maps_url": "https://maps.google.com/?cid=16030215320500028681&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.5,
+    "reviews": 185,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 5:00 PM",
+     "Tuesday: 8:00 AM – 5:00 PM",
+     "Wednesday: 8:00 AM – 5:00 PM",
+     "Thursday: 8:00 AM – 5:00 PM",
+     "Friday: 8:00 AM – 5:00 PM",
+     "Saturday: Closed",
+     "Sunday: 8:00 AM – 5:00 PM"
+    ]
+   },
+   "rec": "Google 4.5 (185)"
+  },
+  {
+   "id": "krua-nong",
+   "name": "Krua Nong (Takua Pa)",
+   "name_he": "קרואה נונג",
+   "region": "khaolak",
+   "category": "food",
+   "lat": 8.864801,
+   "lon": 98.329849,
+   "baby": 3,
+   "tip_he": "מסעדה מקומית פופולרית בטאקואה פה, עם מטבח תאילנדי ודרומי.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khrua Nong",
+    "address": "132/8 Phet Kasem Rd, Tambon Bang Nai Si, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJHTuysiLbUDAR_3a1sjnaZck",
+    "maps_url": "https://maps.google.com/?cid=14512245315617519359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 679,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1100",
+      0,
+      "1500"
+     ],
+     [
+      0,
+      "1700",
+      0,
+      "2100"
+     ],
+     [
+      1,
+      "1100",
+      1,
+      "1500"
+     ],
+     [
+      1,
+      "1700",
+      1,
+      "2100"
+     ],
+     [
+      2,
+      "1100",
+      2,
+      "1500"
+     ],
+     [
+      2,
+      "1700",
+      2,
+      "2100"
+     ],
+     [
+      4,
+      "1100",
+      4,
+      "1500"
+     ],
+     [
+      4,
+      "1700",
+      4,
+      "2100"
+     ],
+     [
+      5,
+      "1100",
+      5,
+      "1500"
+     ],
+     [
+      5,
+      "1700",
+      5,
+      "2100"
+     ],
+     [
+      6,
+      "1100",
+      6,
+      "1500"
+     ],
+     [
+      6,
+      "1700",
+      6,
+      "2100"
+     ]
+    ],
+    "hours": [
+     "Monday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Tuesday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Friday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Saturday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Sunday: 11:00 AM – 3:00 PM, 5:00 – 9:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (679)"
+  },
+  {
+   "id": "kopi-kuapa",
+   "name": "Kopi Kuapa",
+   "name_he": "קופי קואפה",
+   "region": "khaolak",
+   "category": "cafe",
+   "lat": 8.827459,
+   "lon": 98.36462,
+   "baby": 3,
+   "tip_he": "קפה \"קופי\" מקומי בסגנון הסיני-מלאי הישן, ליד העיר העתיקה טאקואה פה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "KOPI KUAPA (โก้ปี้ กั่วป่า) café",
+    "address": "115 Thanon Sri Takuapa, Tambon Takua Pa, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJKU6XFKndUDARbB37vak9CfA",
+    "maps_url": "https://maps.google.com/?cid=17296423643139218796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 487,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "2000"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "1900"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "1900"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "1900"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "1900"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "1900"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 7:00 PM",
+     "Tuesday: 8:00 AM – 7:00 PM",
+     "Wednesday: 8:00 AM – 7:00 PM",
+     "Thursday: 8:00 AM – 7:00 PM",
+     "Friday: 8:00 AM – 7:00 PM",
+     "Saturday: 8:00 AM – 8:00 PM",
+     "Sunday: 8:00 AM – 8:00 PM"
+    ]
+   },
+   "rec": "Google 4.7 (487)"
+  },
+  {
+   "id": "krua-thara",
+   "name": "Krua Thara",
+   "name_he": "קרואה תארה",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.047035,
+   "lon": 98.800167,
+   "baby": 3,
+   "tip_he": "⭐ מסעדת פירות ים שהמקומיים מגיעים אליה: בוחרים מהאקווריום. פשוט ומעולה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krua Thara ครัวธารา",
+    "address": "82 Tambon Ao Nang, เมือง Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJ22qTUYS_UTARZdS_TnCFmJ8",
+    "maps_url": "https://maps.google.com/?cid=11500088365894587493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.3,
+    "reviews": 889,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1130",
+      0,
+      "2030"
+     ],
+     [
+      1,
+      "1130",
+      1,
+      "2030"
+     ],
+     [
+      2,
+      "1130",
+      2,
+      "2030"
+     ],
+     [
+      4,
+      "1130",
+      4,
+      "2030"
+     ],
+     [
+      5,
+      "1130",
+      5,
+      "2030"
+     ],
+     [
+      6,
+      "1130",
+      6,
+      "2030"
+     ]
+    ],
+    "hours": [
+     "Monday: 11:30 AM – 8:30 PM",
+     "Tuesday: 11:30 AM – 8:30 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:30 AM – 8:30 PM",
+     "Friday: 11:30 AM – 8:30 PM",
+     "Saturday: 11:30 AM – 8:30 PM",
+     "Sunday: 11:30 AM – 8:30 PM"
+    ]
+   },
+   "rec": "Google 4.3 (889)"
+  },
+  {
+   "id": "cha-lia",
+   "name": "Ban Khanom Jeen Cha-lia",
+   "name_he": "באן קאנום ג'ין צ'ה-ליה",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.045418,
+   "lon": 98.846523,
+   "baby": 3,
+   "tip_he": "⭐ קאנום ג'ין ואוכל ביתי מקומי, כ-15 דק' מהווילה.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "บ้านขนมจีนจ๊ะเหลี๊ย Cha-lia Local Cafe Plus",
+    "address": "375 ม2, Tambon Ao Nang, เมือง Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJy0JPwmqVUTARey1EWjcyGUA",
+    "maps_url": "https://maps.google.com/?cid=4618778106164161915&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 261,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "1430"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "1430"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "1430"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "1430"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "1430"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "1430"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "1430"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 2:30 PM",
+     "Tuesday: 8:00 AM – 2:30 PM",
+     "Wednesday: 8:00 AM – 2:30 PM",
+     "Thursday: 8:00 AM – 2:30 PM",
+     "Friday: 8:00 AM – 2:30 PM",
+     "Saturday: 8:00 AM – 2:30 PM",
+     "Sunday: 8:00 AM – 2:30 PM"
+    ]
+   },
+   "rec": "Google 4.8 (261)"
+  },
+  {
+   "id": "ruen-thip-khlong-son",
+   "name": "Ruen Thip (Khlong Son)",
+   "name_he": "רואן טיפ (קלונג סון)",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.076845,
+   "lon": 98.804671,
+   "baby": 3,
+   "tip_he": "מסעדה דרום תאילנדית ענקית ואהובה על משפחות מקומיות. כ-10 דק' מהווילה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ruanthip klongson",
+    "address": "3RG3+PVM, Nong Thale, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJhelP8bG_UTARiZXNJh3um7o",
+    "maps_url": "https://maps.google.com/?cid=13446602921417217417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 1718,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.4 (1,718)"
+  },
+  {
+   "id": "samyak-rodsap",
+   "name": "SamYak RodSap",
+   "name_he": "סאם יאק רוט סאפ",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.052783,
+   "lon": 98.761939,
+   "baby": 3,
+   "tip_he": "מסעדה שכונתית קטנה וחריפה, ממש ליד הווילה. לבקש \"מאי פט\" בשביל פחות חריף.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "SamYak RodSap ร้านสามแยกรสแซ่บ",
+    "address": "24/4ม​2​ ตหนอง​ทะเล​ อเมือง​ Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJ2cPg8Ne_UTARjFM7rGrwico",
+    "maps_url": "https://maps.google.com/?cid=14594460408417571724&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 81,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0730",
+      0,
+      "1630"
+     ],
+     [
+      1,
+      "0730",
+      1,
+      "1630"
+     ],
+     [
+      2,
+      "0730",
+      2,
+      "1630"
+     ],
+     [
+      3,
+      "0730",
+      3,
+      "1630"
+     ],
+     [
+      4,
+      "0730",
+      4,
+      "1630"
+     ],
+     [
+      5,
+      "0730",
+      5,
+      "1630"
+     ],
+     [
+      6,
+      "0730",
+      6,
+      "1630"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:30 AM – 4:30 PM",
+     "Tuesday: 7:30 AM – 4:30 PM",
+     "Wednesday: 7:30 AM – 4:30 PM",
+     "Thursday: 7:30 AM – 4:30 PM",
+     "Friday: 7:30 AM – 4:30 PM",
+     "Saturday: 7:30 AM – 4:30 PM",
+     "Sunday: 7:30 AM – 4:30 PM"
+    ]
+   },
+   "rec": "Google 4.7 (81)"
+  },
+  {
+   "id": "chokchai-dimsum",
+   "name": "Chokchai Dim Sum Fu (Krabi Town)",
+   "name_he": "צ'וקצ'אי – דים סאם",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.077538,
+   "lon": 98.908405,
+   "baby": 3,
+   "tip_he": "דים סאם של בוקר בקראבי טאון, עם דירוג גבוה מאוד.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Chokchai Dimsum @Krabi",
+    "address": "317/16 Krabi, Tambon Pak Nam, เมือง Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJEXB5UgCVUTAROaZCuygVrkg",
+    "maps_url": "https://maps.google.com/?cid=5237146681363047993&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 366,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0530",
+      0,
+      "1300"
+     ],
+     [
+      1,
+      "0530",
+      1,
+      "1300"
+     ],
+     [
+      2,
+      "0530",
+      2,
+      "1300"
+     ],
+     [
+      3,
+      "0530",
+      3,
+      "1300"
+     ],
+     [
+      4,
+      "0530",
+      4,
+      "1300"
+     ],
+     [
+      5,
+      "0530",
+      5,
+      "1300"
+     ],
+     [
+      6,
+      "0530",
+      6,
+      "1300"
+     ]
+    ],
+    "hours": [
+     "Monday: 5:30 AM – 1:00 PM",
+     "Tuesday: 5:30 AM – 1:00 PM",
+     "Wednesday: 5:30 AM – 1:00 PM",
+     "Thursday: 5:30 AM – 1:00 PM",
+     "Friday: 5:30 AM – 1:00 PM",
+     "Saturday: 5:30 AM – 1:00 PM",
+     "Sunday: 5:30 AM – 1:00 PM"
+    ]
+   },
+   "rec": "Google 4.8 (366)"
+  },
+  {
+   "id": "mae-daeng-khanom-jeen",
+   "name": "Mae Daeng Fresh Khanom Jeen",
+   "name_he": "קאנום ג'ין מאה דאנג",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.074548,
+   "lon": 98.910172,
+   "baby": 3,
+   "tip_he": "אטריות קאנום ג'ין טריות שמכינים במקום, עם קארי דרומי.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mae dang restaurant",
+    "address": "ซอย มหาราช 7 Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJcZYBfJqUUTARUWLgNURi6PA",
+    "maps_url": "https://maps.google.com/?cid=17359232808800772689&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 196,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0700",
+      0,
+      "1400"
+     ],
+     [
+      1,
+      "0700",
+      1,
+      "1400"
+     ],
+     [
+      2,
+      "0700",
+      2,
+      "1400"
+     ],
+     [
+      3,
+      "0700",
+      3,
+      "1400"
+     ],
+     [
+      4,
+      "0700",
+      4,
+      "1400"
+     ],
+     [
+      5,
+      "0700",
+      5,
+      "1400"
+     ],
+     [
+      6,
+      "0700",
+      6,
+      "1400"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:00 AM – 2:00 PM",
+     "Tuesday: 7:00 AM – 2:00 PM",
+     "Wednesday: 7:00 AM – 2:00 PM",
+     "Thursday: 7:00 AM – 2:00 PM",
+     "Friday: 7:00 AM – 2:00 PM",
+     "Saturday: 7:00 AM – 2:00 PM",
+     "Sunday: 7:00 AM – 2:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (196)"
+  },
+  {
+   "id": "krachang-khanab-nam",
+   "name": "Krachang Khanab Nam View Seafood",
+   "name_he": "קראצ'אנג קאנאב נאם – פירות ים",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.055839,
+   "lon": 98.932978,
+   "baby": 3,
+   "tip_he": "⭐ מסעדת פירות ים צפה (חלאל) מול הרי קאנאב נאם. מאוד פופולרית אצל תאילנדים, ומשלבים עם שביל המנגרובים.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Kanabnam View Seafood",
+    "address": "30/1 หมู่ที่ 1 Tambon Khlong Prasong, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJ1_pBCF2TUTAROCXeNo6QTjQ",
+    "maps_url": "https://maps.google.com/?cid=3769108878635967800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 4184,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2100"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2100"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2100"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2100"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2100"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2100"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2100"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 9:00 PM",
+     "Tuesday: 10:00 AM – 9:00 PM",
+     "Wednesday: 10:00 AM – 9:00 PM",
+     "Thursday: 10:00 AM – 9:00 PM",
+     "Friday: 10:00 AM – 9:00 PM",
+     "Saturday: 10:00 AM – 9:00 PM",
+     "Sunday: 10:00 AM – 9:00 PM"
+    ]
+   },
+   "rec": "Google 4.7 (4,184)"
+  },
+  {
+   "id": "kuroti-chachak",
+   "name": "Kuroti Cha Chak",
+   "name_he": "קורוטי – רוטי וצ'ה צ'ק",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.067464,
+   "lon": 98.912045,
+   "baby": 3,
+   "tip_he": "רוטי ותה \"צ'ה צ'ק\" (נמתח בין כוסות), במטבח המוסלמי של הדרום.",
+   "vibe": "local",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "กูโรตี ชาชัก@กระบี่",
+    "address": "223 40 Maharaj Rd Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJTZzVxNyVUTAReAjZx7wm1lA",
+    "maps_url": "https://maps.google.com/?cid=5824885760298911864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 143,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1100",
+      0,
+      "2300"
+     ],
+     [
+      1,
+      "1100",
+      1,
+      "2300"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2300"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2300"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2300"
+     ],
+     [
+      5,
+      "1100",
+      5,
+      "2300"
+     ],
+     [
+      6,
+      "1100",
+      6,
+      "2300"
+     ]
+    ],
+    "hours": [
+     "Monday: 11:00 AM – 11:00 PM",
+     "Tuesday: 10:00 AM – 11:00 PM",
+     "Wednesday: 10:00 AM – 11:00 PM",
+     "Thursday: 10:00 AM – 11:00 PM",
+     "Friday: 11:00 AM – 11:00 PM",
+     "Saturday: 11:00 AM – 11:00 PM",
+     "Sunday: 11:00 AM – 11:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (143)"
+  },
+  {
+   "id": "farida-khao-mok",
+   "name": "Farida (Khao Mok Gai)",
+   "name_he": "פארידה – קאו מוק גאי",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.068454,
+   "lon": 98.907664,
+   "baby": 3,
+   "tip_he": "קאו מוק גאי: אורז צהוב מתובל עם עוף, מנה מוסלמית-דרומית קלאסית. חלאל.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Farida restaurant",
+    "address": "54 Krabi-khaotong road, Paknam, Muang, Krabi Town กระบี่ Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJY34ZHJKUUTARkACDwJ-K0ro",
+    "maps_url": "https://maps.google.com/?cid=13461974654898077840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 424,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      1,
+      "0900",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 9:00 AM – 5:00 PM",
+     "Sunday: Closed"
+    ]
+   },
+   "rec": "Google 4.4 (424)"
+  },
+  {
+   "id": "hom-koei",
+   "name": "Hom Koei Krabi (southern food)",
+   "name_he": "הום קוי – אוכל דרומי",
+   "region": "krabi",
+   "category": "food",
+   "lat": 8.36404,
+   "lon": 98.751883,
+   "baby": 3,
+   "tip_he": "אוכל דרום תאילנדי באאו לואק. מתאים לשלב עם תה פום ותאן בוק קוראני.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Hom Koei Restaurant, Krabi Branch",
+    "address": "ปั๊มบางจากรักอ่าวลึก 113 1, Tambon Ao Luek Nuea, Amphoe Ao Luek, Chang Wat Krabi 81110, Thailand",
+    "place_id": "ChIJs27JbsqgUTARmCKWwjqOeTI",
+    "maps_url": "https://maps.google.com/?cid=3637094557102252696&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.3,
+    "reviews": 648,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1030",
+      0,
+      "2000"
+     ],
+     [
+      1,
+      "1030",
+      1,
+      "2000"
+     ],
+     [
+      2,
+      "1030",
+      2,
+      "2000"
+     ],
+     [
+      3,
+      "1030",
+      3,
+      "2000"
+     ],
+     [
+      4,
+      "1030",
+      4,
+      "2000"
+     ],
+     [
+      5,
+      "1030",
+      5,
+      "2000"
+     ],
+     [
+      6,
+      "1030",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:30 AM – 8:00 PM",
+     "Tuesday: 10:30 AM – 8:00 PM",
+     "Wednesday: 10:30 AM – 8:00 PM",
+     "Thursday: 10:30 AM – 8:00 PM",
+     "Friday: 10:30 AM – 8:00 PM",
+     "Saturday: 10:30 AM – 8:00 PM",
+     "Sunday: 10:30 AM – 8:00 PM"
+    ]
+   },
+   "rec": "Google 4.3 (648)"
   }
  ]
 }

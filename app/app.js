@@ -29,6 +29,11 @@ const STAYS = [
   { id: 'krabi-villa', from: '2026-11-11', to: '2026-11-17', label: 'קראבי' },
 ];
 const MAX_SUGGEST_KM = 60;
+// Straight-line distance lies across the bays (Krabi↔Phuket is ~45 km by air, 3 h by road),
+// so suggestions stay within the region you're in, plus anything really close.
+const REGION_GROUP = { 'phuket-north': 'phuket', phuket: 'phuket', khaolak: 'khaolak', phangnga: 'phangnga', khaosok: 'khaosok', krabi: 'krabi' };
+const NEAR_ANY_REGION_KM = 25;
+const NOA_CATS = new Set(['wildlife', 'nature', 'waterfall', 'beach', 'viewpoint']);
 
 const state = {
   data: null,
@@ -234,22 +239,34 @@ function suggestions() {
   const slot = slotFor(now);
   const weights = SLOT_WEIGHTS[slot];
   const scored = [];
+  let originGroup = null;
+  if (state.origin) {
+    let best = Infinity;
+    for (const p of state.places) { const dd = km(state.origin, p); if (dd < best) { best = dd; originGroup = REGION_GROUP[p.region]; } }
+  }
   for (const p of visiblePlaces()) {
     if (NOT_SUGGESTED.has(p.category)) continue;
     let score = weights[p.category] || 0;
+    // Breakfast spots (dim sum, khanom jeen, roti) belong to the morning.
+    if (p.meal === 'breakfast') score = slot === 'morning' ? 3 : Math.min(score, 1);
     if (!score) continue;
     const reasons = [];
     const h = hoursInfo(p, now);
     if (h.status === 'closed' && !(h.opensAt && toMin(h.opensAt) - (now.hour * 60 + now.minute) <= 90)) continue;
     if (h.status === 'open') { score += 1; if (p.category === 'market') { score += 2; reasons.push('🛍️ השוק פתוח היום'); } }
     if (h.status === 'closed' && h.opensAt) reasons.push(`נפתח ב-${fmt(h.opensAt)}`);
+    if (h.status === 'unknown' && p.category === 'market' && p.days === 'כל יום') score += 2;
     if (state.origin) {
       const d = km(state.origin, p);
       if (d > MAX_SUGGEST_KM) continue;
+      if (REGION_GROUP[p.region] !== originGroup && d > NEAR_ANY_REGION_KM) continue;
       score -= d / 15;
     }
-    if (p.tip_he.includes('⭐')) { score += 0.7; reasons.push('⭐ במיוחד בשביל נועה'); }
+    if (p.tip_he.includes('⭐')) { score += 0.7; if (NOA_CATS.has(p.category)) reasons.push('⭐ במיוחד בשביל נועה'); }
     if (p.rec && p.rec.includes('מישלן')) { score += 0.5; reasons.push('🎖️ ' + p.rec); }
+    if (p.vibe === 'local') { score += 0.7; if (p.category === 'food' || p.category === 'cafe') reasons.push('🇹🇭 מקומי ואותנטי'); }
+    if (p.vibe === 'mixed') score -= 1;
+    if (p.meal === 'breakfast' && slot === 'morning') reasons.push('🍳 ארוחת בוקר מקומית');
     if (p.baby >= 3) score += 0.5;
     if (state.visited.has(p.id)) score -= 2.5;
     score += rand(hash(p.id) ^ state.shuffleSeed) * 1.6;
@@ -292,6 +309,8 @@ function openPlace(id) {
       <span class="badge">${esc(state.data.meta.categories[p.category])}</span>
       <span class="badge">${babyTxt}</span>
       ${p.rec && !p.rec.startsWith('Google') ? `<span class="badge">🎖️ ${esc(p.rec)}</span>` : ''}
+      ${p.vibe ? `<span class="badge">${esc(state.data.meta.vibe[p.vibe])}</span>` : ''}
+      ${p.meal === 'breakfast' ? '<span class="badge">🍳 ארוחת בוקר</span>' : ''}
       ${g.rating ? `<span class="badge">★ ${g.rating} (${g.reviews || 0})</span>` : ''}
     </div>
     <p class="tip">${esc(p.tip_he)}</p>
