@@ -2,7 +2,7 @@
  "meta": {
   "version": 1,
   "updated": "2026-10-17",
-  "coords_note": "קואורדינטות משוערות (±200–500 מ') שנקבעו מהזיכרון ומחיפוש, ולא מאומתות במפה. צריך לאמת לפני בניית האפליקציה.",
+  "coords_note": "כל הקואורדינטות אומתו מול Google Places (17.10.2026). בכל מקום יש geo.maps_url לניווט מדויק.",
   "baby_scale": {
    "3": "קל עם תינוק (עגלה/מנשא, קצר, צל)",
    "2": "אפשרי עם מנשא ותכנון",
@@ -39,10 +39,25 @@
    "name_he": "שדה התעופה פוקט",
    "region": "phuket-north",
    "category": "transport",
-   "lat": 8.1132,
-   "lon": 98.3169,
+   "lat": 8.10534,
+   "lon": 98.305429,
    "baby": 3,
-   "tip_he": "נחיתה 28.10 ב-23:50. המראה חזרה 26.11 ב-02:40, כלומר להגיע ב-25.11 בסביבות 23:30. השכרת רכב בטרמינל."
+   "tip_he": "נחיתה 28.10 ב-23:50. המראה חזרה 26.11 ב-02:40, כלומר להגיע ב-25.11 בסביבות 23:30. השכרת רכב בטרמינל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Phuket International Airport",
+    "address": "222 หมู่ที่ 6, Tambon Mai Khao, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJCQ93jJhIUDAR0DDUaWtBtOU",
+    "maps_url": "https://maps.google.com/?cid=16551926460086235344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.54,
+    "prev": [
+     8.1132,
+     98.3169
+    ],
+    "rating": 4,
+    "reviews": 19641,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "naiyang-park-resort",
@@ -50,11 +65,35 @@
    "name_he": "נאייאנג פארק ריזורט",
    "region": "phuket-north",
    "category": "hotel",
-   "lat": 8.0868,
-   "lon": 98.2978,
+   "lat": 8.093676,
+   "lon": 98.299324,
    "baby": 3,
    "dates": "28.10–30.10",
-   "tip_he": "מוזמן ✔. כ-10 דק' מהשדה."
+   "tip_he": "מוזמן ✔. כ-10 דק' מהשדה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nai Yang Park Resort",
+    "address": "34 5, Tambon Sa Khu, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJv-P9Ny1GUDARsQKIeHnfu_4",
+    "maps_url": "https://maps.google.com/?cid=18355510419084804785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.78,
+    "prev": [
+     8.0868,
+     98.2978
+    ],
+    "rating": 4.3,
+    "reviews": 829,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "jasmin-resort",
@@ -62,11 +101,26 @@
    "name_he": "ג'סמין ריזורט",
    "region": "khaolak",
    "category": "hotel",
-   "lat": 8.6868,
-   "lon": 98.2478,
+   "lat": 8.667592,
+   "lon": 98.244598,
    "baby": 3,
    "dates": "1.11–8.11",
-   "tip_he": "מוזמן ✔. בנג ניאנג, 200 מ' מהחוף."
+   "tip_he": "מוזמן ✔. בנג ניאנג, 200 מ' מהחוף.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Jasmin Resort Khao Lak",
+    "address": "Jasmin Resort, 53/9 Moo-5, Bang Niang Beach, อำเภอตะกั่วป่า พังงา 82190, Thailand",
+    "place_id": "ChIJP3r3yDfpUDARrKn4nId_kC4",
+    "maps_url": "https://maps.google.com/?cid=3355321942821874092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.16,
+    "prev": [
+     8.6868,
+     98.2478
+    ],
+    "rating": 4.5,
+    "reviews": 93,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "krabi-villa",
@@ -74,12 +128,26 @@
    "name_he": "וילת Seashine",
    "region": "krabi",
    "category": "hotel",
-   "lat": 8.042,
-   "lon": 98.815,
+   "lat": 8.054319,
+   "lon": 98.764097,
    "baby": 3,
    "dates": "11.11–17.11",
-   "approx": "high",
-   "tip_he": "מוזמן ✔. ⚠️ המיקום משוער, צריך לעדכן לפי הכתובת שבהזמנה."
+   "tip_he": "מוזמן ✔. Nong Thale (בין אאו נאנג לקלונג מואנג).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Seashine Pool Villa by At Home Krabi",
+    "address": "529, Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJDQmdcQC_UTARxVgkjW6sfyM",
+    "maps_url": "https://maps.google.com/?cid=2557952704184080581&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 5.77,
+    "prev": [
+     8.042,
+     98.815
+    ],
+    "rating": 5,
+    "reviews": 14,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "naiyang-beach",
@@ -87,10 +155,25 @@
    "name_he": "חוף נאי יאנג",
    "region": "phuket-north",
    "category": "beach",
-   "lat": 8.089,
-   "lon": 98.295,
+   "lat": 8.089858,
+   "lon": 98.297479,
    "baby": 3,
-   "tip_he": "חוף רגוע עם צל של עצי קזוארינה וסוכות. מסעדות על החול. מטוסים נוחתים מעל, מה שמרתק תינוקות."
+   "tip_he": "חוף רגוע עם צל של עצי קזוארינה וסוכות. מסעדות על החול. מטוסים נוחתים מעל, מה שמרתק תינוקות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Naiyang Beach",
+    "address": "Naiyang Beach, Phuket 83110, Thailand",
+    "place_id": "ChIJZSDNBDJGUDARyAZDFkNErio",
+    "maps_url": "https://maps.google.com/?cid=3075470650467616456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.29,
+    "prev": [
+     8.089,
+     98.295
+    ],
+    "rating": 4.4,
+    "reviews": 1289,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "maikhao-beach",
@@ -98,10 +181,25 @@
    "name_he": "חוף מאי קאו",
    "region": "phuket-north",
    "category": "beach",
-   "lat": 8.165,
-   "lon": 98.28,
+   "lat": 8.134475,
+   "lon": 98.298931,
    "baby": 2,
-   "tip_he": "11 ק\"מ של חוף כמעט ריק, טוב להליכה. ⚠️ זרמים חזקים בסוף העונה, ולכן לא לשחות. נובמבר עד פברואר זו עונת הטלת ביצים של צבי ים."
+   "tip_he": "11 ק\"מ של חוף כמעט ריק, טוב להליכה. ⚠️ זרמים חזקים בסוף העונה, ולכן לא לשחות. נובמבר עד פברואר זו עונת הטלת ביצים של צבי ים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mai Khao Beach",
+    "address": "Mai Khao Beach, Phuket 83110, Thailand",
+    "place_id": "ChIJZVhLxuVFUDARuj0jud8jRe0",
+    "maps_url": "https://maps.google.com/?cid=17097111004172729786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 3.98,
+    "prev": [
+     8.165,
+     98.28
+    ],
+    "rating": 4.6,
+    "reviews": 1543,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "plane-spotting",
@@ -109,11 +207,34 @@
    "name_he": "תצפית מטוסים – מאי קאו",
    "region": "phuket-north",
    "category": "viewpoint",
-   "lat": 8.115,
-   "lon": 98.293,
+   "lat": 8.12102,
+   "lon": 98.301956,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "המטוסים עוברים נמוך מאוד מעל החוף בקצה המסלול. רועש, ולכן כדאי אטמי אוזניים או אוזניות לנאם."
+   "tip_he": "המטוסים עוברים נמוך מאוד מעל החוף בקצה המסלול. רועש, ולכן כדאי אטמי אוזניים או אוזניות לנאם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mai Khao Beach Flight Viewing Point 1",
+    "address": "Beach road Mai Khao Beach, Tambon Mai Khao, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJnZTIbCJGUDARhK-vwd2Oc1Q",
+    "maps_url": "https://maps.google.com/?cid=6085364604596105092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.19,
+    "prev": [
+     8.115,
+     98.293
+    ],
+    "rating": 4.6,
+    "reviews": 2273,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 6:00 AM – 6:30 PM",
+     "Tuesday: 6:00 AM – 6:30 PM",
+     "Wednesday: 6:00 AM – 6:30 PM",
+     "Thursday: 6:00 AM – 6:30 PM",
+     "Friday: 6:00 AM – 6:30 PM",
+     "Saturday: 6:00 AM – 6:30 PM",
+     "Sunday: 6:00 AM – 6:30 PM"
+    ]
+   }
   },
   {
    "id": "naithon-beach",
@@ -121,10 +242,25 @@
    "name_he": "חוף נאי תון",
    "region": "phuket-north",
    "category": "beach",
-   "lat": 8.051,
-   "lon": 98.276,
+   "lat": 8.060551,
+   "lon": 98.277199,
    "baby": 3,
-   "tip_he": "מפרץ יפה ושקט, כ-10 דק' מנאי יאנג."
+   "tip_he": "מפרץ יפה ושקט, כ-10 דק' מנאי יאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nai Thon Beach",
+    "address": "Nai Thon Beach, Phuket 83110, Thailand",
+    "place_id": "ChIJvQg3EpBHUDARYXDXDvUKZN8",
+    "maps_url": "https://maps.google.com/?cid=16097003015761260641&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.07,
+    "prev": [
+     8.051,
+     98.276
+    ],
+    "rating": 4.7,
+    "reviews": 1215,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "banana-beach",
@@ -132,11 +268,34 @@
    "name_he": "חוף בננה",
    "region": "phuket-north",
    "category": "beach",
-   "lat": 8.042,
-   "lon": 98.277,
+   "lat": 7.744734,
+   "lon": 98.3821,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "חוף קטן וחבוי בין נאי תון לליאן. יורדים אליו בשביל קצר מהכביש."
+   "tip_he": "חוף קטן וחבוי בין נאי תון לליאן. יורדים אליו בשביל קצר מהכביש.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Banana Beach",
+    "address": "Banana Beach, Koh He, Rawai, Mueang Phuket District, Phuket 83100, Thailand",
+    "place_id": "ChIJ5QDdw58pUDARnid4_chVunQ",
+    "maps_url": "https://maps.google.com/?cid=8411129575802152862&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 35.02,
+    "prev": [
+     8.042,
+     98.277
+    ],
+    "rating": 4.6,
+    "reviews": 594,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "layan-beach",
@@ -144,11 +303,25 @@
    "name_he": "חוף ליאן",
    "region": "phuket-north",
    "category": "beach",
-   "lat": 8.03,
-   "lon": 98.28,
+   "lat": 8.026868,
+   "lon": 98.289376,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "שקט, עם לגונה מאחוריו."
+   "tip_he": "שקט, עם לגונה מאחוריו.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Layan Beach",
+    "address": "27GQ+PQ, Bang Tao Beach, Choeng Thale, Thalang District, Phuket 83110, Thailand",
+    "place_id": "ChIJyc2rEQA5UDARgyZlcM6VzfA",
+    "maps_url": "https://maps.google.com/?cid=17351689653209867907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.09,
+    "prev": [
+     8.03,
+     98.28
+    ],
+    "rating": 4.6,
+    "reviews": 132,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "sirinat-mangrove",
@@ -156,11 +329,34 @@
    "name_he": "שביל העץ במנגרובים – סירינאט",
    "region": "phuket-north",
    "category": "nature",
-   "lat": 8.095,
-   "lon": 98.299,
+   "lat": 8.09787,
+   "lon": 98.299145,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "שביל עץ של כ-800 מ' עם שלטי הסבר על המנגרובים. כנראה מתאים גם לעגלה. דמי כניסה לפארק."
+   "tip_he": "שביל עץ של כ-800 מ' עם שלטי הסבר על המנגרובים. כנראה מתאים גם לעגלה. דמי כניסה לפארק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Sirinat National Park",
+    "address": "89 Tambon Sa Khu, Amphoe Thalang, Chang Wat Phuket 83140, Thailand",
+    "place_id": "ChIJe31Ogs1HUDARA7IgOdb0JCA",
+    "maps_url": "https://maps.google.com/?cid=2316245309293900291&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.32,
+    "prev": [
+     8.095,
+     98.299
+    ],
+    "rating": 4.4,
+    "reviews": 6233,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "splash-jungle",
@@ -168,11 +364,25 @@
    "name_he": "פארק המים ספלאש ג'ונגל",
    "region": "phuket-north",
    "category": "nature",
-   "lat": 8.159,
-   "lon": 98.3,
+   "lat": 8.117925,
+   "lon": 98.307072,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "יש בריכות פעוטות. מתאים יותר לילדים גדולים, אבל זו אפשרות ליום גשום."
+   "tip_he": "⚠️ לפי גוגל סגור זמנית – לבדוק לפני. יש בריכות פעוטות. מתאים יותר לילדים גדולים, אבל זו אפשרות ליום גשום.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Splash Jungle Water Park",
+    "address": "65 Mai Khao Beach, Tambon Mai Khao, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJz7HkCB9GUDARhzs7K_KnSCs",
+    "maps_url": "https://maps.google.com/?cid=3118927400503294855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.63,
+    "prev": [
+     8.159,
+     98.3
+    ],
+    "rating": 4.2,
+    "reviews": 3045,
+    "business_status": "CLOSED_TEMPORARILY"
+   }
   },
   {
    "id": "sea-almond",
@@ -180,11 +390,34 @@
    "name_he": "Sea Almond",
    "region": "phuket-north",
    "category": "food",
-   "lat": 8.0895,
-   "lon": 98.2948,
+   "lat": 8.08901,
+   "lon": 98.297804,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "על החול. תאילנדי ופירות ים במחיר סביר. בעיקר בשביל השקיעה."
+   "tip_he": "על החול. תאילנדי ופירות ים במחיר סביר. בעיקר בשביל השקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Sea Almond Chilled Restaurant & Cafe",
+    "address": "90, สาคู, 55 ม.5 ถ.หน้าหาดในยาง, ต.สาคู, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJ1wqw9M1HUDARSRLLCrra5-o",
+    "maps_url": "https://maps.google.com/?cid=16926738217075151433&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.34,
+    "prev": [
+     8.0895,
+     98.2948
+    ],
+    "rating": 4.4,
+    "reviews": 855,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 10:00 PM",
+     "Tuesday: 8:00 AM – 10:00 PM",
+     "Wednesday: 8:00 AM – 10:00 PM",
+     "Thursday: 8:00 AM – 10:00 PM",
+     "Friday: 8:00 AM – 10:00 PM",
+     "Saturday: 8:00 AM – 10:00 PM",
+     "Sunday: 8:00 AM – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "phens",
@@ -192,11 +425,34 @@
    "name_he": "Phen's",
    "region": "phuket-north",
    "category": "food",
-   "lat": 8.088,
-   "lon": 98.296,
+   "lat": 8.089917,
+   "lon": 98.298301,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "תאילנדי ביתי ליד החוף. טעים וזול לפי הביקורות."
+   "tip_he": "תאילנדי ביתי ליד החוף. טעים וזול לפי הביקורות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Phen's Restaurant Bar & Coffee",
+    "address": "ถนนเลียบหาดในยาง 4027 Tambon Sa Khu, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJMXC94c1HUDAR2NLn_3GJ08U",
+    "maps_url": "https://maps.google.com/?cid=14254888368275444440&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.33,
+    "prev": [
+     8.088,
+     98.296
+    ],
+    "rating": 4.3,
+    "reviews": 1260,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 10:00 PM",
+     "Tuesday: 9:00 AM – 10:00 PM",
+     "Wednesday: 9:00 AM – 10:00 PM",
+     "Thursday: 9:00 AM – 10:00 PM",
+     "Friday: 9:00 AM – 10:00 PM",
+     "Saturday: 9:00 AM – 10:00 PM",
+     "Sunday: 9:00 AM – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "black-ginger",
@@ -204,11 +460,34 @@
    "name_he": "בלאק ג'ינג'ר",
    "region": "phuket-north",
    "category": "food",
-   "lat": 8.0815,
-   "lon": 98.2995,
+   "lat": 8.085162,
+   "lon": 98.298309,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "ארוחת ערב מיוחדת: אוכל דרום תאילנדי, מגיעים ברפסודה מעל לגונה. יקר. להזמין מקום מראש."
+   "tip_he": "ארוחת ערב מיוחדת: אוכל דרום תאילנדי, מגיעים ברפסודה מעל לגונה. יקר. להזמין מקום מראש.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Black Ginger | Thai Restaurant | The Slate, Phuket",
+    "address": "116, อําเภ, Tambon Sa Khu, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJl9a-8tFHUDARVz6cgA-UnUw",
+    "maps_url": "https://maps.google.com/?cid=5520731512529239639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.43,
+    "prev": [
+     8.0815,
+     98.2995
+    ],
+    "rating": 4.2,
+    "reviews": 730,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 6:00 – 11:00 PM",
+     "Tuesday: 6:00 – 11:00 PM",
+     "Wednesday: 6:00 – 11:00 PM",
+     "Thursday: 6:00 – 11:00 PM",
+     "Friday: 6:00 – 11:00 PM",
+     "Saturday: 6:00 – 11:00 PM",
+     "Sunday: 6:00 – 11:00 PM"
+    ]
+   }
   },
   {
    "id": "big-fish-marriott",
@@ -216,11 +495,34 @@
    "name_he": "ביג פיש",
    "region": "phuket-north",
    "category": "food",
-   "lat": 8.083,
-   "lon": 98.2985,
+   "lat": 8.082324,
+   "lon": 98.288742,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "פירות ים ובשרים בריזורט. נוח עם תינוק (כיסאות תינוק ושירותים נקיים)."
+   "tip_he": "פירות ים ובשרים בריזורט. נוח עם תינוק (כיסאות תינוק ושירותים נקיים).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Big Fish",
+    "address": "92, 92 1, Tambon Thep Krasatti, Amphur, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJoVwUyz1HUDARrrhT1bXqIcM",
+    "maps_url": "https://maps.google.com/?cid=14060777578316413102&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.08,
+    "prev": [
+     8.083,
+     98.2985
+    ],
+    "rating": 4.1,
+    "reviews": 103,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 12:00 – 11:00 PM",
+     "Tuesday: 12:00 – 11:00 PM",
+     "Wednesday: 12:00 – 11:00 PM",
+     "Thursday: 12:00 – 11:00 PM",
+     "Friday: 12:00 – 11:00 PM",
+     "Saturday: 12:00 – 11:00 PM",
+     "Sunday: 12:00 – 11:00 PM"
+    ]
+   }
   },
   {
    "id": "naiyang-market",
@@ -228,13 +530,36 @@
    "name_he": "שוק נאי יאנג",
    "region": "phuket-north",
    "category": "market",
-   "lat": 8.086,
-   "lon": 98.3,
+   "lat": 8.094071,
+   "lon": 98.303708,
    "baby": 3,
-   "approx": "high",
    "days": "ג', ה', ש' (לא מאומת)",
    "hours": "12:00–19:00",
-   "tip_he": "שוק מקומי קטן עם פירות ואוכל."
+   "tip_he": "שוק מקומי קטן עם פירות ואוכל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nai Yang Fresh Market",
+    "address": "Sakhu, Thalang District, Phuket 83110, Thailand",
+    "place_id": "ChIJqeZ1WCtGUDARrePyJUMmMdU",
+    "maps_url": "https://maps.google.com/?cid=15362101873778811821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.99,
+    "prev": [
+     8.086,
+     98.3
+    ],
+    "rating": 4.4,
+    "reviews": 871,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 4:00 – 7:00 PM",
+     "Tuesday: 4:00 – 7:00 PM",
+     "Wednesday: 4:00 – 7:00 PM",
+     "Thursday: 12:00 – 7:00 PM",
+     "Friday: 4:00 – 7:00 PM",
+     "Saturday: 4:00 – 7:00 PM",
+     "Sunday: 4:00 – 7:00 PM"
+    ]
+   }
   },
   {
    "id": "gibbon-project",
@@ -242,11 +567,34 @@
    "name_he": "פרויקט שיקום הגיבונים",
    "region": "phuket",
    "category": "wildlife",
-   "lat": 8.037,
-   "lon": 98.3935,
+   "lat": 8.041948,
+   "lon": 98.393824,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "⭐ לנועה: עמותה מורשית לשיקום ושחרור גיבונים, מפעולות WARF. עובדים על תרומות. דמי הכניסה לפארק במזומן. לתאם ישירות מול הפרויקט. כ-30 דק' מנאי יאנג."
+   "tip_he": "⭐ לנועה: עמותה מורשית לשיקום ושחרור גיבונים, מפעולות WARF. עובדים על תרומות. דמי הכניסה לפארק במזומן. לתאם ישירות מול הפרויקט. כ-30 דק' מנאי יאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "The Gibbon Rehabilitation Project : โครงการคืนชะนีสู่ป่า",
+    "address": "104/3 Moo 3, Paklock, Talang, Phuket 83100, Thailand",
+    "place_id": "ChIJg0M0KAc2UDARhJsB5CAeLFw",
+    "maps_url": "https://maps.google.com/?cid=6641716677077736324&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.55,
+    "prev": [
+     8.037,
+     98.3935
+    ],
+    "rating": 4.5,
+    "reviews": 563,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Closed",
+     "Tuesday: 12:30 – 1:30 PM",
+     "Wednesday: Closed",
+     "Thursday: Closed",
+     "Friday: 10:30 – 11:30 AM, 12:30 – 1:30 PM",
+     "Saturday: Closed",
+     "Sunday: Closed"
+    ]
+   }
   },
   {
    "id": "bang-pae-waterfall",
@@ -254,11 +602,34 @@
    "name_he": "מפל בנג פה",
    "region": "phuket",
    "category": "waterfall",
-   "lat": 8.0355,
-   "lon": 98.3915,
+   "lat": 8.03928,
+   "lon": 98.3913,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "הליכה קצרה ביער הגשם האחרון של פוקט, צמוד לגיבונים. הסלעים חלקלקים, ולכן עם מנשא ובנעליים סגורות."
+   "tip_he": "הליכה קצרה ביער הגשם האחרון של פוקט, צמוד לגיבונים. הסלעים חלקלקים, ולכן עם מנשא ובנעליים סגורות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bang Pae Waterfall",
+    "address": "Bangpae waterfall, ป่าคลอก อำเภอถลาง ภูเก็ต 83110, Thailand",
+    "place_id": "ChIJlyok0wY2UDARz8X2fl5Wt8s",
+    "maps_url": "https://maps.google.com/?cid=14679296474294437327&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.42,
+    "prev": [
+     8.0355,
+     98.3915
+    ],
+    "rating": 4,
+    "reviews": 1580,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 4:00 PM",
+     "Tuesday: 9:00 AM – 4:00 PM",
+     "Wednesday: 9:00 AM – 4:00 PM",
+     "Thursday: 9:00 AM – 4:00 PM",
+     "Friday: 9:00 AM – 4:00 PM",
+     "Saturday: 9:00 AM – 4:00 PM",
+     "Sunday: 9:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "ton-sai-waterfall",
@@ -266,11 +637,34 @@
    "name_he": "מפל טון סאי",
    "region": "phuket",
    "category": "waterfall",
-   "lat": 7.9975,
-   "lon": 98.361,
+   "lat": 8.028492,
+   "lon": 98.363038,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "הצד המערבי של פארק קאו פרה תאו. שביל יער קצר."
+   "tip_he": "הצד המערבי של פארק קאו פרה תאו. שביל יער קצר.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ton Sai Waterfall",
+    "address": "29H7+96V, Thep Krasatti, Thalang District, Phuket 83110, Thailand",
+    "place_id": "ChIJDV878Tc2UDARD0Ec8KJp9O0",
+    "maps_url": "https://maps.google.com/?cid=17146445829840322831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 3.45,
+    "prev": [
+     7.9975,
+     98.361
+    ],
+    "rating": 4.1,
+    "reviews": 1238,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 4:00 PM",
+     "Tuesday: 9:00 AM – 4:00 PM",
+     "Wednesday: 9:00 AM – 4:00 PM",
+     "Thursday: 9:00 AM – 4:00 PM",
+     "Friday: 9:00 AM – 4:00 PM",
+     "Saturday: 9:00 AM – 4:00 PM",
+     "Sunday: 9:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "phuket-elephant-sanctuary",
@@ -278,23 +672,69 @@
    "name_he": "מקלט הפילים של פוקט",
    "region": "phuket",
    "category": "wildlife",
-   "lat": 8.033,
-   "lon": 98.403,
+   "lat": 8.020699,
+   "lon": 98.398442,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "מקלט אתי בלי רכיבה ובלי מופעים: צופים בפילים מצילים. להזמין מראש. יש סיורי בוקר וחצי יום."
+   "tip_he": "מקלט אתי בלי רכיבה ובלי מופעים: צופים בפילים מצילים. להזמין מראש. יש סיורי בוקר וחצי יום.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Phuket Elephant Sanctuary",
+    "address": "100, 9, Tambon Pa Klok, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJe5gBglZIUDARbzpRlCqfeMA",
+    "maps_url": "https://maps.google.com/?cid=13869010057713236591&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.46,
+    "prev": [
+     8.033,
+     98.403
+    ],
+    "rating": 4.8,
+    "reviews": 3277,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 9:00 AM – 5:00 PM",
+     "Sunday: 9:00 AM – 5:00 PM"
+    ]
+   }
   },
   {
    "id": "heroines-monument",
-   "name": "Heroines Monument & Thalang National Museum",
+   "name": "Thalang National Museum (Heroines Monument)",
    "name_he": "אנדרטת הגיבורות ומוזיאון תלאנג",
    "region": "phuket",
    "category": "culture",
-   "lat": 7.969,
-   "lon": 98.36,
+   "lat": 7.98103,
+   "lon": 98.366744,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "מוזיאון ממוזג ונוח לעגלה. טוב ליום חם או גשום."
+   "tip_he": "מוזיאון ממוזג ונוח לעגלה. טוב ליום חם או גשום.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Thalang National Museum",
+    "address": "X9J8+CM9 217 Tambon Si Sunthon, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJGa2mlMI2UDARQxpFw2EWI_s",
+    "maps_url": "https://maps.google.com/?cid=18096332336848509507&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.53,
+    "prev": [
+     7.969,
+     98.36
+    ],
+    "rating": 4.5,
+    "reviews": 226,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Closed",
+     "Tuesday: Closed",
+     "Wednesday: 9:00 AM – 4:00 PM",
+     "Thursday: 9:00 AM – 4:00 PM",
+     "Friday: 9:00 AM – 4:00 PM",
+     "Saturday: 9:00 AM – 4:00 PM",
+     "Sunday: 9:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "phuket-old-town",
@@ -302,10 +742,24 @@
    "name_he": "העיר העתיקה של פוקט",
    "region": "phuket",
    "category": "culture",
-   "lat": 7.885,
-   "lon": 98.388,
+   "lat": 7.884717,
+   "lon": 98.389799,
    "baby": 2,
-   "tip_he": "בתים סינו-פורטוגזיים, קפה ואוכל. המדרכות צרות, אז עדיף מנשא. כ-40 דק' מנאי יאנג."
+   "tip_he": "בתים סינו-פורטוגזיים, קפה ואוכל. המדרכות צרות, אז עדיף מנשא. כ-40 דק' מנאי יאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Thalang Road",
+    "address": "Thanon Talang, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJVUbGF_oxUDARVOyfpDWmlVU",
+    "maps_url": "https://maps.google.com/?cid=6167018014079183956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.2,
+    "prev": [
+     7.885,
+     98.388
+    ],
+    "rating": 4.7,
+    "reviews": 319
+   }
   },
   {
    "id": "lard-yai",
@@ -313,12 +767,36 @@
    "name_he": "שוק הלילה של יום ראשון – לארד יאי",
    "region": "phuket",
    "category": "market",
-   "lat": 7.8848,
-   "lon": 98.3895,
+   "lat": 7.884722,
+   "lon": 98.390071,
    "baby": 2,
    "days": "ראשון",
    "hours": "16:00–22:00 (בערך)",
-   "tip_he": "שוק אוכל ואומנות ברחוב תלאנג. צפוף, ולכן עדיף מנשא."
+   "tip_he": "שוק אוכל ואומנות ברחוב תלאנג. צפוף, ולכן עדיף מנשא.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lard Yai Sunday Night Market",
+    "address": "53 Thanon Talang Old Phuket Town, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJQwdCFvoxUDAR4XNViLYibc4",
+    "maps_url": "https://maps.google.com/?cid=14874583311641310177&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.06,
+    "prev": [
+     7.8848,
+     98.3895
+    ],
+    "rating": 4.5,
+    "reviews": 2252,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Closed",
+     "Tuesday: Closed",
+     "Wednesday: Closed",
+     "Thursday: Closed",
+     "Friday: Closed",
+     "Saturday: Closed",
+     "Sunday: 4:00 – 11:00 PM"
+    ]
+   }
   },
   {
    "id": "one-chun",
@@ -326,11 +804,34 @@
    "name_he": "וואן צ'ון",
    "region": "phuket",
    "category": "food",
-   "lat": 7.8865,
-   "lon": 98.3835,
+   "lat": 7.885809,
+   "lon": 98.390712,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "ביב גורמן של מישלן: מטבח פוקטי-פרנקאן ביתי (קארי סרטנים, מו הונג)."
+   "tip_he": "ביב גורמן של מישלן: מטבח פוקטי-פרנקאן ביתי (קארי סרטנים, מו הונג).",
+   "geo": {
+    "status": "ok",
+    "google_name": "One Chun Cafe & Restaurant",
+    "address": "48, 1 Thep Krasattri Rd, Tambon Talat Yai, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJifk2AfoxUDAR9AvSboEvBPM",
+    "maps_url": "https://maps.google.com/?cid=17511173484079877108&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.8,
+    "prev": [
+     7.8865,
+     98.3835
+    ],
+    "rating": 4.4,
+    "reviews": 6714,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 9:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "central-phuket",
@@ -338,10 +839,34 @@
    "name_he": "קניון סנטרל פוקט",
    "region": "phuket",
    "category": "shopping",
-   "lat": 7.8925,
-   "lon": 98.368,
+   "lat": 7.891599,
+   "lon": 98.367762,
    "baby": 3,
-   "tip_he": "הסיכוי הכי טוב למותגי תמ\"ל וציוד תינוק מערביים (Tops, Boots). ממוזג. טוב ליום גשום."
+   "tip_he": "הסיכוי הכי טוב למותגי תמ\"ל וציוד תינוק מערביים (Tops, Boots). ממוזג. טוב ליום גשום.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Central Phuket",
+    "address": "74, 75 หมู่ที่ 5 Vichitsongkram Rd, Tambon Wichit, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJRZ0Fp8YxUDARkWRjR4GpCeM",
+    "maps_url": "https://maps.google.com/?cid=16359793494113608849&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.1,
+    "prev": [
+     7.8925,
+     98.368
+    ],
+    "rating": 4.6,
+    "reviews": 25152,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "bkk-hospital-phuket",
@@ -349,11 +874,34 @@
    "name_he": "בית חולים בנגקוק פוקט",
    "region": "phuket",
    "category": "medical",
-   "lat": 7.903,
-   "lon": 98.369,
+   "lat": 7.903895,
+   "lon": 98.376435,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "בית חולים פרטי ברמה גבוהה, עם רופאי ילדים וצוות דובר אנגלית. כ-35 דק' מנאי יאנג."
+   "tip_he": "בית חולים פרטי ברמה גבוהה, עם רופאי ילדים וצוות דובר אנגלית. כ-35 דק' מנאי יאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bangkok Hospital Phuket",
+    "address": "2 / 1 Hongyok, ถนน หงษ์หยกอุทิศ ตำบลตลาดใหญ่ Muang, ภูเก็ต 83000, Thailand",
+    "place_id": "ChIJ3X1EQpYxUDAROu1ad2TzEhk",
+    "maps_url": "https://maps.google.com/?cid=1806774013353717050&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.82,
+    "prev": [
+     7.903,
+     98.369
+    ],
+    "rating": 4.6,
+    "reviews": 4133,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "bang-niang-beach",
@@ -361,10 +909,34 @@
    "name_he": "חוף בנג ניאנג",
    "region": "khaolak",
    "category": "beach",
-   "lat": 8.683,
-   "lon": 98.246,
+   "lat": 8.674261,
+   "lon": 98.241933,
    "baby": 3,
-   "tip_he": "צמוד לג'סמין. חוף ארוך ורחב, טוב לשקיעה."
+   "tip_he": "צמוד לג'סמין. חוף ארוך ורחב, טוב לשקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bang Niang Beach",
+    "address": "M6FR+PQ3, Khuekkhak Subdistrict, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJDfaJ0anpUDAR3KAnjP-DBwU",
+    "maps_url": "https://maps.google.com/?cid=362403428617920732&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.07,
+    "prev": [
+     8.683,
+     98.246
+    ],
+    "rating": 4,
+    "reviews": 211,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "nang-thong-beach",
@@ -372,11 +944,34 @@
    "name_he": "חוף ננג תונג",
    "region": "khaolak",
    "category": "beach",
-   "lat": 8.645,
-   "lon": 98.247,
+   "lat": 8.645191,
+   "lon": 98.246479,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "החוף הראשי של קאו לאק, ליד הרחוב עם המסעדות."
+   "tip_he": "החוף הראשי של קאו לאק, ליד הרחוב עם המסעדות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nang Thong Beach",
+    "address": "J6VW+XRF 91 Phetkasem Road Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJoV4X5sbuUDAR0jLCdqx4MU0",
+    "maps_url": "https://maps.google.com/?cid=5562359696901419730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.06,
+    "prev": [
+     8.645,
+     98.247
+    ],
+    "rating": 4.4,
+    "reviews": 1301,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "khao-lak-beach",
@@ -384,11 +979,25 @@
    "name_he": "חוף קאו לאק (סאנסט)",
    "region": "khaolak",
    "category": "beach",
-   "lat": 8.625,
-   "lon": 98.242,
+   "lat": 8.667404,
+   "lon": 98.243171,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "שקט יותר, עם סלעים בקצה הדרומי."
+   "tip_he": "שקט יותר, עם סלעים בקצה הדרומי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Lak Beach",
+    "address": "Khao Lak Beach, Phang Nga, Thailand",
+    "place_id": "ChIJm5Ub7vfpUDARclB7-JbFXz0",
+    "maps_url": "https://maps.google.com/?cid=4422470611305713778&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.72,
+    "prev": [
+     8.625,
+     98.242
+    ],
+    "rating": 4.5,
+    "reviews": 452,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "pakarang-cape",
@@ -396,11 +1005,34 @@
    "name_he": "כף פקרנג",
    "region": "khaolak",
    "category": "viewpoint",
-   "lat": 8.73,
-   "lon": 98.224,
+   "lat": 8.736518,
+   "lon": 98.222392,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "⭐ שקיעה. בשפל נחשפים אלמוגים. פחות מתאים לשחייה. יש ברים קטנים על החוף."
+   "tip_he": "⭐ שקיעה. בשפל נחשפים אלמוגים. פחות מתאים לשחייה. יש ברים קטנים על החוף.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pakarang Cape",
+    "address": "P6PC+JX2, Khuek Khak, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJtVdZGvjpUDAR79EViHgDEls",
+    "maps_url": "https://maps.google.com/?cid=6562311423246324207&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.75,
+    "prev": [
+     8.73,
+     98.224
+    ],
+    "rating": 4,
+    "reviews": 518,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "coconut-beach",
@@ -408,11 +1040,34 @@
    "name_he": "חוף קוקונאט",
    "region": "khaolak",
    "category": "beach",
-   "lat": 8.755,
-   "lon": 98.25,
+   "lat": 8.733764,
+   "lon": 98.234664,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "מים רדודים, צל של דקלים ומסעדות מקומיות. כדאי נעלי מים בגלל שברי אלמוגים."
+   "tip_he": "מים רדודים, צל של דקלים ומסעדות מקומיות. כדאי נעלי מים בגלל שברי אלמוגים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Coconut beach",
+    "address": "Coconut beach, Khuek Khak, Takua Pa District, Phang Nga, Thailand",
+    "place_id": "ChIJcf9BE-_pUDARa7D0LOftkJM",
+    "maps_url": "https://maps.google.com/?cid=10633260297369202795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.9,
+    "prev": [
+     8.755,
+     98.25
+    ],
+    "rating": 4.6,
+    "reviews": 1709,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "lam-ru-trail",
@@ -420,11 +1075,34 @@
    "name_he": "פארק לאם רו – שביל לחוף הקטן",
    "region": "khaolak",
    "category": "nature",
-   "lat": 8.644,
-   "lon": 98.242,
+   "lat": 8.622974,
+   "lon": 98.232879,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "שביל חוף מוצל מהמטה של הפארק לחוף קטן. מתאים למנשא. בבוקר מוקדם רואים קופים והורנבילים."
+   "tip_he": "שביל חוף מוצל מהמטה של הפארק לחוף קטן. מתאים למנשא. בבוקר מוקדם רואים קופים והורנבילים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Small Sandy Beach",
+    "address": "J6FM+55J, Khuek Khak, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJBUHBeY_uUDARkg4DWAmiM5Q",
+    "maps_url": "https://maps.google.com/?cid=10679057302440578706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.54,
+    "prev": [
+     8.644,
+     98.242
+    ],
+    "rating": 4.7,
+    "reviews": 514,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "ton-chong-fa",
@@ -432,11 +1110,34 @@
    "name_he": "מפל טון צ'ונג פה",
    "region": "khaolak",
    "category": "waterfall",
-   "lat": 8.679,
-   "lon": 98.295,
+   "lat": 8.65614,
+   "lon": 98.287142,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "5 מדרגות של מפל. בסוף עונת הגשמים יש הרבה מים. המפלס הראשון נמצא בהליכה קצרה, וכל השביל עד 4 ק\"מ. כ-20 דק' מג'סמין."
+   "tip_he": "5 מדרגות של מפל. בסוף עונת הגשמים יש הרבה מים. המפלס הראשון נמצא בהליכה קצרה, וכל השביל עד 4 ק\"מ. כ-20 דק' מג'סמין.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ton Chong Fa Waterfall",
+    "address": "M74P+FV2, Takua Pa, Takua Pa District, Phang Nga 82110, Thailand",
+    "place_id": "ChIJb0HxZGLvUDAR6jwmXNMZ3kQ",
+    "maps_url": "https://maps.google.com/?cid=4962432234983668970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.68,
+    "prev": [
+     8.679,
+     98.295
+    ],
+    "rating": 4.6,
+    "reviews": 770,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "sai-rung",
@@ -444,11 +1145,25 @@
    "name_he": "מפל סאי רונג (הקשת)",
    "region": "khaolak",
    "category": "waterfall",
-   "lat": 8.588,
-   "lon": 98.275,
+   "lat": 8.740977,
+   "lon": 98.278833,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "מפל קטן ויפה בתוך צמחייה, בהליכה קצרה. אפשר לשלב עם מרכז הצבים בטאפ לאמו."
+   "tip_he": "מפל קטן ויפה בתוך צמחייה, בהליכה קצרה. אפשר לשלב עם מרכז הצבים בטאפ לאמו.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Sai Rung Waterfall",
+    "address": "P7RH+9GW, Khuek Khak, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJYdM8iSboUDARzeSVp_AS1Wc",
+    "maps_url": "https://maps.google.com/?cid=7481907180759016653&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 17.02,
+    "prev": [
+     8.588,
+     98.275
+    ],
+    "rating": 4.3,
+    "reviews": 1326,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "ton-prai",
@@ -456,11 +1171,34 @@
    "name_he": "מפל טון פראי",
    "region": "khaolak",
    "category": "waterfall",
-   "lat": 8.517,
-   "lon": 98.29,
+   "lat": 8.436543,
+   "lon": 98.309118,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "פארק לאמפי–האט תאי מואנג, דרומית לקאו לאק."
+   "tip_he": "פארק לאמפי–האט תאי מואנג, דרומית לקאו לאק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ton Phrai Waterfall",
+    "address": "อำเภอ, Tambon Thai Mueang, Amphoe Thai Mueang, Chang Wat Phang-nga 82120, Thailand",
+    "place_id": "ChIJP-vheSr4UDARALLpyEjHCbs",
+    "maps_url": "https://maps.google.com/?cid=13477522475305251328&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 9.19,
+    "prev": [
+     8.517,
+     98.29
+    ],
+    "rating": 4.7,
+    "reviews": 641,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "lampi-waterfall",
@@ -468,11 +1206,34 @@
    "name_he": "מפל לאמפי",
    "region": "khaolak",
    "category": "waterfall",
-   "lat": 8.458,
-   "lon": 98.301,
+   "lat": 8.464149,
+   "lon": 98.281978,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "גישה קלה יחסית מהחניה ובריכת מים. כ-35 דק' מג'סמין."
+   "tip_he": "גישה קלה יחסית מהחניה ובריכת מים. כ-35 דק' מג'סמין.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lampi Waterfall",
+    "address": "F77J+MQ5, Thai Mueang, Thai Mueang District, Phang Nga 82120, Thailand",
+    "place_id": "ChIJ1SPftz33UDARnCiaJaSvk80",
+    "maps_url": "https://maps.google.com/?cid=14813376718892050588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.2,
+    "prev": [
+     8.458,
+     98.301
+    ],
+    "rating": 4.5,
+    "reviews": 1490,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 4:00 PM",
+     "Tuesday: 8:00 AM – 4:00 PM",
+     "Wednesday: 8:00 AM – 4:00 PM",
+     "Thursday: 8:00 AM – 4:00 PM",
+     "Friday: 8:00 AM – 4:00 PM",
+     "Saturday: 8:00 AM – 4:00 PM",
+     "Sunday: 8:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "thap-lamu-turtles",
@@ -480,11 +1241,34 @@
    "name_he": "מרכז שימור צבי ים – בסיס חיל הים טאפ לאמו",
    "region": "khaolak",
    "category": "wildlife",
-   "lat": 8.577,
-   "lon": 98.228,
+   "lat": 8.580507,
+   "lon": 98.233648,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ לנועה: צבים קטנים גדלים כאן 6–8 חודשים לפני שחרור לים. השעות לא מאומתות, אז לבדוק לפני."
+   "tip_he": "⭐ לנועה: צבים קטנים גדלים כאן 6–8 חודשים לפני שחרור לים. השעות לא מאומתות, אז לבדוק לפני.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Sea Turtle Conservation Center",
+    "address": "Unnamed Road, H6JM+6F2 ตำบล ลำแก่น อำเภอ ท้ายเหมือง พังงา 82210, Thailand",
+    "place_id": "ChIJO_uP4BruUDARFN-3FH5PGtk",
+    "maps_url": "https://maps.google.com/?cid=15643903658556907284&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.73,
+    "prev": [
+     8.577,
+     98.228
+    ],
+    "rating": 4.3,
+    "reviews": 1056,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 5:00 PM",
+     "Tuesday: 8:00 AM – 5:00 PM",
+     "Wednesday: 8:00 AM – 5:00 PM",
+     "Thursday: 8:00 AM – 5:00 PM",
+     "Friday: 8:00 AM – 5:00 PM",
+     "Saturday: 8:00 AM – 5:00 PM",
+     "Sunday: 8:00 AM – 5:00 PM"
+    ]
+   }
   },
   {
    "id": "boat-813",
@@ -492,11 +1276,34 @@
    "name_he": "סירת המשטרה 813 – אנדרטת הצונאמי",
    "region": "khaolak",
    "category": "culture",
-   "lat": 8.675,
-   "lon": 98.256,
+   "lat": 8.666622,
+   "lon": 98.254772,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "סירה שהגל העביר 2 ק\"מ לתוך היבשה. יש מוזיאון צונאמי קטן לידה."
+   "tip_he": "סירה שהגל העביר 2 ק\"מ לתוך היבשה. יש מוזיאון צונאמי קטן לידה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Police Boat T813 Tsunami Memorial Phangnga",
+    "address": "9/9, เรือต.813, ตำบลคึกคัก อำเภอตะกั่วป่า พังงา 82190, Thailand",
+    "place_id": "ChIJf3YHAS_pUDARt35Ob9BDH6g",
+    "maps_url": "https://maps.google.com/?cid=12114476085149597367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.94,
+    "prev": [
+     8.675,
+     98.256
+    ],
+    "rating": 4.2,
+    "reviews": 505,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 6:00 PM",
+     "Tuesday: 8:30 AM – 6:00 PM",
+     "Wednesday: 8:30 AM – 6:00 PM",
+     "Thursday: 8:30 AM – 6:00 PM",
+     "Friday: 8:30 AM – 6:00 PM",
+     "Saturday: 8:30 AM – 6:00 PM",
+     "Sunday: 8:30 AM – 6:00 PM"
+    ]
+   }
   },
   {
    "id": "ban-nam-khem",
@@ -504,11 +1311,34 @@
    "name_he": "פארק הזיכרון בן נאם קם",
    "region": "khaolak",
    "category": "culture",
-   "lat": 8.858,
-   "lon": 98.275,
+   "lat": 8.85918,
+   "lon": 98.265205,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "פארק זיכרון שקט ליד הכפר שנפגע הכי קשה בצונאמי."
+   "tip_he": "פארק זיכרון שקט ליד הכפר שנפגע הכי קשה בצונאמי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Baan Nam Khem Tsunami Memorial Park",
+    "address": "V758+M3G, Bang Muang, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJefffivXEUDAReatXkEkGTyg",
+    "maps_url": "https://maps.google.com/?cid=2904547197701303161&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.08,
+    "prev": [
+     8.858,
+     98.275
+    ],
+    "rating": 4.3,
+    "reviews": 1734,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 8:00 PM",
+     "Tuesday: 8:00 AM – 8:00 PM",
+     "Wednesday: 8:00 AM – 8:00 PM",
+     "Thursday: 8:00 AM – 8:00 PM",
+     "Friday: 8:00 AM – 8:00 PM",
+     "Saturday: 8:00 AM – 8:00 PM",
+     "Sunday: 8:00 AM – 8:00 PM"
+    ]
+   }
   },
   {
    "id": "takua-pa-old-town",
@@ -516,11 +1346,25 @@
    "name_he": "העיר העתיקה טאקואה פה",
    "region": "khaolak",
    "category": "culture",
-   "lat": 8.835,
-   "lon": 98.38,
+   "lat": 8.829536,
+   "lon": 98.365042,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "רחוב בתים סינו-פורטוגזיים מימי מכרות הבדיל, עם קפה ואוכל מקומי. בסופ\"ש לפעמים יש שוק רחוב (לא מאומת). כ-30 דק'."
+   "tip_he": "רחוב בתים סינו-פורטוגזיים מימי מכרות הבדיל, עם קפה ואוכל מקומי. בסופ\"ש לפעמים יש שוק רחוב (לא מאומת). כ-30 דק'.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Takuapa Old Town",
+    "address": "176 Thanon Sri Takuapa, Tambon Bang Sai, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJ7eqaGADdUDARlQtedX0GmgI",
+    "maps_url": "https://maps.google.com/?cid=187469470399073173&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.75,
+    "prev": [
+     8.835,
+     98.38
+    ],
+    "rating": 4.5,
+    "reviews": 11,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "little-amazon",
@@ -528,11 +1372,34 @@
    "name_he": "האמזונס הקטן",
    "region": "khaolak",
    "category": "nature",
-   "lat": 8.855,
-   "lon": 98.34,
+   "lat": 8.875877,
+   "lon": 98.342071,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "⭐ סיור בקנו או בסירה של 1–1.5 שעות בין שורשי עצי בניאן, עם מדריך מקומי. בבוקר מוקדם יש סיכוי לראות קופים, נחשים ועופות. עם תינוק: רק בסירה יציבה עם חגורת הצלה מותאמת לתינוק. לשאול מראש."
+   "tip_he": "⭐ סיור בקנו או בסירה של 1–1.5 שעות בין שורשי עצי בניאן, עם מדריך מקומי. בבוקר מוקדם יש סיכוי לראות קופים, נחשים ועופות. עם תינוק: רק בסירה יציבה עם חגורת הצלה מותאמת לתינוק. לשאול מראש.",
+   "geo": {
+    "status": "ok",
+    "google_name": "The Little Amazon Takuapa",
+    "address": "41 1, Tambon Bang Nai Si, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJGwlJSf3aUDAR27GPsjuYBa0",
+    "maps_url": "https://maps.google.com/?cid=12467538525611340251&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.33,
+    "prev": [
+     8.855,
+     98.34
+    ],
+    "rating": 4.4,
+    "reviews": 811,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 5:00 PM",
+     "Tuesday: 8:00 AM – 5:00 PM",
+     "Wednesday: 8:00 AM – 5:00 PM",
+     "Thursday: 8:00 AM – 5:00 PM",
+     "Friday: 8:00 AM – 5:00 PM",
+     "Saturday: 8:00 AM – 5:00 PM",
+     "Sunday: 8:00 AM – 5:00 PM"
+    ]
+   }
   },
   {
    "id": "bang-niang-market",
@@ -540,13 +1407,36 @@
    "name_he": "שוק בנג ניאנג",
    "region": "khaolak",
    "category": "market",
-   "lat": 8.68,
-   "lon": 98.254,
+   "lat": 8.666682,
+   "lon": 98.251355,
    "baby": 3,
-   "approx": "med",
    "days": "ב', ד', ש'",
    "hours": "15:00–20:00 (בערך)",
-   "tip_he": "השוק הגדול באזור: פירות, אוכל רחוב (סאטה, רוטי) ובגדים. במרחק הליכה מג'סמין."
+   "tip_he": "השוק הגדול באזור: פירות, אוכל רחוב (סאטה, רוטי) ובגדים. במרחק הליכה מג'סמין.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bang Niang Market (Chong fah)",
+    "address": "Phet Kasem Rd, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
+    "place_id": "ChIJK9ORtDHpUDAR_58msu8FAMg",
+    "maps_url": "https://maps.google.com/?cid=14411525334629785599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.51,
+    "prev": [
+     8.68,
+     98.254
+    ],
+    "rating": 4.2,
+    "reviews": 9226,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 10:00 AM – 11:00 PM",
+     "Tuesday: Closed",
+     "Wednesday: 10:00 AM – 11:00 PM",
+     "Thursday: 10:00 AM – 11:00 PM",
+     "Friday: Closed",
+     "Saturday: 10:00 AM – 11:00 PM",
+     "Sunday: Closed"
+    ]
+   }
   },
   {
    "id": "khuk-khak-fresh-market",
@@ -554,13 +1444,36 @@
    "name_he": "השוק הטרי קוק קאק",
    "region": "khaolak",
    "category": "market",
-   "lat": 8.695,
-   "lon": 98.265,
+   "lat": 8.695061,
+   "lon": 98.254771,
    "baby": 3,
-   "approx": "high",
    "days": "ב', ד'–ש' (סגור בג' ובא')",
    "hours": "08:00–12:00",
-   "tip_he": "שוק בוקר מקומי עם פירות טריים במחירים מקומיים."
+   "tip_he": "שוק בוקר מקומי עם פירות טריים במחירים מקומיים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "KHUK KHAK AFTERNOON MARKET",
+    "address": "M7V3+XW3, Khuek Khak, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJFcFHih_pUDARJ2fABn7sNaU",
+    "maps_url": "https://maps.google.com/?cid=11904681216047081255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.12,
+    "prev": [
+     8.695,
+     98.265
+    ],
+    "rating": 4.6,
+    "reviews": 21,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 3:30 – 8:00 PM",
+     "Tuesday: 3:30 – 8:00 PM",
+     "Wednesday: 3:30 – 8:00 PM",
+     "Thursday: 3:30 – 8:00 PM",
+     "Friday: 3:30 – 8:00 PM",
+     "Saturday: 3:30 – 8:00 PM",
+     "Sunday: 3:30 – 8:00 PM"
+    ]
+   }
   },
   {
    "id": "nai-muang",
@@ -568,11 +1481,34 @@
    "name_he": "נאי מואנג",
    "region": "khaolak",
    "category": "food",
-   "lat": 8.64,
-   "lon": 98.251,
+   "lat": 8.659958,
+   "lon": 98.254126,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ מוזכר במדריך מישלן: דרום תאילנדי זול, קארי פירות ים מצוין."
+   "tip_he": "⭐ מוזכר במדריך מישלן: דרום תאילנדי זול, קארי פירות ים מצוין.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nai Mueang Restaurant",
+    "address": "33 4 ซอยโลมา Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJb1sSCD7pUDARjAA1jXTIa88",
+    "maps_url": "https://maps.google.com/?cid=14946260191269945484&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.25,
+    "prev": [
+     8.64,
+     98.251
+    ],
+    "rating": 4.5,
+    "reviews": 1366,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 11:00 AM – 9:00 PM",
+     "Tuesday: 11:00 AM – 9:00 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:00 AM – 9:00 PM",
+     "Friday: 11:00 AM – 9:00 PM",
+     "Saturday: 11:00 AM – 9:00 PM",
+     "Sunday: 11:00 AM – 9:00 PM"
+    ]
+   }
   },
   {
    "id": "qcumber",
@@ -580,11 +1516,34 @@
    "name_he": "Qcumber",
    "region": "khaolak",
    "category": "cafe",
-   "lat": 8.642,
-   "lon": 98.252,
+   "lat": 8.64173,
+   "lon": 98.251106,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "סלטים, ראפים ושייקים. בריא ומהיר."
+   "tip_he": "סלטים, ראפים ושייקים. בריא ומהיר.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Qcumber",
+    "address": "4 32, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
+    "place_id": "ChIJ9SIMvMPuUDARub-mKBE2J9c",
+    "maps_url": "https://maps.google.com/?cid=15503419689570582457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.1,
+    "prev": [
+     8.642,
+     98.252
+    ],
+    "rating": 4.7,
+    "reviews": 789,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 12:00 – 9:00 PM",
+     "Tuesday: 12:00 – 9:00 PM",
+     "Wednesday: Closed",
+     "Thursday: 12:00 – 9:00 PM",
+     "Friday: 12:00 – 9:00 PM",
+     "Saturday: 12:00 – 9:00 PM",
+     "Sunday: 12:00 – 9:00 PM"
+    ]
+   }
   },
   {
    "id": "bussaba",
@@ -592,11 +1551,34 @@
    "name_he": "בוסאבה",
    "region": "khaolak",
    "category": "food",
-   "lat": 8.644,
-   "lon": 98.253,
+   "lat": 8.642994,
+   "lon": 98.251351,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "תאילנדי ביתי, זכה בכמה פרסים. על כביש פטקסם."
+   "tip_he": "תאילנדי ביתי, זכה בכמה פרסים. על כביש פטקסם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bussaba Thai Restaurant",
+    "address": "4, 54 Phetkasem Rd Moo 7, Khuekkhak, Takua Pa District, Phang Nga 82190, Thailand",
+    "place_id": "ChIJhYFdfcTuUDAR_ipVMYma4c0",
+    "maps_url": "https://maps.google.com/?cid=14835308561563986686&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.21,
+    "prev": [
+     8.644,
+     98.253
+    ],
+    "rating": 4.6,
+    "reviews": 646,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 12:00 – 10:00 PM",
+     "Tuesday: 12:00 – 10:00 PM",
+     "Wednesday: 12:00 – 10:00 PM",
+     "Thursday: 12:00 – 10:00 PM",
+     "Friday: 12:00 – 10:00 PM",
+     "Saturday: 12:00 – 10:00 PM",
+     "Sunday: 12:00 – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "pams",
@@ -604,12 +1586,35 @@
    "name_he": "פאמ'ס",
    "region": "khaolak",
    "category": "food",
-   "lat": 8.641,
-   "lon": 98.2525,
+   "lat": 8.70399,
+   "lon": 98.25338,
    "baby": 3,
-   "approx": "high",
    "days": "סגור בא'",
-   "tip_he": "גריל ומנות תאילנדיות. יש איסוף מהמלון."
+   "tip_he": "גריל ומנות תאילנדיות. יש איסוף מהמלון.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pam's Restaurant & Cooking class",
+    "address": "41, 60 หมู่ 3 Phet Kasem Rd, Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82220, Thailand",
+    "place_id": "ChIJw1Ee3afpUDARR25Imubjg5Q",
+    "maps_url": "https://maps.google.com/?cid=10701647719132851783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 7.0,
+    "prev": [
+     8.641,
+     98.2525
+    ],
+    "rating": 4.8,
+    "reviews": 926,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 12:00 – 10:30 PM",
+     "Tuesday: 12:00 – 10:30 PM",
+     "Wednesday: 12:00 – 10:30 PM",
+     "Thursday: 12:00 – 10:30 PM",
+     "Friday: 12:00 – 10:30 PM",
+     "Saturday: 12:00 – 10:30 PM",
+     "Sunday: Closed"
+    ]
+   }
   },
   {
    "id": "bavaria-house",
@@ -617,11 +1622,34 @@
    "name_he": "בוואריה האוס",
    "region": "khaolak",
    "category": "food",
-   "lat": 8.692,
-   "lon": 98.262,
+   "lat": 8.667005,
+   "lon": 98.246886,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "אוכל תאילנדי-גרמני. יש מנות פשוטות שמתאימות גם לנאם (פסטה, קרפים)."
+   "tip_he": "אוכל תאילנדי-גרמני. יש מנות פשוטות שמתאימות גם לנאם (פסטה, קרפים).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bavaria House",
+    "address": "M68W+RQ2 Bang niang Beach road Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJwaHn4jbpUDARxsjuuHKAoYw",
+    "maps_url": "https://maps.google.com/?cid=10133521866777610438&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 3.24,
+    "prev": [
+     8.692,
+     98.262
+    ],
+    "rating": 4.5,
+    "reviews": 194,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 3:00 – 10:00 PM",
+     "Tuesday: 3:00 – 10:00 PM",
+     "Wednesday: 3:00 – 10:00 PM",
+     "Thursday: 3:00 – 10:00 PM",
+     "Friday: 3:00 – 10:00 PM",
+     "Saturday: 3:00 – 10:00 PM",
+     "Sunday: 3:00 – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "ao-thong-beach-rest",
@@ -629,11 +1657,34 @@
    "name_he": "אאו תונג – מסעדת חוף",
    "region": "khaolak",
    "category": "food",
-   "lat": 8.595,
-   "lon": 98.238,
+   "lat": 8.738463,
+   "lon": 98.242287,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "בקתות על החוף ומרחב חול גדול. נוח מאוד עם תינוק."
+   "tip_he": "בקתות על החוף ומרחב חול גדול. נוח מאוד עם תינוק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Thong Beach Bungalows & Restaurant",
+    "address": "Phetkasem Rd 100 Moo 2 Khao Lak Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJk4UShufpUDARnreZuFExDLY",
+    "maps_url": "https://maps.google.com/?cid=13117914041682605982&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 15.96,
+    "prev": [
+     8.595,
+     98.238
+    ],
+    "rating": 4.3,
+    "reviews": 329,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:30 AM – 10:30 PM",
+     "Tuesday: 9:30 AM – 10:30 PM",
+     "Wednesday: 9:30 AM – 10:30 PM",
+     "Thursday: 9:30 AM – 10:30 PM",
+     "Friday: 9:30 AM – 10:30 PM",
+     "Saturday: 9:30 AM – 10:30 PM",
+     "Sunday: 9:30 AM – 10:30 PM"
+    ]
+   }
   },
   {
    "id": "takuapa-hospital",
@@ -641,11 +1692,34 @@
    "name_he": "בית חולים טאקואה פה",
    "region": "khaolak",
    "category": "medical",
-   "lat": 8.865,
-   "lon": 98.35,
+   "lat": 8.863866,
+   "lon": 98.33382,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "בית חולים ממשלתי, הקרוב ביותר (כ-30 דק'). למקרה רציני עדיף לנסוע לבנגקוק הוספיטל פוקט, כ-1.5 שעות."
+   "tip_he": "בית חולים ממשלתי, הקרוב ביותר (כ-30 דק'). למקרה רציני עדיף לנסוע לבנגקוק הוספיטל פוקט, כ-1.5 שעות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Takuapa Hospital",
+    "address": "อาคารผู้ป่วยนอก ชั้น 3 Tambon Bang Nai Si, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJRS9CXwDbUDARuQksrW8Saqw",
+    "maps_url": "https://maps.google.com/?cid=12423762792910948793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.78,
+    "prev": [
+     8.865,
+     98.35
+    ],
+    "rating": 2.4,
+    "reviews": 29,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "similan-islands",
@@ -653,12 +1727,35 @@
    "name_he": "איי סימילן",
    "region": "khaolak",
    "category": "nature",
-   "lat": 8.655,
-   "lon": 97.645,
+   "lat": 8.657395,
+   "lon": 97.648888,
    "baby": 1,
-   "approx": "med",
    "season": "15.10–15.5",
-   "tip_he": "⭐ שנורקלינג וצלילה מהטובים בתאילנד: צבים, דגי שונית וסלע המפרש באי 8. יותר משעה בסירה מהירה מטאפ לאמו. מתאים במיוחד ליום שבו אחד מכם יוצא לבד. מגבלת מבקרים יומית, אז להזמין מראש."
+   "tip_he": "⭐ שנורקלינג וצלילה מהטובים בתאילנד: צבים, דגי שונית וסלע המפרש באי 8. יותר משעה בסירה מהירה מטאפ לאמו. מתאים במיוחד ליום שבו אחד מכם יוצא לבד. מגבלת מבקרים יומית, אז להזמין מראש.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mu Ko Similan National Park",
+    "address": "MJ4X+XH2, Lam Kaen, Thai Mueang District, Phang Nga 82210, Thailand",
+    "place_id": "ChIJTWOkhaJxWjARBugMilSJtEo",
+    "maps_url": "https://maps.google.com/?cid=5383078450800945158&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.5,
+    "prev": [
+     8.655,
+     97.645
+    ],
+    "rating": 4.7,
+    "reviews": 4682,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Closed",
+     "Sunday: Closed"
+    ]
+   }
   },
   {
    "id": "thap-lamu-pier",
@@ -666,11 +1763,25 @@
    "name_he": "נמל טאפ לאמו",
    "region": "khaolak",
    "category": "transport",
-   "lat": 8.579,
-   "lon": 98.23,
+   "lat": 8.57013,
+   "lon": 98.223243,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "משם יוצאות הסירות לסימילן. כ-25 דק' מג'סמין. רוב הטורים כוללים איסוף מהמלון."
+   "tip_he": "משם יוצאות הסירות לסימילן. כ-25 דק' מג'סמין. רוב הטורים כוללים איסוף מהמלון.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Thap Lamu Pier",
+    "address": "H6CF+375, Thai Mueang District, Phang Nga 82210, Thailand",
+    "place_id": "ChIJjRSbrf_xUDARTnHX1dSrFe0",
+    "maps_url": "https://maps.google.com/?cid=17083749692108927310&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.23,
+    "prev": [
+     8.579,
+     98.23
+    ],
+    "rating": 4.2,
+    "reviews": 780,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "railay",
@@ -678,11 +1789,34 @@
    "name_he": "ריילי",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.011,
-   "lon": 98.838,
+   "lat": 8.01321,
+   "lon": 98.837089,
    "baby": 1,
-   "approx": "med",
-   "tip_he": "צוקי גיר מטורפים. מגיעים בלונגטייל מאאו נאנג (כ-15 דק') ויורדים במים. החוף עצמו נוח. מערת פרה נאנג בחוף הסמוך."
+   "tip_he": "צוקי גיר מטורפים. מגיעים בלונגטייל מאאו נאנג (כ-15 דק') ויורדים במים. החוף עצמו נוח. מערת פרה נאנג בחוף הסמוך.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Railay West Beach",
+    "address": "2R7P+7RP, Ao Nang, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJXZgcI57qUTARPwbNwHp5zYg",
+    "maps_url": "https://maps.google.com/?cid=9857668727511516735&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.27,
+    "prev": [
+     8.011,
+     98.838
+    ],
+    "rating": 4.5,
+    "reviews": 7734,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "samet-nangshe",
@@ -690,11 +1824,34 @@
    "name_he": "תצפית סמט נאנגשה",
    "region": "phangnga",
    "category": "viewpoint",
-   "lat": 8.262,
-   "lon": 98.452,
+   "lat": 8.235093,
+   "lon": 98.445248,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "⭐ אחת התצפיות היפות בתאילנד, על מפרץ פנג נגה. בזריחה זה מדהים, אבל אפשר גם בשעות אחרות. העלייה האחרונה תלולה ולפעמים צריך שאטל. בדרך מקאו לאק לקראבי."
+   "tip_he": "⭐ אחת התצפיות היפות בתאילנד, על מפרץ פנג נגה. בזריחה זה מדהים, אבל אפשר גם בשעות אחרות. העלייה האחרונה תלולה ולפעמים צריך שאטל. בדרך מקאו לאק לקראבי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Samet Nangshe Viewpoint",
+    "address": "93 Tambon Khlong Khian, Amphoe Takua Thung, Chang Wat Phang-nga 82130, Thailand",
+    "place_id": "ChIJA1_2nYtSUDARCg5_WOqe-7E",
+    "maps_url": "https://maps.google.com/?cid=12825019093211876874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 3.08,
+    "prev": [
+     8.262,
+     98.452
+    ],
+    "rating": 4.7,
+    "reviews": 9319,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 5:30 AM – 7:00 PM",
+     "Tuesday: 5:30 AM – 7:00 PM",
+     "Wednesday: 5:30 AM – 7:00 PM",
+     "Thursday: 5:30 AM – 7:00 PM",
+     "Friday: 5:30 AM – 7:00 PM",
+     "Saturday: 5:30 AM – 7:00 PM",
+     "Sunday: 5:30 AM – 7:00 PM"
+    ]
+   }
   },
   {
    "id": "sra-nang-manora",
@@ -702,11 +1859,34 @@
    "name_he": "פארק יער סה ננג מנורה",
    "region": "phangnga",
    "category": "waterfall",
-   "lat": 8.48,
-   "lon": 98.518,
+   "lat": 8.512062,
+   "lon": 98.538937,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "מפלים ובריכות טבעיות ביער ירוק עם אזורי פיקניק. עצירת התרעננות בדרך לקראבי."
+   "tip_he": "מפלים ובריכות טבעיות ביער ירוק עם אזורי פיקניק. עצירת התרעננות בדרך לקראבי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Sa Nang Manora Forest Park",
+    "address": "Nop Pring Subdistrict, Mueang, District, ตำบล นบปริง อำเภอเมืองพังงา พังงา 82000, Thailand",
+    "place_id": "ChIJidq10AADUTAR6W91k1NiO8Q",
+    "maps_url": "https://maps.google.com/?cid=14140003566155558889&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.24,
+    "prev": [
+     8.48,
+     98.518
+    ],
+    "rating": 4.4,
+    "reviews": 306,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 4:00 PM",
+     "Tuesday: 9:00 AM – 4:00 PM",
+     "Wednesday: 9:00 AM – 4:00 PM",
+     "Thursday: 9:00 AM – 4:00 PM",
+     "Friday: 9:00 AM – 4:00 PM",
+     "Saturday: 9:00 AM – 4:00 PM",
+     "Sunday: 9:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "wat-suwan-khuha",
@@ -714,11 +1894,25 @@
    "name_he": "מקדש המערה סוואן קוהה",
    "region": "phangnga",
    "category": "culture",
-   "lat": 8.428,
-   "lon": 98.473,
+   "lat": 8.428489,
+   "lon": 98.471708,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "מקדש בתוך מערה עם בודהה שוכב. ⚠️ יש הרבה קופים, ולכן לא להחזיק אוכל ולהרחיק את נאם מהם (כלבת)."
+   "tip_he": "מקדש בתוך מערה עם בודהה שוכב. ⚠️ יש הרבה קופים, ולכן לא להחזיק אוכל ולהרחיק את נאם מהם (כלבת).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Wat Suwan Khuha",
+    "address": "36/1 Phet Kasem Rd, Tambon Krasom, Amphoe Takua Thung, Chang Wat Phang-nga 82130, Thailand",
+    "place_id": "ChIJC3-8s5X_UDARODh_FmQEMAg",
+    "maps_url": "https://maps.google.com/?cid=589976379106211896&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.15,
+    "prev": [
+     8.428,
+     98.473
+    ],
+    "rating": 4.3,
+    "reviews": 4456,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "khao-sok-hq",
@@ -726,11 +1920,34 @@
    "name_he": "מטה פארק קאו סוק",
    "region": "khaosok",
    "category": "nature",
-   "lat": 8.916,
-   "lon": 98.529,
+   "lat": 8.915708,
+   "lon": 98.527917,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "יער גשם עתיק, כשעה ורבע מקאו לאק. ליד המטה יש שבילים קצרים בלי מדריך (מפלי Sip-Et Chan ו-Mae Yai). שבילים ארוכים רק עם מדריך."
+   "tip_he": "יער גשם עתיק, כשעה ורבע מקאו לאק. ליד המטה יש שבילים קצרים בלי מדריך (מפלי Sip-Et Chan ו-Mae Yai). שבילים ארוכים רק עם מדריך.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Sok National Park HQ",
+    "address": "WG8H+75M, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJb8dL1V8pUTARalaUYuk7ir0",
+    "maps_url": "https://maps.google.com/?cid=13657794693521757802&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.12,
+    "prev": [
+     8.916,
+     98.529
+    ],
+    "rating": 4.2,
+    "reviews": 733,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 4:00 PM",
+     "Tuesday: 8:00 AM – 4:00 PM",
+     "Wednesday: 8:00 AM – 4:00 PM",
+     "Thursday: 8:00 AM – 4:00 PM",
+     "Friday: 8:00 AM – 4:00 PM",
+     "Saturday: 8:00 AM – 4:00 PM",
+     "Sunday: 8:00 AM – 4:00 PM"
+    ]
+   }
   },
   {
    "id": "cheow-lan",
@@ -738,11 +1955,25 @@
    "name_he": "אגם צ'או לאן",
    "region": "khaosok",
    "category": "nature",
-   "lat": 8.974,
-   "lon": 98.81,
+   "lat": 8.977142,
+   "lon": 98.820376,
    "baby": 2,
-   "approx": "med",
-   "tip_he": "שייט בסירת לונגטייל בין צוקי גיר. יום ארוך. עם תינוק עדיף סירה פרטית לחצי יום, כובע, צל וחגורת הצלה לתינוק."
+   "tip_he": "שייט בסירת לונגטייל בין צוקי גיר. יום ארוך. עם תינוק עדיף סירה פרטית לחצי יום, כובע, צל וחגורת הצלה לתינוק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Cheow Lan Pier (Ratchaprapha Pier)",
+    "address": "XRGC+V52 Unnamed Rd Tambon Khao Phang, Amphoe Ban Ta Khun, Chang Wat Surat Thani 84230, Thailand",
+    "place_id": "ChIJgeiQmhY2UTARatiGGEd0xdg",
+    "maps_url": "https://maps.google.com/?cid=15620018731307423850&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.19,
+    "prev": [
+     8.974,
+     98.81
+    ],
+    "rating": 4.1,
+    "reviews": 404,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "ao-nang-beach",
@@ -750,10 +1981,25 @@
    "name_he": "חוף אאו נאנג",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.033,
-   "lon": 98.822,
+   "lat": 8.029205,
+   "lon": 98.824035,
    "baby": 3,
-   "tip_he": "שיפוע מתון ונוח לרחצה. החוף הכי עמוס באזור."
+   "tip_he": "שיפוע מתון ונוח לרחצה. החוף הכי עמוס באזור.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Nang Beach",
+    "address": "Ao Nang Beach, Ao Nang, Mueang Krabi District, Krabi 81180, Thailand",
+    "place_id": "ChIJozAi_g_AUTARTUmi8H7r7Fw",
+    "maps_url": "https://maps.google.com/?cid=6695985676428659021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.48,
+    "prev": [
+     8.033,
+     98.822
+    ],
+    "rating": 4.2,
+    "reviews": 21931,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "pai-plong",
@@ -761,11 +2007,34 @@
    "name_he": "חוף פאי פלונג",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.027,
-   "lon": 98.815,
+   "lat": 8.023675,
+   "lon": 98.828687,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ מפרץ קטן ורגוע עם אזור רחצה מגודר וחול רך מאוד. מושלם לנאם."
+   "tip_he": "⭐ מפרץ קטן ורגוע עם אזור רחצה מגודר וחול רך מאוד. מושלם לנאם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pai Plong Beach",
+    "address": "Pai Plong Beach, Ao Nang, Mueang Krabi District, Krabi 81180, Thailand",
+    "place_id": "ChIJX8idyBvAUTARdFqRiUvqtqM",
+    "maps_url": "https://maps.google.com/?cid=11796873884095044212&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.55,
+    "prev": [
+     8.027,
+     98.815
+    ],
+    "rating": 4,
+    "reviews": 790,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "nopparat-thara",
@@ -773,10 +2042,25 @@
    "name_he": "חוף נופרט תארה",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.045,
-   "lon": 98.803,
+   "lat": 8.043653,
+   "lon": 98.796833,
    "baby": 3,
-   "tip_he": "חוף ארוך ופחות עמוס מאאו נאנג, בתוך פארק לאומי. צל של עצים. בשפל אפשר ללכת לאיים קטנים."
+   "tip_he": "חוף ארוך ופחות עמוס מאאו נאנג, בתוך פארק לאומי. צל של עצים. בשפל אפשר ללכת לאיים קטנים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nopharat Thara Beach",
+    "address": "Nopharat Thara Beach, Krabi 81180, Thailand",
+    "place_id": "ChIJR8o4aYG_UTARAg58Zgj4MBs",
+    "maps_url": "https://maps.google.com/?cid=1959338552868998658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.7,
+    "prev": [
+     8.045,
+     98.803
+    ],
+    "rating": 4.5,
+    "reviews": 837,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "klong-muang",
@@ -784,11 +2068,25 @@
    "name_he": "חוף קלונג מואנג",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.05,
-   "lon": 98.748,
+   "lat": 8.057463,
+   "lon": 98.748524,
    "baby": 3,
-   "approx": "med",
-   "tip_he": "שקט ורגוע, עם ריזורטים ומסעדות. כ-20 דק' מאאו נאנג."
+   "tip_he": "שקט ורגוע, עם ריזורטים ומסעדות. כ-20 דק' מאאו נאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Klongmuang Beach",
+    "address": "3P4X+XCJ, 6024, Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJO58aGqm_UTAR3lrWEsZ88l0",
+    "maps_url": "https://maps.google.com/?cid=6769610380052683486&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.83,
+    "prev": [
+     8.05,
+     98.748
+    ],
+    "rating": 4.7,
+    "reviews": 183,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "tubkaek",
@@ -796,11 +2094,25 @@
    "name_he": "חוף טאבקאק",
    "region": "krabi",
    "category": "beach",
-   "lat": 8.072,
-   "lon": 98.745,
+   "lat": 8.091086,
+   "lon": 98.74709,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "שקט מאוד, עם נוף לאיי הונג."
+   "tip_he": "שקט מאוד, עם נוף לאיי הונג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Tubkaek Beach",
+    "address": "Tubkaek Beach 6024, Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJS5MuzDK5UTARCTg8EnlSfeY",
+    "maps_url": "https://maps.google.com/?cid=16608521680762714121&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.13,
+    "prev": [
+     8.072,
+     98.745
+    ],
+    "rating": 4.4,
+    "reviews": 611,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "ao-nang-monkey-trail",
@@ -808,11 +2120,34 @@
    "name_he": "שביל הקופים אאו נאנג",
    "region": "krabi",
    "category": "nature",
-   "lat": 8.031,
-   "lon": 98.8265,
+   "lat": 8.024883,
+   "lon": 98.827864,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "שביל קצר בין אאו נאנג לפאי פלונג. ⚠️ יש קופים, אז לא להחזיק אוכל ושקיות."
+   "tip_he": "שביל קצר בין אאו נאנג לפאי פלונג. ⚠️ יש קופים, אז לא להחזיק אוכל ושקיות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Monkey Trail, Ao Nang",
+    "address": "2RFH+X45, Ao Nang, Mueang Krabi District, Krabi 81180, Thailand",
+    "place_id": "ChIJNfBwUxrAUTAR9JqhD4BvspI",
+    "maps_url": "https://maps.google.com/?cid=10570633871200721652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.7,
+    "prev": [
+     8.031,
+     98.8265
+    ],
+    "rating": 4.2,
+    "reviews": 3483,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "dragon-crest",
@@ -820,11 +2155,34 @@
    "name_he": "קאו נגון נאק – רכס הדרקון",
    "region": "krabi",
    "category": "viewpoint",
-   "lat": 8.059,
-   "lon": 98.77,
+   "lat": 8.097283,
+   "lon": 98.74944,
    "baby": 1,
-   "approx": "high",
-   "tip_he": "2–3 שעות טיפוס ביער עד תצפית על אאו נאנג. בזריחה, עם פנס. עם מנשא או כשמתפצלים."
+   "tip_he": "2–3 שעות טיפוס ביער עד תצפית על אאו נאנג. בזריחה, עם פנס. עם מנשא או כשמתפצלים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Dragon's Crest (Ngon Nak Nature Trail)",
+    "address": "Nong Thale, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJZQojLee-UTAR1DcVmrBvpy8",
+    "maps_url": "https://maps.google.com/?cid=3433836045183301588&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.82,
+    "prev": [
+     8.059,
+     98.77
+    ],
+    "rating": 4.8,
+    "reviews": 2899,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 2:00 PM",
+     "Tuesday: 8:00 AM – 2:00 PM",
+     "Wednesday: 8:00 AM – 2:00 PM",
+     "Thursday: 8:00 AM – 2:00 PM",
+     "Friday: 8:00 AM – 2:00 PM",
+     "Saturday: 8:00 AM – 2:00 PM",
+     "Sunday: 8:00 AM – 2:00 PM"
+    ]
+   }
   },
   {
    "id": "tiger-cave",
@@ -832,11 +2190,34 @@
    "name_he": "מקדש מערת הנמר",
    "region": "krabi",
    "category": "viewpoint",
-   "lat": 8.124,
-   "lon": 98.926,
+   "lat": 8.123926,
+   "lon": 98.925131,
    "baby": 1,
-   "approx": "med",
-   "tip_he": "1,237 מדרגות תלולות עד תצפית מטורפת. עם מנשא זה אפשרי: לעלות ב-07:00 עם הרבה מים. ⚠️ יש קופים בדרך, אז לא להחזיק אוכל."
+   "tip_he": "1,237 מדרגות תלולות עד תצפית מטורפת. עם מנשא זה אפשרי: לעלות ב-07:00 עם הרבה מים. ⚠️ יש קופים בדרך, אז לא להחזיק אוכל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Wat Tham Suea",
+    "address": "35 Tambon Krabi Noi, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJO2O10qqWUTAREYioi4E8t1Q",
+    "maps_url": "https://maps.google.com/?cid=6104414347015522321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.1,
+    "prev": [
+     8.124,
+     98.926
+    ],
+    "rating": 4.6,
+    "reviews": 14042,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 6:00 AM – 6:00 PM",
+     "Tuesday: 6:00 AM – 6:00 PM",
+     "Wednesday: 6:00 AM – 6:00 PM",
+     "Thursday: 6:00 AM – 6:00 PM",
+     "Friday: 6:00 AM – 6:00 PM",
+     "Saturday: 6:00 AM – 6:00 PM",
+     "Sunday: 6:00 AM – 6:00 PM"
+    ]
+   }
   },
   {
    "id": "emerald-pool",
@@ -844,11 +2225,34 @@
    "name_he": "הבריכה האמרלד – תונג טאו",
    "region": "krabi",
    "category": "nature",
-   "lat": 7.924,
-   "lon": 99.265,
+   "lat": 7.925077,
+   "lon": 99.268151,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ שביל עץ ביער אל בריכה ירוקה. כדאי להגיע מוקדם, לפני 09:30, לפני הטורים. שם גם חי ה-Gurney's pitta, ציפור נדירה. כשעה ורבע מאאו נאנג."
+   "tip_he": "⭐ שביל עץ ביער אל בריכה ירוקה. כדאי להגיע מוקדם, לפני 09:30, לפני הטורים. שם גם חי ה-Gurney's pitta, ציפור נדירה. כשעה ורבע מאאו נאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Emerald Pool",
+    "address": "Khlong Thom Nuea, Khlong Thom District, Krabi 81120, Thailand",
+    "place_id": "ChIJ_6eLjQ0cUjAR7kXSfRh6n60",
+    "maps_url": "https://maps.google.com/?cid=12510852535467263470&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.37,
+    "prev": [
+     7.924,
+     99.265
+    ],
+    "rating": 4.3,
+    "reviews": 14041,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "hot-spring-waterfall",
@@ -856,13 +2260,36 @@
    "name_he": "מפל המעיינות החמים קלונג תום",
    "region": "krabi",
    "category": "waterfall",
-   "lat": 7.955,
-   "lon": 99.17,
+   "lat": 7.931397,
+   "lon": 99.205785,
    "baby": 2,
-   "approx": "high",
    "hours": "08:30–17:00",
    "cost": "200 ฿",
-   "tip_he": "מים בטמפרטורה של כ-40°. לנאם רק לטבול רגליים ולזמן קצר. משלבים עם הבריכה האמרלד."
+   "tip_he": "מים בטמפרטורה של כ-40°. לנאם רק לטבול רגליים ולזמן קצר. משלבים עם הבריכה האמרלד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "KhongThomNuea Hot Stream Waterfall Krabi",
+    "address": "W6J4+H83, Khlong Thom Nuea, Khlong Thom District, Krabi 81120, Thailand",
+    "place_id": "ChIJOwMaF-8dUjAR2d62c50_k8s",
+    "maps_url": "https://maps.google.com/?cid=14669138356759617241&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.73,
+    "prev": [
+     7.955,
+     99.17
+    ],
+    "rating": 4.4,
+    "reviews": 4937,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 6:00 PM",
+     "Tuesday: 8:00 AM – 6:00 PM",
+     "Wednesday: 8:00 AM – 6:00 PM",
+     "Thursday: 8:00 AM – 6:00 PM",
+     "Friday: 8:00 AM – 6:00 PM",
+     "Saturday: 8:00 AM – 6:00 PM",
+     "Sunday: 8:00 AM – 6:00 PM"
+    ]
+   }
   },
   {
    "id": "than-bok-khorani",
@@ -870,11 +2297,34 @@
    "name_he": "פארק תאן בוק קוראני",
    "region": "krabi",
    "category": "nature",
-   "lat": 8.39,
-   "lon": 98.738,
+   "lat": 8.388935,
+   "lon": 98.735077,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "בריכות טורקיז ופלגים בצל עצים, ושביל קצר ונוח. אזור אאו לואק, כ-50 דק'. יש גם מערות ומנגרובים."
+   "tip_he": "בריכות טורקיז ופלגים בצל עצים, ושביל קצר ונוח. אזור אאו לואק, כ-50 דק'. יש גם מערות ומנגרובים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Than Bok Khorani National Park",
+    "address": "2 2, Tambon Ao Luek Tai, Amphoe Ao Luek, Chang Wat Krabi 81110, Thailand",
+    "place_id": "ChIJgzeeTOIJUTARYRqE3fa4rLI",
+    "maps_url": "https://maps.google.com/?cid=12874868805163293281&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.34,
+    "prev": [
+     8.39,
+     98.738
+    ],
+    "rating": 4.4,
+    "reviews": 2942,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 4:30 PM",
+     "Tuesday: 8:00 AM – 4:30 PM",
+     "Wednesday: 8:00 AM – 4:30 PM",
+     "Thursday: 8:00 AM – 4:30 PM",
+     "Friday: 8:00 AM – 4:30 PM",
+     "Saturday: 8:00 AM – 4:30 PM",
+     "Sunday: 8:00 AM – 4:30 PM"
+    ]
+   }
   },
   {
    "id": "krabi-mangrove-boardwalk",
@@ -882,11 +2332,25 @@
    "name_he": "שביל המנגרובים – קראבי טאון",
    "region": "krabi",
    "category": "nature",
-   "lat": 8.076,
-   "lon": 98.918,
+   "lat": 8.074833,
+   "lon": 98.91745,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "שביל עץ של כ-1 ק\"מ. אפשר לראות שלדגים ומדלגי בוץ. ⭐ לנועה."
+   "tip_he": "שביל עץ של כ-1 ק\"מ. אפשר לראות שלדגים ומדלגי בוץ. ⭐ לנועה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krabi Urban Forest",
+    "address": "3WF8+WXP, Krabi, Pak Nam, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJ_wdAm_SVUTARThQFIgbAOmY",
+    "maps_url": "https://maps.google.com/?cid=7366411273090962510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.14,
+    "prev": [
+     8.076,
+     98.918
+    ],
+    "rating": 4.5,
+    "reviews": 301,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "khao-khanab-nam",
@@ -894,11 +2358,25 @@
    "name_he": "קאו קאנאב נאם",
    "region": "krabi",
    "category": "nature",
-   "lat": 8.067,
-   "lon": 98.925,
+   "lat": 8.077401,
+   "lon": 98.920637,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "שני הרי גיר משני צדי הנהר. מגיעים בסירת לונגטייל קצרה מקראבי טאון, ויש מערות."
+   "tip_he": "שני הרי גיר משני צדי הנהר. מגיעים בסירת לונגטייל קצרה מקראבי טאון, ויש מערות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Khanab Nam",
+    "address": "Krabi, Pak Nam, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJdxGKmLqVUTARYt_dicLeoE0",
+    "maps_url": "https://maps.google.com/?cid=5593715664312196962&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.25,
+    "prev": [
+     8.067,
+     98.925
+    ],
+    "rating": 4.5,
+    "reviews": 646,
+    "business_status": "OPERATIONAL"
+   }
   },
   {
    "id": "chao-fah-market",
@@ -906,13 +2384,36 @@
    "name_he": "שוק הלילה צ'או פה",
    "region": "krabi",
    "category": "market",
-   "lat": 8.0615,
-   "lon": 98.918,
+   "lat": 8.063516,
+   "lon": 98.918536,
    "baby": 3,
-   "approx": "med",
    "days": "כל יום",
    "hours": "מ-17:00",
-   "tip_he": "אוכל רחוב זול (20–100 ฿) ליד הנהר. רק מזומן."
+   "tip_he": "אוכל רחוב זול (20–100 ฿) ליד הנהר. רק מזומן.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Chao Fah Park",
+    "address": "7 Khongkha Rd Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJ_0wk2J6UUTARQLb5FL0jAh0",
+    "maps_url": "https://maps.google.com/?cid=2090272472061032000&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.23,
+    "prev": [
+     8.0615,
+     98.918
+    ],
+    "rating": 4.4,
+    "reviews": 3000,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "krabi-walking-street",
@@ -920,13 +2421,36 @@
    "name_he": "רחוב ההליכה של סוף השבוע בקראבי",
    "region": "krabi",
    "category": "market",
-   "lat": 8.064,
-   "lon": 98.914,
+   "lat": 8.064136,
+   "lon": 98.916269,
    "baby": 2,
-   "approx": "high",
    "days": "ו'–א'",
    "hours": "17:00–22:00",
-   "tip_he": "אוכל, מוזיקה ואומנות. בחופשה שלכם יש 3 פעמים כאלה (13–15.11)."
+   "tip_he": "אוכל, מוזיקה ואומנות. בחופשה שלכם יש 3 פעמים כאלה (13–15.11).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krabi Town Night Market",
+    "address": "ร้านโกมัน หมูย่าง Maharaj Rd Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJsY7cDZuUUTAReC0SG3DDiSQ",
+    "maps_url": "https://maps.google.com/?cid=2632850343432695160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.25,
+    "prev": [
+     8.064,
+     98.914
+    ],
+    "rating": 4.3,
+    "reviews": 9580,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Closed",
+     "Tuesday: Closed",
+     "Wednesday: Closed",
+     "Thursday: Closed",
+     "Friday: 5:00 – 10:00 PM",
+     "Saturday: 5:00 – 10:00 PM",
+     "Sunday: 5:00 – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "maharat-market",
@@ -934,12 +2458,35 @@
    "name_he": "שוק מהראט",
    "region": "krabi",
    "category": "market",
-   "lat": 8.071,
-   "lon": 98.914,
+   "lat": 8.066535,
+   "lon": 98.9132,
    "baby": 2,
-   "approx": "high",
    "hours": "בוקר מוקדם",
-   "tip_he": "השוק הטרי הגדול של העיר: פירות, ירקות ודגים. מקומי לגמרי."
+   "tip_he": "השוק הטרי הגדול של העיר: פירות, ירקות ודגים. מקומי לגמרי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Maharaj Market",
+    "address": "3W87+G79, 69 Soi Maharaj 7 Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJB8_hhZCUUTARiYqMLFM-oFM",
+    "maps_url": "https://maps.google.com/?cid=6025884828372339337&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.5,
+    "prev": [
+     8.071,
+     98.914
+    ],
+    "rating": 4.3,
+    "reviews": 2215,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 5:00 AM – 12:00 PM",
+     "Tuesday: 5:00 AM – 12:00 PM",
+     "Wednesday: 5:00 AM – 12:00 PM",
+     "Thursday: 5:00 AM – 12:00 PM",
+     "Friday: 5:00 AM – 12:00 PM",
+     "Saturday: 5:00 AM – 12:00 PM",
+     "Sunday: 5:00 AM – 12:00 PM"
+    ]
+   }
   },
   {
    "id": "ao-nang-landmark-market",
@@ -947,13 +2494,36 @@
    "name_he": "שוק הלילה אאו נאנג לנדמרק",
    "region": "krabi",
    "category": "market",
-   "lat": 8.0345,
-   "lon": 98.819,
+   "lat": 8.042572,
+   "lon": 98.8115,
    "baby": 3,
-   "approx": "high",
    "days": "כל יום",
    "hours": "16:00–23:00",
-   "tip_he": "שוק תיירותי עם פירות ים צלויים. ביום רביעי יש לידו שוק מקומי וזול יותר (16:00–20:00)."
+   "tip_he": "שוק תיירותי עם פירות ים צלויים. ביום רביעי יש לידו שוק מקומי וזול יותר (16:00–20:00).",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Nang Landmark Night Market",
+    "address": "2RV6+2JC, Ao Nang, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJITt06ge_UTARoxsq267h2SA",
+    "maps_url": "https://maps.google.com/?cid=2367171220277435299&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.22,
+    "prev": [
+     8.0345,
+     98.819
+    ],
+    "rating": 4.4,
+    "reviews": 7925,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 5:00 – 11:00 PM",
+     "Tuesday: 5:00 – 11:00 PM",
+     "Wednesday: 5:00 – 11:00 PM",
+     "Thursday: 5:00 – 11:00 PM",
+     "Friday: 5:00 – 11:00 PM",
+     "Saturday: 5:00 – 11:00 PM",
+     "Sunday: 5:00 – 11:00 PM"
+    ]
+   }
   },
   {
    "id": "wat-kaew",
@@ -961,11 +2531,34 @@
    "name_he": "מקדש וואט קאו קוראוואראם",
    "region": "krabi",
    "category": "culture",
-   "lat": 8.064,
-   "lon": 98.911,
+   "lat": 8.063261,
+   "lon": 98.914136,
    "baby": 2,
-   "approx": "high",
-   "tip_he": "מקדש לבן ומרשים במרכז קראבי טאון. מדרגות, ולכן עם מנשא."
+   "tip_he": "מקדש לבן ומרשים במרכז קראבי טאון. מדרגות, ולכן עם מנשא.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Wat Kaew Korawaram",
+    "address": "ถนนอิศรา Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJaYdu3ZmUUTARYqEqIUu2hjk",
+    "maps_url": "https://maps.google.com/?cid=4145200940836364642&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.35,
+    "prev": [
+     8.064,
+     98.911
+    ],
+    "rating": 4.6,
+    "reviews": 360,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 8:00 AM – 4:30 PM",
+     "Tuesday: 8:00 AM – 4:30 PM",
+     "Wednesday: 8:00 AM – 4:30 PM",
+     "Thursday: 8:00 AM – 4:30 PM",
+     "Friday: 8:00 AM – 4:30 PM",
+     "Saturday: Closed",
+     "Sunday: Closed"
+    ]
+   }
   },
   {
    "id": "krua-thara",
@@ -973,23 +2566,34 @@
    "name_he": "קרואה תארה",
    "region": "krabi",
    "category": "food",
-   "lat": 8.048,
-   "lon": 98.81,
+   "lat": 8.047035,
+   "lon": 98.800167,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ פירות ים טריים: בוחרים מהאקווריום. פשוט ומעולה."
-  },
-  {
-   "id": "potjawan",
-   "name": "Potjawan Seafood (Nopparat)",
-   "name_he": "פוטג'אוואן",
-   "region": "krabi",
-   "category": "food",
-   "lat": 8.049,
-   "lon": 98.808,
-   "baby": 3,
-   "approx": "high",
-   "tip_he": "פירות ים טריים לפי הזמנה, עם מוניטין טוב בקרב המקומיים."
+   "tip_he": "⭐ פירות ים טריים: בוחרים מהאקווריום. פשוט ומעולה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krua Thara ครัวธารา",
+    "address": "82 Tambon Ao Nang, เมือง Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJ22qTUYS_UTARZdS_TnCFmJ8",
+    "maps_url": "https://maps.google.com/?cid=11500088365894587493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.09,
+    "prev": [
+     8.048,
+     98.81
+    ],
+    "rating": 4.3,
+    "reviews": 889,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 11:30 AM – 8:30 PM",
+     "Tuesday: 11:30 AM – 8:30 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:30 AM – 8:30 PM",
+     "Friday: 11:30 AM – 8:30 PM",
+     "Saturday: 11:30 AM – 8:30 PM",
+     "Sunday: 11:30 AM – 8:30 PM"
+    ]
+   }
   },
   {
    "id": "lae-lay-grill",
@@ -997,11 +2601,34 @@
    "name_he": "לה לאי גריל",
    "region": "krabi",
    "category": "food",
-   "lat": 8.029,
-   "lon": 98.835,
+   "lat": 8.038371,
+   "lon": 98.821625,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "על גבעה מעל אאו נאנג עם נוף לשקיעה. סיר אטריות עם שרימפס. להזמין מקום."
+   "tip_he": "על גבעה מעל אאו נאנג עם נוף לשקיעה. סיר אטריות עם שרימפס. להזמין מקום.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lae Lay Grill",
+    "address": "89 หมู่ 3 อ่าวนาง Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJe5-hMKiWUTAR7kP_7wkDO8I",
+    "maps_url": "https://maps.google.com/?cid=13995783608200020974&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.8,
+    "prev": [
+     8.029,
+     98.835
+    ],
+    "rating": 4.4,
+    "reviews": 1658,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 11:00 AM – 10:00 PM",
+     "Tuesday: 11:00 AM – 10:00 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:00 AM – 10:00 PM",
+     "Friday: 11:00 AM – 10:00 PM",
+     "Saturday: 11:00 AM – 10:00 PM",
+     "Sunday: 11:00 AM – 10:00 PM"
+    ]
+   }
   },
   {
    "id": "kodam-kitchen",
@@ -1009,11 +2636,34 @@
    "name_he": "קודאם קיצ'ן",
    "region": "krabi",
    "category": "food",
-   "lat": 8.038,
-   "lon": 98.825,
+   "lat": 8.038466,
+   "lon": 98.819674,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "תאילנדי אותנטי בחצר ירוקה. פופולרי מאוד."
+   "tip_he": "תאילנדי אותנטי בחצר ירוקה. פופולרי מאוד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Kodam Kitchen Branch 1 Aonang",
+    "address": "228 หมู่ที่ 3 Thanon Khlong Hang, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81180, Thailand",
+    "place_id": "ChIJJSWrBQrAUTARg5DFe2jio2w",
+    "maps_url": "https://maps.google.com/?cid=7828349515681075331&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.59,
+    "prev": [
+     8.038,
+     98.825
+    ],
+    "rating": 4.7,
+    "reviews": 10373,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 11:00 AM – 10:30 PM",
+     "Tuesday: 11:00 AM – 10:30 PM",
+     "Wednesday: 11:00 AM – 10:30 PM",
+     "Thursday: 11:00 AM – 10:30 PM",
+     "Friday: 11:00 AM – 10:30 PM",
+     "Saturday: 11:00 AM – 10:30 PM",
+     "Sunday: 11:00 AM – 10:30 PM"
+    ]
+   }
   },
   {
    "id": "ruen-mai",
@@ -1021,11 +2671,34 @@
    "name_he": "רואן מאי",
    "region": "krabi",
    "category": "food",
-   "lat": 8.079,
-   "lon": 98.905,
+   "lat": 8.088079,
+   "lon": 98.882336,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "⭐ מטבח דרום תאילנדי בגינה. כדאי לנסות גאנג סום (קארי חמוץ) ודג שלם בגריל."
+   "tip_he": "⭐ מטבח דרום תאילנדי בגינה. כדאי לנסות גאנג סום (קארי חמוץ) ודג שלם בגריל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "RuenMai Krabi",
+    "address": "117 Tambon Sai Thai, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJ5ULwEFOUUTARviM4wqjwrA8",
+    "maps_url": "https://maps.google.com/?cid=1129542214166782910&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 2.69,
+    "prev": [
+     8.079,
+     98.905
+    ],
+    "rating": 4.7,
+    "reviews": 1744,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Tuesday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Wednesday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Thursday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Friday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Saturday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM",
+     "Sunday: 10:30 AM – 3:00 PM, 5:00 – 9:00 PM"
+    ]
+   }
   },
   {
    "id": "big-c-krabi",
@@ -1033,11 +2706,34 @@
    "name_he": "ביג סי קראבי",
    "region": "krabi",
    "category": "shopping",
-   "lat": 8.092,
-   "lon": 98.892,
+   "lat": 8.108835,
+   "lon": 98.927422,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "סופר גדול: חיתולים, אוכל לתינוקות וציוד."
+   "tip_he": "סופר גדול: חיתולים, אוכל לתינוקות וציוד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Big C Supercenter Krabi",
+    "address": "349 หมู่ที่ 11 Phet Kasem Rd, Tambon Krabi Noi, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJMc1AxvaTUTAReuQZ8N2Prz4",
+    "maps_url": "https://maps.google.com/?cid=4516987134654669946&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 4.33,
+    "prev": [
+     8.092,
+     98.892
+    ],
+    "rating": 4.3,
+    "reviews": 2208,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: 9:00 AM – 9:00 PM",
+     "Tuesday: 9:00 AM – 9:00 PM",
+     "Wednesday: 9:00 AM – 9:00 PM",
+     "Thursday: 9:00 AM – 9:00 PM",
+     "Friday: 9:00 AM – 9:00 PM",
+     "Saturday: 9:00 AM – 9:00 PM",
+     "Sunday: 9:00 AM – 9:00 PM"
+    ]
+   }
   },
   {
    "id": "krabi-nakharin",
@@ -1045,11 +2741,34 @@
    "name_he": "בית חולים קראבי נקרין",
    "region": "krabi",
    "category": "medical",
-   "lat": 8.078,
-   "lon": 98.907,
+   "lat": 8.080777,
+   "lon": 98.905852,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "בית החולים הפרטי הבינלאומי של קראבי, כ-20 דק' מאאו נאנג."
+   "tip_he": "בית החולים הפרטי הבינלאומי של קראבי, כ-20 דק' מאאו נאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krabi Nakharin International Hospital",
+    "address": "1 Soi Pisanpop Krabi, Tambon Pak Nam, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJFQGP0GGUUTARuKjmQ10x4SQ",
+    "maps_url": "https://maps.google.com/?cid=2657459531766212792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.33,
+    "prev": [
+     8.078,
+     98.907
+    ],
+    "rating": 3.7,
+    "reviews": 293,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "aonang-clinic",
@@ -1057,11 +2776,34 @@
    "name_he": "מרפאת אאו נאנג",
    "region": "krabi",
    "category": "medical",
-   "lat": 8.035,
-   "lon": 98.822,
+   "lat": 8.032621,
+   "lon": 98.824373,
    "baby": 3,
-   "approx": "high",
-   "tip_he": "מרפאה כללית עם צוות דובר אנגלית. מתאימה לבעיות קלות."
+   "tip_he": "מרפאה כללית עם צוות דובר אנגלית. מתאימה לבעיות קלות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Aonang Medical Clinic, Krabi",
+    "address": "143/3-4, ตำบล อ่าวนาง อำเภอเมืองกระบี่ กระบี่ 81000, Thailand",
+    "place_id": "ChIJRfPhRA_AUTARCxXfoaXcvjI",
+    "maps_url": "https://maps.google.com/?cid=3656602551414887691&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.37,
+    "prev": [
+     8.035,
+     98.822
+    ],
+    "rating": 4.6,
+    "reviews": 921,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   },
   {
    "id": "kbv-airport",
@@ -1069,10 +2811,34 @@
    "name_he": "שדה התעופה קראבי",
    "region": "krabi",
    "category": "transport",
-   "lat": 8.099,
-   "lon": 98.986,
+   "lat": 8.09928,
+   "lon": 98.983195,
    "baby": 3,
-   "tip_he": "יש בו השכרת רכבים."
+   "tip_he": "יש בו השכרת רכבים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krabi International Airport",
+    "address": "133 Phet Kasem Rd, Tambon Nuea Khlong, Amphoe Nuea Khlong, Chang Wat Krabi 81130, Thailand",
+    "place_id": "ChIJUTiTiTiSUTARsDpfC70jAg8",
+    "maps_url": "https://maps.google.com/?cid=1081466155368921776&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.31,
+    "prev": [
+     8.099,
+     98.986
+    ],
+    "rating": 3.8,
+    "reviews": 5732,
+    "business_status": "OPERATIONAL",
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
   }
  ]
 }
