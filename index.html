@@ -10,32 +10,48 @@
   <link rel="apple-touch-icon" href="app/icon-192.png">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="app/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="app/vendor/markercluster/MarkerCluster.css">
   <link rel="stylesheet" href="app/style.css">
 </head>
 <body>
   <header class="top">
-    <div class="title">🐘 תאילנד</div>
-    <button id="locBtn" class="chip" type="button">📍 <span id="locLabel">מיקום</span></button>
-    <button id="babyBtn" class="chip toggle" type="button" aria-pressed="false" title="רק מקומות שקלים עם נאם">👶 קל עם נאם</button>
+    <button id="regionBtn" class="region-btn" type="button" aria-haspopup="dialog">
+      <span class="region-ico">🐘</span><span id="regionLabel">כל האזורים</span><span class="caret">▾</span>
+    </button>
     <span id="offline" class="offline" hidden>אופליין</span>
+    <button id="searchBtn" class="icon-btn" type="button" aria-label="חיפוש">🔍</button>
+    <button id="babyBtn" class="icon-btn toggle" type="button" aria-pressed="false" aria-label="רק מקומות קלים עם נאם" title="רק מקומות קלים עם נאם">👶</button>
   </header>
 
   <nav id="cats" class="cats" aria-label="קטגוריות"></nav>
 
   <main>
-    <section id="view-map" class="view active"><div id="map"></div></section>
-    <section id="view-list" class="view"><ul id="list" class="list"></ul></section>
+    <section id="view-map" class="view active">
+      <div id="map"></div>
+      <button id="locateBtn" class="fab" type="button" aria-label="המיקום שלי">⌖</button>
+    </section>
+
+    <section id="view-list" class="view">
+      <div class="list-head">
+        <input id="placeSearch" type="search" placeholder="חיפוש מקום…" autocomplete="off">
+        <button id="originLine" class="origin-line" type="button"></button>
+      </div>
+      <ul id="list" class="list"></ul>
+    </section>
+
     <section id="view-now" class="view">
       <div class="now-head">
         <div id="nowTitle" class="now-title"></div>
-        <button id="shuffleBtn" class="btn ghost" type="button">🔀 עוד</button>
+        <button id="originLineNow" class="origin-line" type="button"></button>
       </div>
       <ul id="nowList" class="list"></ul>
+      <div class="now-foot"><button id="shuffleBtn" class="btn wide" type="button">🔀 תציע משהו אחר</button></div>
     </section>
+
     <section id="view-dict" class="view">
-      <div class="dict-head">
+      <div class="list-head">
         <input id="dictSearch" type="search" placeholder="חיפוש מנה (עברית / תאית)" autocomplete="off">
-        <div id="dictTags" class="dict-tags"></div>
+        <div id="dictTags" class="chip-row"></div>
       </div>
       <details class="phrases">
         <summary>💬 משפטים שימושיים במסעדה</summary>
@@ -46,28 +62,22 @@
   </main>
 
   <nav class="tabs" aria-label="תצוגה">
-    <button data-view="map" class="active" type="button">🗺️<span>מפה</span></button>
-    <button data-view="list" type="button">📋<span>קרוב אליי</span></button>
-    <button data-view="now" type="button">✨<span>מה עושים?</span></button>
-    <button data-view="dict" type="button">📖<span>מילון אוכל</span></button>
+    <button data-view="map" class="active" type="button"><b>🗺️</b><span>מפה</span></button>
+    <button data-view="list" type="button"><b>📋</b><span>רשימה</span></button>
+    <button data-view="now" type="button"><b>✨</b><span>מה עושים?</span></button>
+    <button data-view="dict" type="button"><b>📖</b><span>מילון אוכל</span></button>
   </nav>
 
   <div id="sheet" class="sheet" hidden>
     <div class="sheet-card" role="dialog" aria-modal="true">
-      <button id="sheetClose" class="close" type="button" aria-label="סגירה">✕</button>
+      <div class="handle" aria-hidden="true"></div>
+      <button class="close" type="button" aria-label="סגירה">✕</button>
       <div id="sheetBody"></div>
     </div>
   </div>
 
-  <div id="locMenu" class="sheet" hidden>
-    <div class="sheet-card">
-      <button class="close" type="button" data-close aria-label="סגירה">✕</button>
-      <h3>מאיפה למדוד מרחקים?</h3>
-      <div id="locOptions" class="loc-options"></div>
-    </div>
-  </div>
-
   <script src="app/vendor/leaflet/leaflet.js"></script>
+  <script src="app/vendor/markercluster/leaflet.markercluster.js"></script>
   <script src="app/app.js"></script>
 </body>
 </html>

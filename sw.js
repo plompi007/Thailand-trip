@@ -1,11 +1,14 @@
 // Offline support: the app shell + data are precached; map tiles are cached as they are viewed.
-const SHELL = 'shell-v6';
+const SHELL = 'shell-v7';
 const TILES = 'tiles-v1';
 const MAX_TILES = 12000;
 const SHELL_FILES = [
   './', 'index.html', 'manifest.webmanifest', 'data/places.json', 'data/dishes.json',
   'app/app.js', 'app/style.css', 'app/icon.svg', 'app/icon-192.png', 'app/icon-512.png',
   'app/vendor/leaflet/leaflet.js', 'app/vendor/leaflet/leaflet.css',
+  'app/vendor/markercluster/leaflet.markercluster.js', 'app/vendor/markercluster/MarkerCluster.css',
+  'app/vendor/fonts/heebo-hebrew-400-normal.woff2', 'app/vendor/fonts/heebo-hebrew-600-normal.woff2', 'app/vendor/fonts/heebo-hebrew-700-normal.woff2',
+  'app/vendor/fonts/heebo-latin-400-normal.woff2', 'app/vendor/fonts/heebo-latin-600-normal.woff2', 'app/vendor/fonts/heebo-latin-700-normal.woff2',
 ];
 
 self.addEventListener('install', (e) => {

@@ -5,18 +5,36 @@ const CAT_ICON = {
   hotel: '🏨', beach: '🏖️', nature: '🌿', waterfall: '💧', viewpoint: '⛰️', wildlife: '🐢',
   market: '🛍️', food: '🍜', cafe: '☕', culture: '🏛️', shopping: '🛒', medical: '🏥', transport: '✈️',
 };
+const CAT_COLOR = {
+  food: '#e76f51', cafe: '#e76f51', beach: '#0ea5e9', nature: '#16a34a', waterfall: '#0891b2', viewpoint: '#7c3aed',
+  wildlife: '#65a30d', market: '#db2777', culture: '#b45309', shopping: '#64748b', medical: '#dc2626', transport: '#475569', hotel: '#4f46e5',
+};
+// Category chips, most-used first; cafés are shown under restaurants.
+const CAT_ORDER = ['food', 'beach', 'nature', 'waterfall', 'viewpoint', 'wildlife', 'market', 'culture', 'hotel', 'shopping', 'medical', 'transport'];
+const CAT_SHORT = { food: 'מסעדות', beach: 'חופים', nature: 'טבע', waterfall: 'מפלים', viewpoint: 'תצפיות', wildlife: 'חיות', market: 'שווקים', culture: 'תרבות', hotel: 'לינה', shopping: 'קניות', medical: 'רפואה', transport: 'תחבורה' };
+// Quick-jump areas: [center, zoom].
+const AREAS = {
+  all: { label: 'כל האזורים', view: [[8.3, 98.6], 9] },
+  'phuket-north': { label: 'צפון פוקט', view: [[8.09, 98.31], 12] },
+  phuket: { label: 'פוקט – מרכז ודרום', view: [[7.86, 98.35], 11] },
+  khaolak: { label: 'קאו לאק', view: [[8.68, 98.26], 11] },
+  phangnga: { label: 'פנג נגה', view: [[8.42, 98.52], 10] },
+  khaosok: { label: 'קאו סוק', view: [[8.91, 98.6], 11] },
+  krabi: { label: 'קראבי', view: [[8.07, 98.84], 11] },
+  lanta: { label: 'קו לנטה', view: [[7.57, 99.06], 11] },
+};
 // Places the "what now" picker never suggests.
-const NOT_SUGGESTED = new Set(['hotel', 'medical', 'transport']);
+const NOT_SUGGESTED = new Set(['hotel', 'medical', 'transport', 'shopping']);
 // How well each category fits each part of the day (0 = skip).
 const SLOT_WEIGHTS = {
   morning:   { nature: 3, waterfall: 3, wildlife: 3, beach: 2, viewpoint: 2, market: 1, culture: 1, cafe: 1 },
-  midday:    { food: 3, cafe: 3, culture: 2, shopping: 2, wildlife: 1 },
+  midday:    { food: 3, cafe: 3, culture: 2, wildlife: 1 },
   afternoon: { beach: 3, viewpoint: 2, market: 2, nature: 1, cafe: 1, waterfall: 1 },
   evening:   { food: 3, market: 3, viewpoint: 1 },
   night:     { food: 2, market: 1 },
 };
 const SLOT_TITLE = {
-  morning: '☀️ בוקר: זמן טוב לטבע, לפני החום',
+  morning: '☀️ בוקר: טבע, לפני החום',
   midday: '🌤️ צהריים: אוכל, מזגן ומנוחה',
   afternoon: '🌅 אחר הצהריים: חוף ושקיעה',
   evening: '🌙 ערב: שווקים וארוחת ערב',
@@ -24,9 +42,9 @@ const SLOT_TITLE = {
 };
 // Booked stays: used to pick a default "base" by date when GPS isn't available.
 const STAYS = [
-  { id: 'naiyang-park-resort', from: '2026-10-28', to: '2026-10-30', label: 'נאי יאנג' },
-  { id: 'jasmin-resort', from: '2026-11-01', to: '2026-11-08', label: 'קאו לאק' },
-  { id: 'krabi-villa', from: '2026-11-11', to: '2026-11-17', label: 'קראבי' },
+  { id: 'naiyang-park-resort', from: '2026-10-28', to: '2026-10-30', label: 'המלון בנאי יאנג' },
+  { id: 'jasmin-resort', from: '2026-11-01', to: '2026-11-08', label: 'המלון בקאו לאק' },
+  { id: 'krabi-villa', from: '2026-11-11', to: '2026-11-17', label: 'הווילה בקראבי' },
 ];
 const MAX_SUGGEST_KM = 60;
 // Straight-line distance lies across the bays (Krabi↔Phuket is ~45 km by air, 3 h by road),
@@ -34,13 +52,18 @@ const MAX_SUGGEST_KM = 60;
 const REGION_GROUP = { 'phuket-north': 'phuket', phuket: 'phuket', khaolak: 'khaolak', phangnga: 'phangnga', khaosok: 'khaosok', krabi: 'krabi', lanta: 'lanta' };
 const NEAR_ANY_REGION_KM = 25;
 const NOA_CATS = new Set(['wildlife', 'nature', 'waterfall', 'beach', 'viewpoint']);
+const LABEL_ZOOM = 14;
 
 const state = {
   data: null,
   places: [],
+  byId: new Map(),
   cat: 'all',
+  area: load('area', 'all'),
+  query: '',
   babyOnly: load('babyOnly', false),
   visited: new Set(load('visited', [])),
+  favs: new Set(load('favs', [])),
   origin: null,          // {lat, lon, label, kind: 'gps'|'base'}
   originChoice: load('originChoice', 'auto'),
   gpsWatch: null,
@@ -72,11 +95,13 @@ function thaiNow() {
 }
 const toMin = (hhmm) => Number(hhmm.slice(0, 2)) * 60 + Number(hhmm.slice(2));
 const fmt = (hhmm) => `${hhmm.slice(0, 2)}:${hhmm.slice(2)}`;
+const ot24 = (periods) => periods.length === 1 && periods[0][1] === '0000' && periods[0][3] === '2400';
 
 // Returns {status: 'open'|'closed'|'unknown', until?, opensAt?, today: ["10:00–23:00", ...]}
 function hoursInfo(p, now) {
   const periods = p.geo && p.geo.periods;
   if (!periods || !periods.length) return { status: 'unknown', today: [] };
+  if (ot24(periods)) return { status: 'unknown', allDay: true, today: [] };
   const WEEK = 10080;
   let status = 'closed', until = null, opensAt = null;
   const today = [];
@@ -92,20 +117,16 @@ function hoursInfo(p, now) {
       if (o > now.minOfWeek && (opensAt === null || o < opensAt.min)) opensAt = { min: o, t: ot };
     }
   }
-  if (ot24(periods)) return { status: 'unknown', allDay: true, today: [] };
   return { status, until, opensAt: opensAt && opensAt.t, today };
 }
-const ot24 = (periods) => periods.length === 1 && periods[0][1] === '0000' && periods[0][3] === '2400';
-
 function hoursLine(h) {
-  if (h.status === 'open') return `<span class="open">פתוח עכשיו${h.until ? ' עד ' + fmt(h.until) : ''}</span>`;
+  if (h.status === 'open') return `<span class="open">פתוח${h.until ? ' עד ' + fmt(h.until) : ' עכשיו'}</span>`;
   if (h.status === 'closed') {
-    if (h.opensAt) return `<span class="soon">נפתח היום ב-${fmt(h.opensAt)}</span>`;
+    if (h.opensAt) return `<span class="soon">נפתח ב-${fmt(h.opensAt)}</span>`;
     return '<span class="closed">סגור היום</span>';
   }
   return '';
 }
-
 function slotFor(now) {
   const h = now.hour;
   if (h >= 6 && h < 11) return 'morning';
@@ -127,14 +148,21 @@ const driveMin = (d) => Math.round((d * 1.4) / 45 * 60 + 3);
 function distLabel(p) {
   if (!state.origin) return '';
   const d = km(state.origin, p);
-  if (d < 1) return `${Math.round(d * 1000)} מ' ממך`;
-  return `${d < 10 ? d.toFixed(1) : Math.round(d)} ק"מ · ~${driveMin(d)} דק' נסיעה`;
+  if (d < 1) return `${Math.round(d * 1000)} מ'`;
+  const m = driveMin(d);
+  return `${d < 10 ? d.toFixed(1) : Math.round(d)} ק"מ · ${m < 60 ? `~${m} דק'` : `~${(m / 60).toFixed(1).replace('.0', '')} שע'`}`;
 }
 
 // ---------- filtering ----------
-function visiblePlaces() {
-  return state.places.filter((p) =>
-    (state.cat === 'all' || p.category === state.cat || (state.cat === 'food' && p.category === 'cafe')) && (!state.babyOnly || p.baby >= 3 || p.category === 'hotel'));
+function matchesCat(p) {
+  if (state.cat === 'all') return true;
+  if (state.cat === 'fav') return state.favs.has(p.id);
+  return p.category === state.cat || (state.cat === 'food' && p.category === 'cafe');
+}
+function visiblePlaces({ ignoreArea = false } = {}) {
+  return state.places.filter((p) => matchesCat(p) &&
+    (!state.babyOnly || p.baby >= 3 || p.category === 'hotel') &&
+    (ignoreArea || state.area === 'all' || p.region === state.area));
 }
 
 // ---------- origin (GPS or booked base) ----------
@@ -142,7 +170,7 @@ function stayForDate(date) {
   return STAYS.find((s) => date >= s.from && date <= s.to);
 }
 function baseOrigin(id, label) {
-  const p = state.places.find((x) => x.id === id);
+  const p = state.byId.get(id);
   return p && { lat: p.lat, lon: p.lon, label, kind: 'base' };
 }
 function resolveOrigin() {
@@ -163,100 +191,143 @@ function resolveOrigin() {
 function startGps() {
   if (!('geolocation' in navigator)) return;
   state.gpsWatch = navigator.geolocation.watchPosition((pos) => {
-    state.origin = { lat: pos.coords.latitude, lon: pos.coords.longitude, label: 'אני כאן', kind: 'gps' };
+    state.origin = { lat: pos.coords.latitude, lon: pos.coords.longitude, label: 'המיקום שלי', kind: 'gps' };
     updateMe();
     renderLists();
-    renderLocLabel();
   }, () => { /* denied/unavailable: keep base fallback */ }, { enableHighAccuracy: true, maximumAge: 60000, timeout: 20000 });
 }
 function stopGps() {
   if (state.gpsWatch !== null) navigator.geolocation.clearWatch(state.gpsWatch);
   state.gpsWatch = null;
 }
-function renderLocLabel() {
-  $('#locLabel').textContent = state.origin ? state.origin.label : 'מיקום';
-}
-function openLocMenu() {
-  const opts = [
-    ['auto', '✨ אוטומטי (GPS, ואם אין, לפי המלון של היום)'],
-    ['gps', '🛰️ רק GPS'],
-    ...STAYS.map((s) => [s.id, `🏨 ${s.label} (${s.from.slice(8)}.${s.from.slice(5, 7)}–${s.to.slice(8)}.${s.to.slice(5, 7)})`]),
-  ];
-  $('#locOptions').innerHTML = opts.map(([v, l]) =>
-    `<button class="btn ${state.originChoice === v ? 'primary' : ''}" data-v="${v}" type="button">${esc(l)}</button>`).join('');
-  $('#locMenu').hidden = false;
+function originHtml() {
+  return state.origin
+    ? `📍 מרחקים מ<b>${esc(state.origin.label)}</b> · שינוי`
+    : '📍 <b>בחרו נקודת מוצא</b> כדי לראות מרחקים';
 }
 
 // ---------- map ----------
-let map, markerLayer, meMarker;
+let map, cluster, meMarker;
 function initMap() {
-  map = L.map('map', { zoomControl: false, attributionControl: true }).setView([8.35, 98.5], 9);
+  map = L.map('map', { zoomControl: false, attributionControl: true });
   const esri = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
   const satellite = L.layerGroup([
-    L.tileLayer(esri + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Imagery © Esri, Maxar, Earthstar Geographics' }),
-    // Place names and roads on top of the photo.
+    L.tileLayer(esri + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Imagery © Esri, Maxar' }),
+    // English place names and roads on top of the photo.
     L.tileLayer(esri + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }),
     L.tileLayer(esri + 'Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }),
   ]);
-  const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap' });
+  // Esri's street map has English labels (OpenStreetMap shows Thai script here).
+  const streets = L.tileLayer(esri + 'World_Street_Map/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: '© Esri, HERE, Garmin' });
   const layers = { '🛰️ תצלום אוויר': satellite, '🗺️ מפה רגילה': streets };
   const saved = load('baseLayer', '🛰️ תצלום אוויר');
   (layers[saved] || satellite).addTo(map);
   map.on('baselayerchange', (e) => save('baseLayer', e.name));
   L.control.layers(layers, null, { position: 'topleft' }).addTo(map);
   L.control.zoom({ position: 'bottomleft' }).addTo(map);
-  markerLayer = L.layerGroup().addTo(map);
+  cluster = L.markerClusterGroup({
+    maxClusterRadius: 44, showCoverageOnHover: false, spiderfyOnMaxZoom: true, disableClusteringAtZoom: 15,
+    iconCreateFunction: (c) => L.divIcon({ className: '', html: `<div class="cluster">${c.getChildCount()}</div>`, iconSize: [40, 40] }),
+  });
+  map.addLayer(cluster);
+  const syncLabels = () => map.getContainer().classList.toggle('show-labels', map.getZoom() >= LABEL_ZOOM);
+  map.on('zoomend', syncLabels);
+  const [c, z] = AREAS[state.area].view;
+  map.setView(c, z);
+  syncLabels();
 }
 function renderMap() {
-  markerLayer.clearLayers();
-  for (const p of visiblePlaces()) {
-    const cls = ['pin', p.category === 'hotel' ? 'hotel' : '', state.visited.has(p.id) ? 'visited' : ''].join(' ');
-    L.marker([p.lat, p.lon], {
-      icon: L.divIcon({ className: '', html: `<div class="${cls}">${CAT_ICON[p.category] || '📍'}</div>`, iconSize: [30, 30], iconAnchor: [15, 15] }),
+  cluster.clearLayers();
+  const markers = visiblePlaces({ ignoreArea: true }).map((p) => {
+    const cls = ['pin', state.visited.has(p.id) ? 'visited' : '', state.favs.has(p.id) ? 'fav' : ''].join(' ');
+    return L.marker([p.lat, p.lon], {
+      icon: L.divIcon({ className: '', html: `<div class="${cls}" style="--c:${CAT_COLOR[p.category]}">${CAT_ICON[p.category] || '📍'}</div>`, iconSize: [34, 34], iconAnchor: [17, 17] }),
       title: p.name_he,
-    }).on('click', () => openPlace(p.id)).addTo(markerLayer);
-  }
+    }).bindTooltip(esc(p.name_he), { permanent: true, direction: 'bottom', offset: [0, 14], className: 'pin-label' })
+      .on('click', () => openPlace(p.id));
+  });
+  cluster.addLayers(markers);
 }
 function updateMe() {
   if (!map || !state.origin || state.origin.kind !== 'gps') { if (meMarker) { meMarker.remove(); meMarker = null; } return; }
   const ll = [state.origin.lat, state.origin.lon];
-  if (!meMarker) meMarker = L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [16, 16] }), interactive: false }).addTo(map);
+  if (!meMarker) meMarker = L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [18, 18] }), interactive: false, zIndexOffset: 1000 }).addTo(map);
   else meMarker.setLatLng(ll);
 }
+function flyToArea(area) {
+  const [c, z] = AREAS[area].view;
+  map.flyTo(c, z, { duration: 0.8 });
+}
 
-// ---------- lists ----------
-function itemHtml(p, why) {
-  const now = thaiNow();
-  const h = hoursInfo(p, now);
-  const sub = [distLabel(p), hoursLine(h)].filter(Boolean).join(' · ');
-  return `<li class="item ${state.visited.has(p.id) ? 'visited' : ''}" data-id="${p.id}">
-    <div class="ico">${CAT_ICON[p.category] || '📍'}</div>
+// ---------- cards ----------
+function navUrl(p) {
+  const g = p.geo || {};
+  return `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lon}${g.place_id ? '&destination_place_id=' + g.place_id : ''}`;
+}
+function tagsHtml(p) {
+  const t = [];
+  if (p.rec && p.rec.includes('מישלן')) t.push('<span class="tag mich">🎖️ מישלן</span>');
+  if (p.vibe === 'local') t.push('<span class="tag local">🇹🇭 מקומי</span>');
+  if (p.meal === 'breakfast') t.push('<span class="tag">🍳 בוקר</span>');
+  if (p.tip_he.includes('⭐') && NOA_CATS.has(p.category)) t.push('<span class="tag">⭐ לנועה</span>');
+  if (p.baby === 1) t.push('<span class="tag">💪 מאמץ</span>');
+  return t.join('');
+}
+function cardHtml(p, why) {
+  const h = hoursInfo(p, thaiNow());
+  const g = p.geo || {};
+  const sub = [distLabel(p), hoursLine(h), g.rating ? `★ ${g.rating}` : ''].filter(Boolean).join(' · ');
+  const fav = state.favs.has(p.id);
+  return `<li class="card ${state.visited.has(p.id) ? 'visited' : ''}" data-id="${p.id}">
+    <div class="cat-ico" style="--c:${CAT_COLOR[p.category]}">${CAT_ICON[p.category] || '📍'}</div>
     <div class="body">
       <div class="name">${esc(p.name_he)}${state.visited.has(p.id) ? ' ✓' : ''}</div>
       <div class="sub">${sub || esc(state.data.meta.regions[p.region])}</div>
-      ${why ? `<div class="why">${why}</div>` : ''}
-    </div></li>`;
+      <div class="tags">${tagsHtml(p)}</div>
+    </div>
+    <div class="card-actions">
+      <a class="go" href="${navUrl(p)}" target="_blank" rel="noopener" aria-label="ניווט" data-stop>🧭</a>
+      <button class="fav" type="button" data-fav="${p.id}" aria-label="שמירה" data-stop>${fav ? '❤️' : '🤍'}</button>
+    </div>
+    ${why ? `<div class="why">${why}</div>` : ''}
+  </li>`;
 }
-function renderNearby() {
-  let items = visiblePlaces();
+function renderList() {
+  const q = state.query.trim().toLowerCase();
+  // A search looks everywhere, not only in the chosen area/category.
+  let items = q
+    ? state.places.filter((p) => [p.name_he, p.name, p.tip_he, p.rec || '', state.data.meta.regions[p.region]].some((f) => f.toLowerCase().includes(q)))
+    : visiblePlaces();
   if (state.origin) items = items.map((p) => [p, km(state.origin, p)]).sort((a, b) => a[1] - b[1]).map(([p]) => p);
-  $('#list').innerHTML = items.length ? items.map((p) => itemHtml(p)).join('') : '<li class="empty">אין מקומות בסינון הזה</li>';
+  $('#originLine').innerHTML = originHtml();
+  $('#list').innerHTML = items.length ? items.map((p) => cardHtml(p)).join('')
+    : `<li class="empty">${state.cat === 'fav' ? 'עוד לא שמרתם מקומות. לוחצים 🤍 על מקום כדי לשמור אותו.' : 'אין מקומות בסינון הזה'}</li>`;
 }
 
+// ---------- "what now" ----------
 // Small deterministic PRNG so "shuffle" gives a new but stable set.
 function rand(seed) { let t = seed + 0x6d2b79f5; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }
 function hash(s) { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) | 0; return h; }
-
+// If an area was picked far from where we are, suggest around that area instead.
+function suggestOrigin() {
+  if (state.area !== 'all') {
+    const [[lat, lon]] = AREAS[state.area].view;
+    const center = { lat, lon };
+    if (!state.origin || km(state.origin, center) > 40) return center;
+  }
+  return state.origin;
+}
 function suggestions() {
   const now = thaiNow();
   const slot = slotFor(now);
   const weights = SLOT_WEIGHTS[slot];
-  const scored = [];
+  const origin = suggestOrigin();
   let originGroup = null;
-  if (state.origin) {
+  if (origin) {
     let best = Infinity;
-    for (const p of state.places) { const dd = km(state.origin, p); if (dd < best) { best = dd; originGroup = REGION_GROUP[p.region]; } }
+    for (const p of state.places) { const dd = km(origin, p); if (dd < best) { best = dd; originGroup = REGION_GROUP[p.region]; } }
   }
+  const scored = [];
   for (const p of visiblePlaces()) {
     if (NOT_SUGGESTED.has(p.category)) continue;
     let score = weights[p.category] || 0;
@@ -267,20 +338,20 @@ function suggestions() {
     const h = hoursInfo(p, now);
     if (h.status === 'closed' && !(h.opensAt && toMin(h.opensAt) - (now.hour * 60 + now.minute) <= 90)) continue;
     if (h.status === 'open') { score += 1; if (p.category === 'market') { score += 2; reasons.push('🛍️ השוק פתוח היום'); } }
-    if (h.status === 'closed' && h.opensAt) reasons.push(`נפתח ב-${fmt(h.opensAt)}`);
     if (h.status === 'unknown' && p.category === 'market' && p.days === 'כל יום') score += 2;
-    if (state.origin) {
-      const d = km(state.origin, p);
+    if (origin) {
+      const d = km(origin, p);
       if (d > MAX_SUGGEST_KM) continue;
       if (REGION_GROUP[p.region] !== originGroup && d > NEAR_ANY_REGION_KM) continue;
       score -= d / 15;
     }
-    if (p.tip_he.includes('⭐')) { score += 0.7; if (NOA_CATS.has(p.category)) reasons.push('⭐ במיוחד בשביל נועה'); }
-    if (p.rec && p.rec.includes('מישלן')) { score += 0.5; reasons.push('🎖️ ' + p.rec); }
-    if (p.vibe === 'local') { score += 0.7; if (p.category === 'food' || p.category === 'cafe') reasons.push('🇹🇭 מקומי ואותנטי'); }
+    if (p.tip_he.includes('⭐')) score += 0.7;
+    if (p.rec && p.rec.includes('מישלן')) score += 0.5;
+    if (p.vibe === 'local') score += 0.7;
     if (p.vibe === 'mixed') score -= 1;
     if (p.meal === 'breakfast' && slot === 'morning') reasons.push('🍳 ארוחת בוקר מקומית');
     if (p.baby >= 3) score += 0.5;
+    if (state.favs.has(p.id)) { score += 1; reasons.push('❤️ שמרתם'); }
     if (state.visited.has(p.id)) score -= 2.5;
     score += rand(hash(p.id) ^ state.shuffleSeed) * 1.6;
     scored.push({ p, score, reasons });
@@ -295,71 +366,78 @@ function suggestions() {
   }
   return { slot, picked };
 }
+const firstSentence = (s) => s.replace(/^⭐\s*/, '').split(/(?<=[.!:])\s/)[0];
 function renderNow() {
   const { slot, picked } = suggestions();
   $('#nowTitle').textContent = SLOT_TITLE[slot];
+  $('#originLineNow').innerHTML = state.area !== 'all' && suggestOrigin() !== state.origin
+    ? `📍 הצעות באזור <b>${esc(AREAS[state.area].label)}</b>` : originHtml();
   $('#nowList').innerHTML = picked.length
-    ? picked.map(({ p, reasons }) => itemHtml(p, [esc(firstSentence(p.tip_he).replace(/^⭐\s*/, '')), ...reasons].join('<br>'))).join('')
-    : `<li class="empty">${state.origin ? 'לא מצאתי משהו פתוח וקרוב עכשיו. אפשר לנסות "הצעות אחרות" או להוריד את הסינון.' : 'בחרו מיקום (📍 למעלה) כדי לקבל הצעות קרובות'}</li>`;
+    ? picked.map(({ p, reasons }) => cardHtml(p, esc(firstSentence(p.tip_he)) + (reasons.length ? '<br>' + reasons.map((r) => `<span class="reason">${esc(r)}</span>`).join('') : ''))).join('')
+    : `<li class="empty">${suggestOrigin() ? 'לא מצאתי משהו פתוח וקרוב עכשיו. נסו "תציע משהו אחר" או הסירו סינון.' : 'בחרו אזור (למעלה) או נקודת מוצא כדי לקבל הצעות.'}</li>`;
 }
-const firstSentence = (s) => s.split(/(?<=[.!])\s/)[0];
 
 // ---------- place sheet ----------
+function openSheet(html) {
+  $('#sheetBody').innerHTML = html;
+  const card = $('.sheet-card');
+  card.scrollTop = 0; card.style.transform = '';
+  $('#sheet').hidden = false;
+}
+function closeSheet() { $('#sheet').hidden = true; }
 function openPlace(id) {
-  const p = state.places.find((x) => x.id === id);
+  const p = state.byId.get(id);
   if (!p) return;
-  const now = thaiNow();
-  const h = hoursInfo(p, now);
+  const h = hoursInfo(p, thaiNow());
   const g = p.geo || {};
   const babyTxt = { 3: '👶 קל עם נאם', 2: '👶 אפשרי עם מנשא', 1: '💪 מאמץ / להתפצל' }[p.baby];
-  const gmaps = `https://www.google.com/maps/search/?api=1&query=${p.lat},${p.lon}${g.place_id ? '&query_place_id=' + g.place_id : ''}`;
   const waze = `https://waze.com/ul?ll=${p.lat},${p.lon}&navigate=yes`;
-  const visited = state.visited.has(p.id);
-  $('#sheetBody').innerHTML = `
-    <h2>${CAT_ICON[p.category] || ''} ${esc(p.name_he)}</h2>
-    <div class="en">${esc(p.name)}</div>
-    <div style="margin-top:8px">
-      <span class="badge">${esc(state.data.meta.categories[p.category])}</span>
-      <span class="badge">${babyTxt}</span>
-      ${p.rec && !p.rec.startsWith('Google') ? `<span class="badge">🎖️ ${esc(p.rec)}</span>` : ''}
-      ${p.vibe ? `<span class="badge">${esc(state.data.meta.vibe[p.vibe])}</span>` : ''}
-      ${p.meal === 'breakfast' ? '<span class="badge">🍳 ארוחת בוקר</span>' : ''}
-      ${g.rating ? `<span class="badge">★ ${g.rating} (${g.reviews || 0})</span>` : ''}
+  const visited = state.visited.has(p.id), fav = state.favs.has(p.id);
+  const status = [hoursLine(h), distLabel(p) && `🚗 ${distLabel(p)}`, g.rating && `★ ${g.rating} (${(g.reviews || 0).toLocaleString('en')})`].filter(Boolean);
+  openSheet(`
+    <div class="sh-head">
+      <div class="cat-ico" style="--c:${CAT_COLOR[p.category]}">${CAT_ICON[p.category] || '📍'}</div>
+      <div><h2>${esc(p.name_he)}</h2><div class="en">${esc(p.name)}</div></div>
     </div>
-    <p class="tip">${esc(p.tip_he)}</p>
-    <div class="meta">
-      ${distLabel(p) ? `<div>📏 ${distLabel(p)}</div>` : ''}
-      ${hoursLine(h) ? `<div>🕒 ${hoursLine(h)}${h.today.length ? ` · היום: ${h.today.join(', ')}` : ''}</div>` : ''}
+    <div class="sh-status">${status.join('<span>·</span>')}</div>
+    <div class="sh-actions">
+      <a class="btn primary" href="${navUrl(p)}" target="_blank" rel="noopener">🧭 ניווט בגוגל מפות</a>
+      <a class="btn" href="${waze}" target="_blank" rel="noopener">🚗 Waze</a>
+      <button class="btn ${fav ? 'on' : ''}" type="button" data-fav="${p.id}">${fav ? '❤️ שמור' : '🤍 לשמור'}</button>
+    </div>
+    <div class="sh-tags">
+      <span class="tag">${esc(state.data.meta.categories[p.category])}</span>
+      <span class="tag">${babyTxt}</span>
+      ${p.rec && p.rec.includes('מישלן') ? `<span class="tag mich">🎖️ ${esc(p.rec)}</span>` : ''}
+      ${p.vibe ? `<span class="tag ${p.vibe === 'local' ? 'local' : ''}">${esc(state.data.meta.vibe[p.vibe])}</span>` : ''}
+      ${p.meal === 'breakfast' ? '<span class="tag">🍳 ארוחת בוקר</span>' : ''}
+    </div>
+    <p class="sh-tip">${esc(p.tip_he)}</p>
+    <div class="sh-info">
+      ${h.today.length ? `<div>🕒 היום: ${h.today.join(', ')}</div>` : ''}
       ${p.days || p.hours ? `<div>📅 ${g.periods ? 'לפי מדריכים: ' : ''}${esc([p.days, p.hours].filter(Boolean).join(' · '))}</div>` : ''}
       ${p.dates ? `<div>🛏️ ${esc(p.dates)}</div>` : ''}
       ${p.cost ? `<div>💰 ${esc(p.cost)}</div>` : ''}
       ${g.business_status && g.business_status !== 'OPERATIONAL' ? '<div class="closed">⚠️ לפי גוגל: סגור זמנית</div>' : ''}
+      <div>📍 ${esc(state.data.meta.regions[p.region])}</div>
     </div>
-    <div class="actions">
-      <a class="btn primary" href="${gmaps}" target="_blank" rel="noopener">🧭 גוגל מפות</a>
-      <a class="btn" href="${waze}" target="_blank" rel="noopener">🚗 Waze</a>
-      <button class="btn" type="button" data-visit="${p.id}">${visited ? '↩️ לא היינו' : '✓ היינו כאן'}</button>
-      <button class="btn ghost" type="button" data-fly="${p.id}">🗺️ במפה</button>
-    </div>`;
-  $('#sheet').hidden = false;
+    <div class="sh-actions">
+      <button class="btn ${visited ? 'on' : ''}" type="button" data-visit="${p.id}">${visited ? '✓ היינו כאן' : 'סמן שהיינו כאן'}</button>
+      <button class="btn" type="button" data-fly="${p.id}">🗺️ הצג במפה</button>
+    </div>`);
 }
-
-// ---------- rendering & events ----------
-function renderCats() {
+function openAreaMenu() {
   const counts = {};
-  for (const p of state.places) counts[p.category] = (counts[p.category] || 0) + 1;
-  // Most-used first; cafés are shown under restaurants.
-  const order = ['food', 'beach', 'nature', 'waterfall', 'viewpoint', 'wildlife', 'market', 'culture', 'hotel', 'shopping', 'medical', 'transport'];
-  const cats = ['all', ...order.filter((c) => counts[c])];
-  $('#cats').innerHTML = cats.map((c) => {
-    const label = c === 'all' ? 'הכל' : c === 'food' ? '🍜 מסעדות' : `${CAT_ICON[c]} ${state.data.meta.categories[c]}`;
-    return `<button class="chip ${state.cat === c ? 'on' : ''}" data-cat="${c}" type="button">${label}</button>`;
-  }).join('');
-}
-function renderLists() {
-  if (state.view === 'list') renderNearby();
-  if (state.view === 'now') renderNow();
-  if (state.view === 'dict') renderDict();
+  for (const p of state.places) counts[p.region] = (counts[p.region] || 0) + 1;
+  const opts = Object.entries(AREAS).map(([k, a]) =>
+    `<button class="btn ${state.area === k ? 'on' : ''}" type="button" data-area="${k}"><span>${esc(a.label)}</span><small>${k === 'all' ? state.places.length : counts[k] || 0}</small></button>`).join('');
+  const origins = [
+    ['auto', '✨ אוטומטי: GPS, ואם אין, המלון של היום'],
+    ['gps', '🛰️ רק GPS'],
+    ...STAYS.map((s) => [s.id, `🏨 ${s.label} (${s.from.slice(8)}.${s.from.slice(5, 7)}–${s.to.slice(8)}.${s.to.slice(5, 7)})`]),
+  ].map(([v, l]) => `<button class="btn ${state.originChoice === v ? 'on' : ''}" type="button" data-origin="${v}">${esc(l)}</button>`).join('');
+  openSheet(`<h3>לאן מסתכלים?</h3><div class="opt-list two">${opts}</div>
+    <div class="sec-title">מאיפה למדוד מרחקים?</div><div class="opt-list">${origins}</div>`);
 }
 
 // ---------- food dictionary ----------
@@ -376,26 +454,42 @@ function renderDict() {
   const items = dd.dishes.filter((x) => (state.dictTag === 'all' || x.tags.includes(state.dictTag)) &&
     (!q || [x.he, x.say, x.th, x.desc].some((f) => f.toLowerCase().includes(q))));
   $('#dictList').innerHTML = items.length ? items.map((x) => `
-    <li class="item dish" data-dish="${x.id}">
+    <li class="card dish" data-dish="${x.id}">
       <div class="body">
-        <div class="name">${esc(x.he)} <span class="spice">${SPICE[x.spicy]}</span>${x.tags.includes('baby') ? ' 👶' : ''}</div>
+        <div class="name">${esc(x.he)}${x.tags.includes('baby') ? ' 👶' : ''} <span class="spice">${SPICE[x.spicy]}</span></div>
         <div class="th">${esc(x.th)} <span class="say">· ${esc(x.say)}</span></div>
-        <div class="why">${esc(x.desc)}</div>
+        <div class="desc">${esc(x.desc)}</div>
       </div></li>`).join('') : '<li class="empty">לא נמצאה מנה</li>';
 }
 // Big Thai text to show the waiter.
 function showThai(th, say, he, desc) {
-  $('#sheetBody').innerHTML = `
+  openSheet(`
     <div class="show-th th">${esc(th)}</div>
     <div class="show-say">${esc(say)}</div>
-    <h2 style="text-align:center;margin-top:14px;padding:0">${esc(he)}</h2>
-    ${desc ? `<p class="tip">${esc(desc)}</p>` : ''}
-    ${desc ? '<div class="show-say" style="margin-top:10px">רוצים פחות חריף? להוסיף: <span class="th">ไม่เผ็ด</span> (מאי פֶּט)</div>' : ''}`;
-  $('#sheet').hidden = false;
+    <h2 style="text-align:center;margin-top:14px">${esc(he)}</h2>
+    ${desc ? `<p class="sh-tip">${esc(desc)}</p>` : ''}
+    ${desc ? '<div class="show-say">רוצים פחות חריף? להוסיף: <span class="th">ไม่เผ็ด</span> (מאי פֶּט)</div>' : ''}`);
+}
+
+// ---------- rendering & events ----------
+function renderCats() {
+  const counts = {};
+  for (const p of state.places) counts[p.category === 'cafe' ? 'food' : p.category] = (counts[p.category === 'cafe' ? 'food' : p.category] || 0) + 1;
+  const chips = [['all', 'הכל'], ['fav', `❤️ שמורים${state.favs.size ? ` (${state.favs.size})` : ''}`],
+    ...CAT_ORDER.filter((c) => counts[c]).map((c) => [c, `${CAT_ICON[c]} ${CAT_SHORT[c]}`])];
+  $('#cats').innerHTML = chips.map(([c, l]) => `<button class="chip ${state.cat === c ? 'on' : ''}" data-cat="${c}" type="button">${l}</button>`).join('');
+}
+function renderHeader() {
+  $('#regionLabel').textContent = AREAS[state.area].label;
+  $('#babyBtn').setAttribute('aria-pressed', String(state.babyOnly));
+}
+function renderLists() {
+  if (state.view === 'list') renderList();
+  if (state.view === 'now') renderNow();
+  if (state.view === 'dict') renderDict();
 }
 function renderAll() {
-  renderLocLabel();
-  $('#babyBtn').setAttribute('aria-pressed', String(state.babyOnly));
+  renderHeader();
   renderCats();
   renderMap();
   updateMe();
@@ -409,6 +503,29 @@ function setView(v) {
   if (v === 'map') setTimeout(() => map.invalidateSize(), 0);
   renderLists();
 }
+function toggleSet(set, key, id) {
+  set.has(id) ? set.delete(id) : set.add(id);
+  save(key, [...set]);
+}
+
+// Drag the sheet down to close it.
+function bindSheetSwipe() {
+  const card = $('.sheet-card');
+  let y0 = null, dy = 0;
+  card.addEventListener('touchstart', (e) => { if (card.scrollTop <= 0) { y0 = e.touches[0].clientY; dy = 0; card.style.transition = 'none'; } }, { passive: true });
+  card.addEventListener('touchmove', (e) => {
+    if (y0 === null) return;
+    dy = Math.max(0, e.touches[0].clientY - y0);
+    card.style.transform = `translateY(${dy}px)`;
+  }, { passive: true });
+  card.addEventListener('touchend', () => {
+    if (y0 === null) return;
+    card.style.transition = '';
+    if (dy > 90) closeSheet();
+    card.style.transform = '';
+    y0 = null;
+  });
+}
 
 function bind() {
   document.querySelector('.tabs').addEventListener('click', (e) => {
@@ -419,14 +536,23 @@ function bind() {
     state.cat = b.dataset.cat; renderAll();
   });
   $('#babyBtn').addEventListener('click', () => { state.babyOnly = !state.babyOnly; save('babyOnly', state.babyOnly); renderAll(); });
-  $('#locBtn').addEventListener('click', openLocMenu);
-  $('#locOptions').addEventListener('click', (e) => {
-    const b = e.target.closest('[data-v]'); if (!b) return;
-    state.originChoice = b.dataset.v; save('originChoice', state.originChoice);
-    $('#locMenu').hidden = true; resolveOrigin();
+  $('#regionBtn').addEventListener('click', openAreaMenu);
+  $('#searchBtn').addEventListener('click', () => { setView('list'); $('#placeSearch').focus(); });
+  $('#placeSearch').addEventListener('input', (e) => { state.query = e.target.value; renderList(); });
+  for (const id of ['#originLine', '#originLineNow']) $(id).addEventListener('click', openAreaMenu);
+  $('#locateBtn').addEventListener('click', () => {
+    if (state.origin && state.origin.kind === 'gps') map.flyTo([state.origin.lat, state.origin.lon], 14);
+    else if (state.origin) map.flyTo([state.origin.lat, state.origin.lon], 13);
+    else openAreaMenu();
   });
+  // Cards: the 🧭 / ❤️ buttons act on their own, the rest of the card opens details.
   for (const list of ['#list', '#nowList']) {
-    $(list).addEventListener('click', (e) => { const li = e.target.closest('[data-id]'); if (li) openPlace(li.dataset.id); });
+    $(list).addEventListener('click', (e) => {
+      const f = e.target.closest('[data-fav]');
+      if (f) { toggleSet(state.favs, 'favs', f.dataset.fav); renderCats(); renderMap(); renderLists(); return; }
+      if (e.target.closest('[data-stop]')) return;
+      const li = e.target.closest('[data-id]'); if (li) openPlace(li.dataset.id);
+    });
   }
   $('#dictSearch').addEventListener('input', (e) => { state.dictQuery = e.target.value; renderDict(); });
   $('#dictTags').addEventListener('click', (e) => { const b = e.target.closest('[data-tag]'); if (b) { state.dictTag = b.dataset.tag; renderDict(); } });
@@ -441,25 +567,23 @@ function bind() {
     showThai(ph.th, ph.say, ph.he);
   });
   $('#shuffleBtn').addEventListener('click', () => { state.shuffleSeed = (state.shuffleSeed + 1) * 7919; renderNow(); });
-  const closeSheets = (e) => {
-    if (e.target.matches('.sheet') || e.target.closest('.close')) e.target.closest('.sheet').hidden = true;
-  };
-  $('#sheet').addEventListener('click', closeSheets);
-  $('#locMenu').addEventListener('click', closeSheets);
-  $('#sheetBody').addEventListener('click', (e) => {
+  $('#sheet').addEventListener('click', (e) => {
+    if (e.target.matches('.sheet') || e.target.closest('.close')) { closeSheet(); return; }
+    const a = e.target.closest('[data-area]');
+    if (a) { state.area = a.dataset.area; save('area', state.area); closeSheet(); flyToArea(state.area); renderAll(); return; }
+    const o = e.target.closest('[data-origin]');
+    if (o) { state.originChoice = o.dataset.origin; save('originChoice', state.originChoice); closeSheet(); resolveOrigin(); return; }
     const v = e.target.closest('[data-visit]');
-    if (v) {
-      const id = v.dataset.visit;
-      state.visited.has(id) ? state.visited.delete(id) : state.visited.add(id);
-      save('visited', [...state.visited]);
-      openPlace(id); renderMap(); renderLists();
-    }
-    const f = e.target.closest('[data-fly]');
-    if (f) {
-      const p = state.places.find((x) => x.id === f.dataset.fly);
-      $('#sheet').hidden = true; setView('map'); map.setView([p.lat, p.lon], 15);
+    if (v) { toggleSet(state.visited, 'visited', v.dataset.visit); openPlace(v.dataset.visit); renderMap(); renderLists(); return; }
+    const f = e.target.closest('[data-fav]');
+    if (f) { toggleSet(state.favs, 'favs', f.dataset.fav); openPlace(f.dataset.fav); renderCats(); renderMap(); renderLists(); return; }
+    const fly = e.target.closest('[data-fly]');
+    if (fly) {
+      const p = state.byId.get(fly.dataset.fly);
+      closeSheet(); setView('map'); map.setView([p.lat, p.lon], 16);
     }
   });
+  bindSheetSwipe();
   const net = () => { $('#offline').hidden = navigator.onLine; };
   addEventListener('online', net); addEventListener('offline', net); net();
   // Re-evaluate "open now" and time-of-day every few minutes.
@@ -471,11 +595,15 @@ async function start() {
   state.data = await res.json();
   state.dishes = await dres.json();
   state.places = state.data.places;
+  state.byId = new Map(state.places.map((p) => [p.id, p]));
+  if (!AREAS[state.area]) state.area = 'all';
   initMap();
   bind();
   resolveOrigin();
-  const stay = stayForDate(thaiNow().date);
-  if (stay) { const p = state.places.find((x) => x.id === stay.id); map.setView([p.lat, p.lon], 11); }
+  if (state.area === 'all') {
+    const stay = stayForDate(thaiNow().date);
+    if (stay) { const p = state.byId.get(stay.id); map.setView([p.lat, p.lon], 12); }
+  }
   if ('serviceWorker' in navigator) {
     // When a new version takes over, reload once so the new app and data show up right away.
     const hadController = !!navigator.serviceWorker.controller;
