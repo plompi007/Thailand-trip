@@ -1,0 +1,16 @@
+{
+  "name": "תאילנד 2026",
+  "short_name": "תאילנד",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f1",
+  "theme_color": "#0f766e",
+  "icons": [
+    { "src": "app/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "app/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "app/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

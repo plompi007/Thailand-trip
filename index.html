@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>תאילנד 2026</title>
+  <meta name="theme-color" content="#0f766e">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="app/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="app/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="app/vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="app/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="title">🐘 תאילנד</div>
+    <button id="locBtn" class="chip" type="button">📍 <span id="locLabel">מיקום</span></button>
+    <button id="babyBtn" class="chip toggle" type="button" aria-pressed="false" title="רק מקומות שקלים עם נאם">👶 קל עם נאם</button>
+    <span id="offline" class="offline" hidden>אופליין</span>
+  </header>
+
+  <nav id="cats" class="cats" aria-label="קטגוריות"></nav>
+
+  <main>
+    <section id="view-map" class="view active"><div id="map"></div></section>
+    <section id="view-list" class="view"><ul id="list" class="list"></ul></section>
+    <section id="view-now" class="view">
+      <div class="now-head">
+        <div id="nowTitle" class="now-title"></div>
+        <button id="shuffleBtn" class="btn ghost" type="button">🔀 עוד</button>
+      </div>
+      <ul id="nowList" class="list"></ul>
+    </section>
+  </main>
+
+  <nav class="tabs" aria-label="תצוגה">
+    <button data-view="map" class="active" type="button">🗺️<span>מפה</span></button>
+    <button data-view="list" type="button">📋<span>קרוב אליי</span></button>
+    <button data-view="now" type="button">✨<span>מה עושים?</span></button>
+  </nav>
+
+  <div id="sheet" class="sheet" hidden>
+    <div class="sheet-card" role="dialog" aria-modal="true">
+      <button id="sheetClose" class="close" type="button" aria-label="סגירה">✕</button>
+      <div id="sheetBody"></div>
+    </div>
+  </div>
+
+  <div id="locMenu" class="sheet" hidden>
+    <div class="sheet-card">
+      <button class="close" type="button" data-close aria-label="סגירה">✕</button>
+      <h3>מאיפה למדוד מרחקים?</h3>
+      <div id="locOptions" class="loc-options"></div>
+    </div>
+  </div>
+
+  <script src="app/vendor/leaflet/leaflet.js"></script>
+  <script src="app/app.js"></script>
+</body>
+</html>

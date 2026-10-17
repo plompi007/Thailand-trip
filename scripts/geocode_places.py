@@ -1,6 +1,7 @@
 """Verify/refresh coordinates in data/places.json using Google Places API (New) Text Search.
 
-Usage: GOOGLE_MAPS_API_KEY=... python3 scripts/geocode_places.py
+Usage: GOOGLE_MAPS_API_KEY=... python3 scripts/geocode_places.py [--hours]
+--hours only refreshes opening hours for already-matched places (by place_id).
 Each place is searched by its English name + region, biased to its current (approximate)
 coordinates. Results that land far from the approximation are flagged for manual review.
 """
@@ -46,11 +47,39 @@ def search(key, query, lat, lon):
     return places[0] if places else None
 
 
+def refresh_hours(key, data):
+    """Store machine-readable opening periods: [open_day, "HHMM", close_day, "HHMM"], day 0 = Sunday."""
+    for p in data["places"]:
+        pid = p.get("geo", {}).get("place_id")
+        if not pid:
+            continue
+        req = urllib.request.Request(f"https://places.googleapis.com/v1/places/{pid}", headers={
+            "X-Goog-Api-Key": key, "X-Goog-FieldMask": "regularOpeningHours",
+        })
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            oh = json.load(resp).get("regularOpeningHours", {})
+        periods = []
+        for per in oh.get("periods", []):
+            o, c = per["open"], per.get("close")
+            if c is None:  # open 24h
+                periods = [[0, "0000", 0, "2400"]]
+                break
+            periods.append([o["day"], f'{o["hour"]:02d}{o["minute"]:02d}', c["day"], f'{c["hour"]:02d}{c["minute"]:02d}'])
+        if periods:
+            p["geo"]["periods"] = periods
+        if oh.get("weekdayDescriptions"):
+            p["geo"]["hours"] = oh["weekdayDescriptions"]
+    json.dump(data, open(PLACES_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(sum(1 for p in data["places"] if p.get("geo", {}).get("periods")), "places with opening periods")
+
+
 def main():
     key = os.environ.get("GOOGLE_MAPS_API_KEY")
     if not key:
         sys.exit("GOOGLE_MAPS_API_KEY is not set")
     data = json.load(open(PLACES_FILE, encoding="utf-8"))
+    if "--hours" in sys.argv:
+        return refresh_hours(key, data)
     flagged = []
     for p in data["places"]:
         query = f'{p["name"]}, {REGION_HINT.get(p["region"], "")}, Thailand'
