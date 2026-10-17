@@ -1,7 +1,7 @@
 // Offline support: the app shell + data are precached; map tiles are cached as they are viewed.
-const SHELL = 'shell-v3';
+const SHELL = 'shell-v4';
 const TILES = 'tiles-v1';
-const MAX_TILES = 6000;
+const MAX_TILES = 12000;
 const SHELL_FILES = [
   './', 'index.html', 'manifest.webmanifest', 'data/places.json',
   'app/app.js', 'app/style.css', 'app/icon.svg', 'app/icon-192.png', 'app/icon-512.png',
@@ -29,7 +29,7 @@ self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
 
   // Map tiles: cache-first, keep what was seen so the map works offline later.
-  if (url.hostname === 'tile.openstreetmap.org') {
+  if (url.hostname === 'tile.openstreetmap.org' || url.hostname === 'server.arcgisonline.com') {
     e.respondWith(caches.open(TILES).then(async (cache) => {
       const hit = await cache.match(e.request);
       if (hit) return hit;

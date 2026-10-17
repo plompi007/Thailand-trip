@@ -131,7 +131,7 @@ function distLabel(p) {
 // ---------- filtering ----------
 function visiblePlaces() {
   return state.places.filter((p) =>
-    (state.cat === 'all' || p.category === state.cat) && (!state.babyOnly || p.baby >= 3 || p.category === 'hotel'));
+    (state.cat === 'all' || p.category === state.cat || (state.cat === 'food' && p.category === 'cafe')) && (!state.babyOnly || p.baby >= 3 || p.category === 'hotel'));
 }
 
 // ---------- origin (GPS or booked base) ----------
@@ -188,9 +188,19 @@ function openLocMenu() {
 let map, markerLayer, meMarker;
 function initMap() {
   map = L.map('map', { zoomControl: false, attributionControl: true }).setView([8.35, 98.5], 9);
-  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 18, attribution: '© OpenStreetMap',
-  }).addTo(map);
+  const esri = 'https://server.arcgisonline.com/ArcGIS/rest/services/';
+  const satellite = L.layerGroup([
+    L.tileLayer(esri + 'World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18, attribution: 'Imagery © Esri, Maxar, Earthstar Geographics' }),
+    // Place names and roads on top of the photo.
+    L.tileLayer(esri + 'Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }),
+    L.tileLayer(esri + 'Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}', { maxZoom: 18 }),
+  ]);
+  const streets = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 18, attribution: '© OpenStreetMap' });
+  const layers = { '🛰️ תצלום אוויר': satellite, '🗺️ מפה רגילה': streets };
+  const saved = load('baseLayer', '🛰️ תצלום אוויר');
+  (layers[saved] || satellite).addTo(map);
+  map.on('baselayerchange', (e) => save('baseLayer', e.name));
+  L.control.layers(layers, null, { position: 'topleft' }).addTo(map);
   L.control.zoom({ position: 'bottomleft' }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
@@ -335,9 +345,11 @@ function openPlace(id) {
 function renderCats() {
   const counts = {};
   for (const p of state.places) counts[p.category] = (counts[p.category] || 0) + 1;
-  const cats = ['all', ...Object.keys(state.data.meta.categories).filter((c) => counts[c])];
+  // Most-used first; cafés are shown under restaurants.
+  const order = ['food', 'beach', 'nature', 'waterfall', 'viewpoint', 'wildlife', 'market', 'culture', 'hotel', 'shopping', 'medical', 'transport'];
+  const cats = ['all', ...order.filter((c) => counts[c])];
   $('#cats').innerHTML = cats.map((c) => {
-    const label = c === 'all' ? 'הכל' : `${CAT_ICON[c]} ${state.data.meta.categories[c]}`;
+    const label = c === 'all' ? 'הכל' : c === 'food' ? '🍜 מסעדות' : `${CAT_ICON[c]} ${state.data.meta.categories[c]}`;
     return `<button class="chip ${state.cat === c ? 'on' : ''}" data-cat="${c}" type="button">${label}</button>`;
   }).join('');
 }

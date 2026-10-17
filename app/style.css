@@ -126,3 +126,4 @@ main { flex: 1; position: relative; min-height: 0; }
 .pin.visited { opacity: .5; }
 .me-dot { width: 16px; height: 16px; background: #2563eb; border: 3px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px rgba(37,99,235,.35); }
 .leaflet-container { font: inherit; }
+.leaflet-control-attribution { font-size: 9px; max-width: 75%; line-height: 1.3; }
