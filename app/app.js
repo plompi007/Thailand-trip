@@ -249,6 +249,7 @@ function suggestions() {
       score -= d / 15;
     }
     if (p.tip_he.includes('⭐')) { score += 0.7; reasons.push('⭐ במיוחד בשביל נועה'); }
+    if (p.rec && p.rec.includes('מישלן')) { score += 0.5; reasons.push('🎖️ ' + p.rec); }
     if (p.baby >= 3) score += 0.5;
     if (state.visited.has(p.id)) score -= 2.5;
     score += rand(hash(p.id) ^ state.shuffleSeed) * 1.6;
@@ -290,6 +291,7 @@ function openPlace(id) {
     <div style="margin-top:8px">
       <span class="badge">${esc(state.data.meta.categories[p.category])}</span>
       <span class="badge">${babyTxt}</span>
+      ${p.rec && !p.rec.startsWith('Google') ? `<span class="badge">🎖️ ${esc(p.rec)}</span>` : ''}
       ${g.rating ? `<span class="badge">★ ${g.rating} (${g.reviews || 0})</span>` : ''}
     </div>
     <p class="tip">${esc(p.tip_he)}</p>
