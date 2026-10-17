@@ -1,9 +1,9 @@
 // Offline support: the app shell + data are precached; map tiles are cached as they are viewed.
-const SHELL = 'shell-v5';
+const SHELL = 'shell-v6';
 const TILES = 'tiles-v1';
 const MAX_TILES = 12000;
 const SHELL_FILES = [
-  './', 'index.html', 'manifest.webmanifest', 'data/places.json',
+  './', 'index.html', 'manifest.webmanifest', 'data/places.json', 'data/dishes.json',
   'app/app.js', 'app/style.css', 'app/icon.svg', 'app/icon-192.png', 'app/icon-512.png',
   'app/vendor/leaflet/leaflet.js', 'app/vendor/leaflet/leaflet.css',
 ];

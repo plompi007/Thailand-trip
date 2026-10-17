@@ -31,7 +31,7 @@ const STAYS = [
 const MAX_SUGGEST_KM = 60;
 // Straight-line distance lies across the bays (Krabi↔Phuket is ~45 km by air, 3 h by road),
 // so suggestions stay within the region you're in, plus anything really close.
-const REGION_GROUP = { 'phuket-north': 'phuket', phuket: 'phuket', khaolak: 'khaolak', phangnga: 'phangnga', khaosok: 'khaosok', krabi: 'krabi' };
+const REGION_GROUP = { 'phuket-north': 'phuket', phuket: 'phuket', khaolak: 'khaolak', phangnga: 'phangnga', khaosok: 'khaosok', krabi: 'krabi', lanta: 'lanta' };
 const NEAR_ANY_REGION_KM = 25;
 const NOA_CATS = new Set(['wildlife', 'nature', 'waterfall', 'beach', 'viewpoint']);
 
@@ -45,6 +45,9 @@ const state = {
   originChoice: load('originChoice', 'auto'),
   gpsWatch: null,
   view: 'map',
+  dishes: null,
+  dictTag: 'all',
+  dictQuery: '',
   shuffleSeed: 0,
 };
 
@@ -356,6 +359,39 @@ function renderCats() {
 function renderLists() {
   if (state.view === 'list') renderNearby();
   if (state.view === 'now') renderNow();
+  if (state.view === 'dict') renderDict();
+}
+
+// ---------- food dictionary ----------
+const SPICE = ['🟢 לא חריף', '🌶️ קצת', '🌶️🌶️ חריף', '🌶️🌶️🌶️ חריף מאוד'];
+function renderDict() {
+  const dd = state.dishes;
+  if (!dd) return;
+  const tags = ['all', 'south', 'phuket', 'muslim', 'breakfast', 'baby', 'seafood', 'classic', 'sweet', 'drink'];
+  $('#dictTags').innerHTML = tags.map((t) =>
+    `<button class="chip ${state.dictTag === t ? 'on' : ''}" data-tag="${t}" type="button">${t === 'all' ? 'הכל' : t === 'baby' ? '👶 לנאם' : esc(dd.meta.tags[t])}</button>`).join('');
+  $('#phraseList').innerHTML = dd.phrases.map((ph, i) =>
+    `<li class="phrase" data-phrase="${i}"><div><div class="th">${esc(ph.th)}</div><div class="say">${esc(ph.say)}</div></div><div>${esc(ph.he)}</div></li>`).join('');
+  const q = state.dictQuery.trim().toLowerCase();
+  const items = dd.dishes.filter((x) => (state.dictTag === 'all' || x.tags.includes(state.dictTag)) &&
+    (!q || [x.he, x.say, x.th, x.desc].some((f) => f.toLowerCase().includes(q))));
+  $('#dictList').innerHTML = items.length ? items.map((x) => `
+    <li class="item dish" data-dish="${x.id}">
+      <div class="body">
+        <div class="name">${esc(x.he)} <span class="spice">${SPICE[x.spicy]}</span>${x.tags.includes('baby') ? ' 👶' : ''}</div>
+        <div class="th">${esc(x.th)} <span class="say">· ${esc(x.say)}</span></div>
+        <div class="why">${esc(x.desc)}</div>
+      </div></li>`).join('') : '<li class="empty">לא נמצאה מנה</li>';
+}
+// Big Thai text to show the waiter.
+function showThai(th, say, he, desc) {
+  $('#sheetBody').innerHTML = `
+    <div class="show-th th">${esc(th)}</div>
+    <div class="show-say">${esc(say)}</div>
+    <h2 style="text-align:center;margin-top:14px;padding:0">${esc(he)}</h2>
+    ${desc ? `<p class="tip">${esc(desc)}</p>` : ''}
+    ${desc ? '<div class="show-say" style="margin-top:10px">רוצים פחות חריף? להוסיף: <span class="th">ไม่เผ็ด</span> (מאי פֶּט)</div>' : ''}`;
+  $('#sheet').hidden = false;
 }
 function renderAll() {
   renderLocLabel();
@@ -369,6 +405,7 @@ function setView(v) {
   state.view = v;
   document.querySelectorAll('.view').forEach((el) => el.classList.toggle('active', el.id === 'view-' + v));
   document.querySelectorAll('.tabs button').forEach((b) => b.classList.toggle('active', b.dataset.view === v));
+  document.body.classList.toggle('dict-mode', v === 'dict');
   if (v === 'map') setTimeout(() => map.invalidateSize(), 0);
   renderLists();
 }
@@ -391,6 +428,18 @@ function bind() {
   for (const list of ['#list', '#nowList']) {
     $(list).addEventListener('click', (e) => { const li = e.target.closest('[data-id]'); if (li) openPlace(li.dataset.id); });
   }
+  $('#dictSearch').addEventListener('input', (e) => { state.dictQuery = e.target.value; renderDict(); });
+  $('#dictTags').addEventListener('click', (e) => { const b = e.target.closest('[data-tag]'); if (b) { state.dictTag = b.dataset.tag; renderDict(); } });
+  $('#dictList').addEventListener('click', (e) => {
+    const li = e.target.closest('[data-dish]'); if (!li) return;
+    const x = state.dishes.dishes.find((y) => y.id === li.dataset.dish);
+    showThai(x.th, x.say, x.he, x.desc);
+  });
+  $('#phraseList').addEventListener('click', (e) => {
+    const li = e.target.closest('[data-phrase]'); if (!li) return;
+    const ph = state.dishes.phrases[Number(li.dataset.phrase)];
+    showThai(ph.th, ph.say, ph.he);
+  });
   $('#shuffleBtn').addEventListener('click', () => { state.shuffleSeed = (state.shuffleSeed + 1) * 7919; renderNow(); });
   const closeSheets = (e) => {
     if (e.target.matches('.sheet') || e.target.closest('.close')) e.target.closest('.sheet').hidden = true;
@@ -418,8 +467,9 @@ function bind() {
 }
 
 async function start() {
-  const res = await fetch('data/places.json');
+  const [res, dres] = await Promise.all([fetch('data/places.json'), fetch('data/dishes.json')]);
   state.data = await res.json();
+  state.dishes = await dres.json();
   state.places = state.data.places;
   initMap();
   bind();

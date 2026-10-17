@@ -32,12 +32,24 @@
       </div>
       <ul id="nowList" class="list"></ul>
     </section>
+    <section id="view-dict" class="view">
+      <div class="dict-head">
+        <input id="dictSearch" type="search" placeholder="חיפוש מנה (עברית / תאית)" autocomplete="off">
+        <div id="dictTags" class="dict-tags"></div>
+      </div>
+      <details class="phrases">
+        <summary>💬 משפטים שימושיים במסעדה</summary>
+        <ul id="phraseList" class="list"></ul>
+      </details>
+      <ul id="dictList" class="list"></ul>
+    </section>
   </main>
 
   <nav class="tabs" aria-label="תצוגה">
     <button data-view="map" class="active" type="button">🗺️<span>מפה</span></button>
     <button data-view="list" type="button">📋<span>קרוב אליי</span></button>
     <button data-view="now" type="button">✨<span>מה עושים?</span></button>
+    <button data-view="dict" type="button">📖<span>מילון אוכל</span></button>
   </nav>
 
   <div id="sheet" class="sheet" hidden>

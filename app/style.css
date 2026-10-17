@@ -127,3 +127,21 @@ main { flex: 1; position: relative; min-height: 0; }
 .me-dot { width: 16px; height: 16px; background: #2563eb; border: 3px solid #fff; border-radius: 50%; box-shadow: 0 0 0 2px rgba(37,99,235,.35); }
 .leaflet-container { font: inherit; }
 .leaflet-control-attribution { font-size: 9px; max-width: 75%; line-height: 1.3; }
+
+body.dict-mode .cats { display: none; }
+.dict-head { position: sticky; top: 0; background: var(--bg); padding: 10px 12px 4px; z-index: 2; }
+#dictSearch { width: 100%; font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.dict-tags { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0 4px; scrollbar-width: none; }
+.dict-tags .chip { flex: none; }
+.phrases { margin: 4px 12px 0; background: var(--card); border: 1px solid var(--line); border-radius: 14px; }
+.phrases summary { padding: 12px; font-weight: 650; cursor: pointer; }
+.phrases .list { padding-top: 0; }
+.th { font-family: "Noto Sans Thai", "Leelawadee UI", Tahoma, sans-serif; }
+.dish .th { font-size: 18px; color: var(--accent); }
+.dish .say { color: var(--muted); font-size: 13px; }
+.spice { white-space: nowrap; font-size: 13px; }
+.show-th { font-size: 44px; line-height: 1.3; text-align: center; margin: 18px 0 6px; }
+.show-say { text-align: center; color: var(--muted); font-size: 16px; }
+.phrase { display: flex; justify-content: space-between; align-items: center; gap: 10px; background: var(--bg); border-radius: 12px; padding: 10px 12px; cursor: pointer; }
+.phrase .th { font-size: 20px; color: var(--accent); }
+.tabs button span { font-size: 11px; }

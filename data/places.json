@@ -29,7 +29,8 @@
    "khaolak": "קאו לאק",
    "phangnga": "פנג נגה (בדרך)",
    "khaosok": "קאו סוק",
-   "krabi": "קראבי / אאו נאנג"
+   "krabi": "קראבי / אאו נאנג",
+   "lanta": "קו לנטה"
   },
   "food_rule": "אוכל מקומי ואותנטי קודם. מסעדות מישלן, ומקומות שהמקומיים אוכלים בהם (חיפוש בתאילנדית לפי מנות מקומיות, עם ביקורות עקביות). מקומות מקומיים מקבלים לרוב דירוג נמוך יותר בגוגל, אז הרף אצלם הוא 4.3+. מסעדות לתיירים הוסרו.",
   "vibe": {
@@ -10927,6 +10928,1631 @@
      "Sunday: 8:30 AM – 4:30 PM"
     ]
    }
+  },
+  {
+   "id": "lanta-old-town",
+   "name": "Lanta Old Town (Si Raya)",
+   "name_he": "העיר העתיקה של לנטה (סי ראיה)",
+   "region": "lanta",
+   "category": "culture",
+   "lat": 7.531392,
+   "lon": 99.094311,
+   "baby": 3,
+   "tip_he": "⭐ רחוב בתי עץ על כלונסאות מעל הים בצד המזרחי, שבו חיים יחד סינים, מוסלמים וצ'או ליי. שקט, עם בתי קפה ומסעדות על המים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lanta Old Town",
+    "address": "G3JV+HP3, Ko Lanta Yai, Ko Lanta District, Krabi 81150, Thailand",
+    "place_id": "ChIJDR0AQ-QFTjAR2x79Srilkd8",
+    "maps_url": "https://maps.google.com/?cid=16109839553031642843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 6270,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "lanta-np-lighthouse",
+   "name": "Mu Ko Lanta National Park & Lighthouse",
+   "name_he": "הפארק הלאומי ומגדלור לנטה",
+   "region": "lanta",
+   "category": "nature",
+   "lat": 7.468275,
+   "lon": 99.098122,
+   "baby": 2,
+   "tip_he": "⭐ בקצה הדרומי של האי: מגדלור לבן על צוק, שביל טבע קצר ביער החוף ושני מפרצים. ⚠️ יש קופים, אז לא להחזיק אוכל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lighthouse Koh Lanta, Waterfall Bay",
+    "address": "F39X+865, Ko Lanta Yai, Ko Lanta District, Krabi, Thailand",
+    "place_id": "ChIJxU7Jm9MOTjARhnZTZeCVA4U",
+    "maps_url": "https://maps.google.com/?cid=9584669222979729030&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 621,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1730"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1730"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1730"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1730"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1730"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1730"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1730"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 5:30 PM",
+     "Tuesday: 8:30 AM – 5:30 PM",
+     "Wednesday: 8:30 AM – 5:30 PM",
+     "Thursday: 8:30 AM – 5:30 PM",
+     "Friday: 8:30 AM – 5:30 PM",
+     "Saturday: 8:30 AM – 5:30 PM",
+     "Sunday: 8:30 AM – 5:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "lanta-animal-welfare",
+   "name": "Lanta Animal Welfare",
+   "name_he": "לנטה אנימל וולפר",
+   "region": "lanta",
+   "category": "wildlife",
+   "lat": 7.590908,
+   "lon": 99.037673,
+   "baby": 3,
+   "tip_he": "⭐ לנועה: מקלט ומרפאה לחיות שהוקם ב-2005. סיור הדרכה על שיקום חיות, ואפשר לקחת כלב לטיול.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lanta Animal Welfare Visitor Centre",
+    "address": "629, Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJbTTdSyMDTjAR5fUc4ibuCw4",
+    "maps_url": "https://maps.google.com/?cid=1012164392044525029&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.9,
+    "reviews": 2386,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      1,
+      "1000",
+      1,
+      "1200"
+     ],
+     [
+      1,
+      "1300",
+      1,
+      "1600"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "1200"
+     ],
+     [
+      2,
+      "1300",
+      2,
+      "1600"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "1200"
+     ],
+     [
+      3,
+      "1300",
+      3,
+      "1600"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "1200"
+     ],
+     [
+      4,
+      "1300",
+      4,
+      "1600"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "1200"
+     ],
+     [
+      5,
+      "1300",
+      5,
+      "1600"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "1200"
+     ],
+     [
+      6,
+      "1300",
+      6,
+      "1600"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Tuesday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Wednesday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Thursday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Friday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Saturday: 10:00 AM – 12:00 PM, 1:00 – 4:00 PM",
+     "Sunday: Closed"
+    ]
+   }
+  },
+  {
+   "id": "khlong-dao-beach",
+   "name": "Khlong Dao Beach",
+   "name_he": "חוף קלונג דאו",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.637188,
+   "lon": 99.029609,
+   "baby": 3,
+   "tip_he": "חוף ארוך עם מים רדודים ורגועים. החוף הכי משפחתי בלנטה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khlong Dao Beach",
+    "address": "J2PH+VRH, Sala Dan, Ko Lanta District, Krabi 81150, Thailand",
+    "place_id": "ChIJMc3GJToDTjARxtiZhqNjHVo",
+    "maps_url": "https://maps.google.com/?cid=6493455791727171782&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.5,
+    "reviews": 505,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "phra-ae-beach",
+   "name": "Phra Ae (Long Beach)",
+   "name_he": "חוף פרה אה (לונג ביץ')",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.604219,
+   "lon": 99.033773,
+   "baby": 3,
+   "tip_he": "חוף ארוך ורחב עם עצי קזוארינה. מקום טוב לשקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Phra Ae Beach",
+    "address": "ทางหลวงจังหวัดหมายเลข J23M+MGJ 4245, Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJJ4buA6AETjARlLkKxb0EAus",
+    "maps_url": "https://maps.google.com/?cid=16934102761967630740&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 1.25,
+    "rating": 4.4,
+    "reviews": 809,
+    "business_status": "OPERATIONAL"
+   }
+  },
+  {
+   "id": "khlong-nin-beach",
+   "name": "Khlong Nin Beach",
+   "name_he": "חוף קלונג נין",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.533956,
+   "lon": 99.049919,
+   "baby": 3,
+   "tip_he": "חוף שקט באמצע האי, עם מסעדות קטנות על החול.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lanta Klong Nin",
+    "address": "152/3 Moo 5, Klong Nin Beach, อำเภอเกาะลันตา กระบี่ 81150, Thailand",
+    "place_id": "ChIJyb8633MFTjARf7PS32nLPVo",
+    "maps_url": "https://maps.google.com/?cid=6502577092579996543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 228,
+    "business_status": "OPERATIONAL"
+   }
+  },
+  {
+   "id": "kantiang-bay",
+   "name": "Kantiang Bay",
+   "name_he": "מפרץ קנטיאנג",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.497442,
+   "lon": 99.072598,
+   "baby": 3,
+   "tip_he": "מפרץ מוגן ויפה בדרום, עם כפר קטן. מים רגועים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Kantiang Bay",
+    "address": "152-152/1 Moo 5 Kantiang Bay, อำเภอเกาะลันตา กระบี่ 81150, Thailand",
+    "place_id": "ChIJI6nNx2wPTjARAqZhYOn1KLU",
+    "maps_url": "https://maps.google.com/?cid=13053953902626579970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.5,
+    "reviews": 606,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "lanta-viewpoint",
+   "name": "Viewpoint On The Bay",
+   "name_he": "תצפית און דה ביי",
+   "region": "lanta",
+   "category": "viewpoint",
+   "lat": 7.565755,
+   "lon": 99.06596,
+   "baby": 3,
+   "tip_he": "תצפית מהכביש שחוצה את האי, על המפרץ המזרחי והאיים. יש בתי קפה בדרך.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Viewpoint On The Bay",
+    "address": "H388+894, 4245, Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJdZYbs6MFTjARlFIMzyy3jyE",
+    "maps_url": "https://maps.google.com/?cid=2418352928001381012&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 189,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "mai-kaew-cave",
+   "name": "Tham Mai Kaew Cave",
+   "name_he": "מערת מאי קאו",
+   "region": "lanta",
+   "category": "nature",
+   "lat": 7.53636,
+   "lon": 99.071574,
+   "baby": 1,
+   "tip_he": "מערת נטיפים עם סולמות ומעברים צרים, רק עם מדריך מקומי. אפשרות למי שמתפצל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Tham Khao Mai Khew",
+    "address": "Unnamed Rd Thailand, G3PC+GJW ตำบล เกาะลันตาใหญ่ อำเภอเกาะลันตา กระบี่ 81150, Thailand",
+    "place_id": "ChIJyXmH670FTjARbw4-T-IhOPg",
+    "maps_url": "https://maps.google.com/?cid=17886083175977717359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 248,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "1630"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1630"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1630"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1630"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1630"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1000"
+     ],
+     [
+      5,
+      "1330",
+      5,
+      "1630"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1630"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 4:30 PM",
+     "Tuesday: 9:00 AM – 4:30 PM",
+     "Wednesday: 9:00 AM – 4:30 PM",
+     "Thursday: 9:00 AM – 4:30 PM",
+     "Friday: 9:00 – 10:00 AM, 1:30 – 4:30 PM",
+     "Saturday: 9:00 AM – 4:30 PM",
+     "Sunday: 9:00 AM – 4:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "hua-hin-pier-lanta",
+   "name": "Hua Hin Pier (car ferry)",
+   "name_he": "מעבורת הרכב לקו לנטה",
+   "region": "lanta",
+   "category": "transport",
+   "lat": 7.693553,
+   "lon": 99.098847,
+   "baby": 3,
+   "tip_he": "מעבורת הרכב מהיבשה ללנטה נוי, ומשם גשר ללנטה. כ-2 שעות מאאו נאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Hua Hin Pier",
+    "address": "Highway 4206, Ko Klang, Koh Lanta, Krabi, ตำบล เกาะกลาง อำเภอเกาะลันตา กระบี่ 81120, Thailand",
+    "place_id": "ChIJPQVDev79UTARJy4iZTatwAo",
+    "maps_url": "https://maps.google.com/?cid=774809585044303399&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.2,
+    "reviews": 2164,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0630",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "0630",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "0630",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "0630",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "0630",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "0630",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "0630",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:30 AM – 10:00 PM",
+     "Tuesday: 6:30 AM – 10:00 PM",
+     "Wednesday: 6:30 AM – 10:00 PM",
+     "Thursday: 6:30 AM – 10:00 PM",
+     "Friday: 6:30 AM – 10:00 PM",
+     "Saturday: 6:30 AM – 10:00 PM",
+     "Sunday: 6:30 AM – 10:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "krua-dan-tai",
+   "name": "Krua Dan Tai",
+   "name_he": "קרואה דאן טאי",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.630595,
+   "lon": 99.033364,
+   "baby": 3,
+   "tip_he": "⭐ \"מטבח הדרום\": קארי דרומיים וקאו גאנג בסלדן. אוכל של מקומיים.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Krua Dan Tai Restaurant",
+    "address": "616, Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJ8fDg3j0DTjARzzU5wZNCIJE",
+    "maps_url": "https://maps.google.com/?cid=10457431537123669455&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 601,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1100",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1100",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1100",
+      2,
+      "2200"
+     ],
+     [
+      4,
+      "1100",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1100",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1100",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 11:00 AM – 10:00 PM",
+     "Tuesday: 11:00 AM – 10:00 PM",
+     "Wednesday: Closed",
+     "Thursday: 11:00 AM – 10:00 PM",
+     "Friday: 11:00 AM – 10:00 PM",
+     "Saturday: 11:00 AM – 10:00 PM",
+     "Sunday: 11:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.4 (601)"
+  },
+  {
+   "id": "krua-lanta-yai",
+   "name": "Krua Lanta Yai",
+   "name_he": "קרואה לנטה יאי",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.53388,
+   "lon": 99.091322,
+   "baby": 3,
+   "tip_he": "אוכל מקומי בעיר העתיקה, במחירים של מקומיים.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khrua Lanta Yai (Beautiful)",
+    "address": "ทางหลวงจังหวัดหมายเลข 4245 Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJa-ZhEeYFTjARqoTISkt-Q8I",
+    "maps_url": "https://maps.google.com/?cid=13998170928639935658&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 351,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "2100"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "2100"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "2100"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "2100"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "2100"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "2100"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "2100"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 9:00 PM",
+     "Tuesday: 8:00 AM – 9:00 PM",
+     "Wednesday: 8:00 AM – 9:00 PM",
+     "Thursday: 8:00 AM – 9:00 PM",
+     "Friday: 8:00 AM – 9:00 PM",
+     "Saturday: 8:00 AM – 9:00 PM",
+     "Sunday: 8:00 AM – 9:00 PM"
+    ]
+   },
+   "rec": "Google 4.7 (351)"
+  },
+  {
+   "id": "chai-talay-old-town",
+   "name": "Chai Talay Seafood (Old Town)",
+   "name_he": "צ'אי תאלאי – פירות ים על המים",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.532262,
+   "lon": 99.093566,
+   "baby": 3,
+   "tip_he": "⭐ פירות ים על כלונסאות מעל המים בעיר העתיקה. גם תאילנדים אוכלים שם.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Shine Talay",
+    "address": "37, Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJj2URJuQFTjARqFiUI_2S99Q",
+    "maps_url": "https://maps.google.com/?cid=15345895871209560232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 1703,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "0000",
+      3,
+      "0000"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "0000",
+      6,
+      "0000"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 10:00 PM",
+     "Tuesday: Open 24 hours",
+     "Wednesday: 9:00 AM – 10:00 PM",
+     "Thursday: 9:00 AM – 10:00 PM",
+     "Friday: Open 24 hours",
+     "Saturday: 9:00 AM – 10:00 PM",
+     "Sunday: 9:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (1,703)"
+  },
+  {
+   "id": "lanta-seafood",
+   "name": "Lanta Seafood (Saladan)",
+   "name_he": "לנטה סיפוד",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.650403,
+   "lon": 99.037959,
+   "baby": 3,
+   "tip_he": "פירות ים טריים ליד נמל סלדן.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Laanta Seafood",
+    "address": "73 Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJbWpjxeUCTjARomdsREtpgOY",
+    "maps_url": "https://maps.google.com/?cid=16609391197733808034&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.5,
+    "reviews": 558,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2130"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2130"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2130"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2130"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2130"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2130"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2130"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 9:30 PM",
+     "Tuesday: 10:00 AM – 9:30 PM",
+     "Wednesday: 10:00 AM – 9:30 PM",
+     "Thursday: 10:00 AM – 9:30 PM",
+     "Friday: 10:00 AM – 9:30 PM",
+     "Saturday: 10:00 AM – 9:30 PM",
+     "Sunday: 10:00 AM – 9:30 PM"
+    ]
+   },
+   "rec": "Google 4.5 (558)"
+  },
+  {
+   "id": "phra-ae-seafood",
+   "name": "Phra Ae Seafood",
+   "name_he": "פרה אה סיפוד",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.59104,
+   "lon": 99.035802,
+   "baby": 3,
+   "tip_he": "פירות ים מקומיים וטריים באזור פרה אה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "Phra Ae Seafood",
+    "address": "4245, Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJi1-_pMkFTjARvoYTRnFU-QQ",
+    "maps_url": "https://maps.google.com/?cid=358410490836387518&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 185,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0730",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "0730",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "0730",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "0730",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "0730",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "0730",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "0730",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:30 AM – 10:00 PM",
+     "Tuesday: 7:30 AM – 10:00 PM",
+     "Wednesday: 7:30 AM – 10:00 PM",
+     "Thursday: 7:30 AM – 10:00 PM",
+     "Friday: 7:30 AM – 10:00 PM",
+     "Saturday: 7:30 AM – 10:00 PM",
+     "Sunday: 7:30 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.8 (185)"
+  },
+  {
+   "id": "esan-old-town",
+   "name": "Esan Old Town",
+   "name_he": "קרואה איסאן – העיר העתיקה",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.530753,
+   "lon": 99.091242,
+   "baby": 3,
+   "tip_he": "אוכל איסאני (צפון-מזרח) אותנטי: סום טאם, לאב וגאי יאנג עם אורז דביק. לבקש \"מאי פט\".",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "The restaurant beside 7 eleven",
+    "address": "305, 19-20 ถนนศาลาด่าน, Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJ0UjJwuYFTjARxvSuKS9CSXQ",
+    "maps_url": "https://maps.google.com/?cid=8379301352029746374&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 5,
+    "reviews": 346,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1030",
+      0,
+      "1930"
+     ],
+     [
+      1,
+      "1030",
+      1,
+      "1930"
+     ],
+     [
+      2,
+      "1030",
+      2,
+      "1930"
+     ],
+     [
+      3,
+      "1030",
+      3,
+      "1930"
+     ],
+     [
+      4,
+      "1030",
+      4,
+      "1930"
+     ],
+     [
+      5,
+      "1030",
+      5,
+      "1930"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:30 AM – 7:30 PM",
+     "Tuesday: 10:30 AM – 7:30 PM",
+     "Wednesday: 10:30 AM – 7:30 PM",
+     "Thursday: 10:30 AM – 7:30 PM",
+     "Friday: 10:30 AM – 7:30 PM",
+     "Saturday: Closed",
+     "Sunday: 10:30 AM – 7:30 PM"
+    ]
+   },
+   "rec": "Google 5 (346)"
+  },
+  {
+   "id": "yawee",
+   "name": "Yawee Restaurant",
+   "name_he": "קרואה יאווי",
+   "region": "lanta",
+   "category": "food",
+   "lat": 7.593139,
+   "lon": 99.035408,
+   "baby": 3,
+   "tip_he": "מטבח מקומי ופירות ים, מאוד פופולרי.",
+   "vibe": "mixed",
+   "geo": {
+    "status": "ok",
+    "google_name": "Yawee Restaurant",
+    "address": "ทางหลวงจังหวัดหมายเลข 4245 Tambon Sala Dan, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJ4cWOApgETjAR2oWM3SmW34I",
+    "maps_url": "https://maps.google.com/?cid=9430421251291907546&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 3001,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0930",
+      0,
+      "2130"
+     ],
+     [
+      1,
+      "0930",
+      1,
+      "2130"
+     ],
+     [
+      2,
+      "0930",
+      2,
+      "2130"
+     ],
+     [
+      3,
+      "0930",
+      3,
+      "2130"
+     ],
+     [
+      4,
+      "0930",
+      4,
+      "2130"
+     ],
+     [
+      5,
+      "0930",
+      5,
+      "2130"
+     ],
+     [
+      6,
+      "0930",
+      6,
+      "2130"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:30 AM – 9:30 PM",
+     "Tuesday: 9:30 AM – 9:30 PM",
+     "Wednesday: 9:30 AM – 9:30 PM",
+     "Thursday: 9:30 AM – 9:30 PM",
+     "Friday: 9:30 AM – 9:30 PM",
+     "Saturday: 9:30 AM – 9:30 PM",
+     "Sunday: 9:30 AM – 9:30 PM"
+    ]
+   },
+   "rec": "Google 4.8 (3,001)"
+  },
+  {
+   "id": "khao-sok-viewpoint",
+   "name": "Khao Sok Viewpoint (Route 401)",
+   "name_he": "תצפית קאו סוק (כביש 401)",
+   "region": "khaosok",
+   "category": "viewpoint",
+   "lat": 8.89569,
+   "lon": 98.517234,
+   "baby": 3,
+   "tip_he": "עצירה מהכביש עם נוף לצוקי הגיר והג'ונגל. מגיעים ברכב.",
+   "geo": {
+    "status": "ok",
+    "google_name": "จุดชมวิวเขาสก 2",
+    "address": "VGW8+7VH, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJIWmBkcgnUTAR4_BTKf4bVq8",
+    "maps_url": "https://maps.google.com/?cid=12634316583063515363&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 100,
+    "business_status": "OPERATIONAL"
+   }
+  },
+  {
+   "id": "ton-kloi-trail",
+   "name": "Ton Kloi Waterfall Trail",
+   "name_he": "שביל מפל טון קלוי",
+   "region": "khaosok",
+   "category": "waterfall",
+   "lat": 8.910605,
+   "lon": 98.505756,
+   "baby": 2,
+   "tip_he": "השביל הראשי של הפארק לאורך הנהר. החלק הראשון שטוח ויפה עם מנשא. אפשר ללכת כמה שרוצים ולחזור.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ton Kloi Waterfall Trail",
+    "address": "WG64+68R, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJM0eMpeAnUTARrCebZsYQnwQ",
+    "maps_url": "https://maps.google.com/?cid=333003341759719340&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4,
+    "reviews": 86,
+    "business_status": "OPERATIONAL"
+   }
+  },
+  {
+   "id": "nam-talu-cave",
+   "name": "Nam Talu Cave",
+   "name_he": "מערת נאם טאלו",
+   "region": "khaosok",
+   "category": "nature",
+   "lat": 8.984903,
+   "lon": 98.597091,
+   "baby": 1,
+   "tip_he": "מערה שעוברים בה בתוך נהר, יוצאים אליה מאגם צ'או לאן ורק עם מדריך. אפשרות למי שמתפצל, ולא בימי גשם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nam Talu Cave",
+    "address": "XHMW+XR8, Khao Phang, Ban Ta Khun District, Surat Thani 84230, Thailand",
+    "place_id": "ChIJEwVQHAUvUTARt606JDlJMgs",
+    "maps_url": "https://maps.google.com/?cid=806787793022528951&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.4,
+    "reviews": 19,
+    "business_status": "OPERATIONAL"
+   }
+  },
+  {
+   "id": "khao-na-nai-luang",
+   "name": "Khao Na Nai Luang Dharma Park",
+   "name_he": "פארק הדהרמה קאו נה נאי לואנג",
+   "region": "khaosok",
+   "category": "culture",
+   "lat": 8.778012,
+   "lon": 98.955203,
+   "baby": 3,
+   "tip_he": "⭐ מקדש לבן ופסלים מעל אגם טורקיז בין צוקי גיר. כמעט בלי תיירים זרים, כ-50 דק' מקאו סוק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Na Nai Luang Dharma Park",
+    "address": "QXH4+634, Ton Yuan, Phanom District, Surat Thani 84260, Thailand",
+    "place_id": "ChIJWeWLGrJDUTARNKtreyOFYxw",
+    "maps_url": "https://maps.google.com/?cid=2045625043197340468&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 2401,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "krua-chao-baan-khaosok",
+   "name": "Krua Chao Baan Khao Sok",
+   "name_he": "קרואה צ'או באן (\"המטבח של הכפר\")",
+   "region": "khaosok",
+   "category": "food",
+   "lat": 8.900371,
+   "lon": 98.520604,
+   "baby": 3,
+   "tip_he": "⭐ אוכל ביתי של הכפר, מקומי לגמרי.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "ครัวชาวบ้าน เขาสก (kruachaobaan khaosok restaurant)",
+    "address": "WG2C+57V, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJexYvRAAnUTAR85K2fxCjB0I",
+    "maps_url": "https://maps.google.com/?cid=4757950822597694195&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 37,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2300"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2300"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2300"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2300"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2300"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2300"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2300"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 11:00 PM",
+     "Tuesday: 10:00 AM – 11:00 PM",
+     "Wednesday: 10:00 AM – 11:00 PM",
+     "Thursday: 10:00 AM – 11:00 PM",
+     "Friday: 10:00 AM – 11:00 PM",
+     "Saturday: 10:00 AM – 11:00 PM",
+     "Sunday: 10:00 AM – 11:00 PM"
+    ]
+   },
+   "rec": "Google 4.8 (37)"
+  },
+  {
+   "id": "panee-km100",
+   "name": "Panee KM100 Restaurant",
+   "name_he": "המסעדה של פאני (ק\"מ 100)",
+   "region": "khaosok",
+   "category": "food",
+   "lat": 8.911219,
+   "lon": 98.591614,
+   "baby": 3,
+   "tip_he": "מסעדת דרכים דרומית ותיקה על כביש 401. נהגים ומקומיים עוצרים בה.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "ร้านอาหารป้าณี ก.ม.100 Panee KM100 Restaurant",
+    "address": "4 Tambon Khlong Sok, Amphoe Phanom, Chang Wat Surat Thani 84250, Thailand",
+    "place_id": "ChIJP_U5DvUlUTARqvB4qf6sS7M",
+    "maps_url": "https://maps.google.com/?cid=12919610165807345834&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 653,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "2000"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "2000"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "2000"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "2000"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "2000"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "2000"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 8:00 PM",
+     "Tuesday: 8:00 AM – 8:00 PM",
+     "Wednesday: 8:00 AM – 8:00 PM",
+     "Thursday: 8:00 AM – 8:00 PM",
+     "Friday: 8:00 AM – 8:00 PM",
+     "Saturday: 8:00 AM – 8:00 PM",
+     "Sunday: 8:00 AM – 8:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (653)"
+  },
+  {
+   "id": "sam-bai-thao",
+   "name": "Sam Bai Thao Khao Sok",
+   "name_he": "סאם באי תאו",
+   "region": "khaosok",
+   "category": "food",
+   "lat": 8.885641,
+   "lon": 98.667664,
+   "baby": 3,
+   "tip_he": "מסעדה מקומית בדרך מזרחה לכיוון פנום ואגם צ'או לאן.",
+   "vibe": "local",
+   "geo": {
+    "status": "ok",
+    "google_name": "สามใบเถา เขาสก ( Sam Bai Thao Khaosok )",
+    "address": "91/1 Tambon Khlong Sok, Amphoe Phanom, Chang Wat Surat Thani 84250, Thailand",
+    "place_id": "ChIJl6qTGyo7UTARwzAvLUWKOSM",
+    "maps_url": "https://maps.google.com/?cid=2538211894715429059&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.7,
+    "reviews": 123,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "2030"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "2030"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "2030"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "2130"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "2030"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "2100"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "2030"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 8:30 PM",
+     "Tuesday: 8:00 AM – 8:30 PM",
+     "Wednesday: 8:00 AM – 9:30 PM",
+     "Thursday: 8:00 AM – 8:30 PM",
+     "Friday: 8:30 AM – 9:00 PM",
+     "Saturday: 8:00 AM – 8:30 PM",
+     "Sunday: 8:00 AM – 8:30 PM"
+    ]
+   },
+   "rec": "Google 4.7 (123)"
+  },
+  {
+   "id": "pawns",
+   "name": "Pawn's Restaurant",
+   "name_he": "פאון'ס",
+   "region": "khaosok",
+   "category": "food",
+   "lat": 8.911374,
+   "lon": 98.524289,
+   "baby": 3,
+   "tip_he": "המסעדה הכי מומלצת בכפר קאו סוק. קלאסיקות תאילנדיות ואווירה משפחתית.",
+   "vibe": "mixed",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pawn's Resturant",
+    "address": "Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJSwwIONQnUTARYKMfQllXeL8",
+    "maps_url": "https://maps.google.com/?cid=13796873499322590048&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.6,
+    "reviews": 1047,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   },
+   "rec": "Google 4.6 (1,047)"
+  },
+  {
+   "id": "nongsaw",
+   "name": "Nongsaw Thai Food",
+   "name_he": "נונגסאו",
+   "region": "khaosok",
+   "category": "food",
+   "lat": 8.913442,
+   "lon": 98.526056,
+   "baby": 3,
+   "tip_he": "אוכל תאילנדי ביתי בכפר, עם דירוג גבוה מאוד.",
+   "vibe": "mixed",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nongsaw Thai Food",
+    "address": "Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJu_NjDdUnUTARo6yWA7ERR_c",
+    "maps_url": "https://maps.google.com/?cid=17818229902681746595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.8,
+    "reviews": 867,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "1330",
+      0,
+      "2130"
+     ],
+     [
+      2,
+      "1330",
+      2,
+      "2130"
+     ],
+     [
+      3,
+      "1330",
+      3,
+      "2130"
+     ],
+     [
+      4,
+      "1330",
+      4,
+      "2130"
+     ],
+     [
+      5,
+      "1330",
+      5,
+      "2130"
+     ],
+     [
+      6,
+      "1330",
+      6,
+      "2130"
+     ]
+    ],
+    "hours": [
+     "Monday: Closed",
+     "Tuesday: 1:30 – 9:30 PM",
+     "Wednesday: 1:30 – 9:30 PM",
+     "Thursday: 1:30 – 9:30 PM",
+     "Friday: 1:30 – 9:30 PM",
+     "Saturday: 1:30 – 9:30 PM",
+     "Sunday: 1:30 – 9:30 PM"
+    ]
+   },
+   "rec": "Google 4.8 (867)"
+  },
+  {
+   "id": "rafflesia-cafe",
+   "name": "Rafflesia Cafe",
+   "name_he": "רפלזיה קפה",
+   "region": "khaosok",
+   "category": "cafe",
+   "lat": 8.911523,
+   "lon": 98.542263,
+   "baby": 3,
+   "tip_he": "ארוחת בוקר עם נוף לנהר.",
+   "vibe": "mixed",
+   "meal": "breakfast",
+   "geo": {
+    "status": "ok",
+    "google_name": "Rafflesia Cafe",
+    "address": "230, ตำบล คลองศก อำเภอพนม สุราษฎร์ธานี 84250, Thailand",
+    "place_id": "ChIJ14_1rNUnUTARlpRf16onqF8",
+    "maps_url": "https://maps.google.com/?cid=6892802844401833110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "moved_km": 0.0,
+    "rating": 4.5,
+    "reviews": 155,
+    "business_status": "OPERATIONAL",
+    "periods": [
+     [
+      0,
+      "0730",
+      0,
+      "2030"
+     ],
+     [
+      1,
+      "0730",
+      1,
+      "2030"
+     ],
+     [
+      2,
+      "0730",
+      2,
+      "2030"
+     ],
+     [
+      3,
+      "0730",
+      3,
+      "2030"
+     ],
+     [
+      4,
+      "0730",
+      4,
+      "2030"
+     ],
+     [
+      5,
+      "0730",
+      5,
+      "2030"
+     ],
+     [
+      6,
+      "0730",
+      6,
+      "2030"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:30 AM – 8:30 PM",
+     "Tuesday: 7:30 AM – 8:30 PM",
+     "Wednesday: 7:30 AM – 8:30 PM",
+     "Thursday: 7:30 AM – 8:30 PM",
+     "Friday: 7:30 AM – 8:30 PM",
+     "Saturday: 7:30 AM – 8:30 PM",
+     "Sunday: 7:30 AM – 8:30 PM"
+    ]
+   },
+   "rec": "Google 4.5 (155)"
   }
  ]
 }
