@@ -426,6 +426,11 @@ async function start() {
   resolveOrigin();
   const stay = stayForDate(thaiNow().date);
   if (stay) { const p = state.places.find((x) => x.id === stay.id); map.setView([p.lat, p.lon], 11); }
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator) {
+    // When a new version takes over, reload once so the new app and data show up right away.
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadController) location.reload(); });
+    navigator.serviceWorker.register('sw.js').then((reg) => reg.update()).catch(() => {});
+  }
 }
 start();
