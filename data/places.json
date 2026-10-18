@@ -12553,6 +12553,3731 @@
     ]
    },
    "rec": "Google 4.5 (155)"
+  },
+  {
+   "id": "black-rock-viewpoint",
+   "name": "Black Rock Viewpoint",
+   "name_he": "תצפית בלאק רוק",
+   "region": "phuket",
+   "category": "viewpoint",
+   "lat": 7.782924,
+   "lon": 98.297615,
+   "baby": 2,
+   "tip_he": "תצפית פחות מוכרת על כל דרום פוקט. דרך עפר קצרה, ואחריה הליכה קצרה מהחניה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Black Rock Viewpoint",
+    "address": "Q7MX+529, Karon, Mueang Phuket District, Phuket 83100, Thailand",
+    "place_id": "ChIJ-Xrkew8mUDARqMTDzurMDPo",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ-Xrkew8mUDARqMTDzurMDPo",
+    "rating": 4.8,
+    "reviews": 928,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "laem-panwa-promenade",
+   "name": "טיילת כף פנווה",
+   "name_he": "טיילת כף פנווה",
+   "region": "phuket",
+   "category": "viewpoint",
+   "lat": 7.805454,
+   "lon": 98.405544,
+   "baby": 3,
+   "tip_he": "⭐ טיילת לאורך החוף ליד האקווריום. בערב המקומיים קונים אוכל רחוב ויושבים על מחצלות מול הים. חוויה מקומית אמיתית.",
+   "geo": {
+    "status": "ok",
+    "google_name": "จุดชมภูมิทัศน์แหลมพันวา",
+    "address": "หมู่ที่ 8 ถนน ศักดิเดช Cape Panwa, ตำบล วิชิต อำเภอเมืองภูเก็ต ภูเก็ต 83000 ประเทศไทย",
+    "place_id": "ChIJZebcjxksUDARuucKS1jSSXk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZebcjxksUDARuucKS1jSSXk",
+    "rating": 4.6,
+    "reviews": 847,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1630"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1630"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1630"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1630"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1630"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1630"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1630"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "laem-dinso-viewpoint",
+   "name": "תצפית לאם דינסו",
+   "name_he": "תצפית לאם דינסו",
+   "region": "phuket",
+   "category": "viewpoint",
+   "lat": 7.834288,
+   "lon": 98.378261,
+   "baby": 3,
+   "tip_he": "נקודת תצפית שקטה על הים בכף פנווה. יפה בשקיעה ולא עמוסה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "จุดชมวิวแหลมดินสอ",
+    "address": "จุดชมวิวแหลมดินสอ วิชิต ซอย อ่าวยน-เขาขาด Cape Panwa, ตำบล วิชิต เมือง ภูเก็ต 83000 ประเทศไทย",
+    "place_id": "ChIJ7xoYU3EvUDARGo2FhoOQkcI",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ7xoYU3EvUDARGo2FhoOQkcI",
+    "rating": 4.7,
+    "reviews": 305,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "wat-khao-rang",
+   "name": "Wat Khao Rang Samakkhitham",
+   "name_he": "וואט קאו ראנג",
+   "region": "phuket",
+   "category": "culture",
+   "lat": 7.894022,
+   "lon": 98.381707,
+   "baby": 3,
+   "tip_he": "מקדש צבעוני על גבעה בעיר פוקט עם בודהה זהוב ענק ונאגות מגולפים. מקומי, ומעט תיירים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Wat Khao Rang Samakkhitham",
+    "address": "87 7 Rang Hill, Tambon Ratsada, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJlXRfXuwxUDARrUn05h4uF6U",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlXRfXuwxUDARrUn05h4uF6U",
+    "rating": 4.7,
+    "reviews": 1270,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0630",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0630",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0630",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0630",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0630",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0630",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0630",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:30 AM – 5:00 PM",
+     "Tuesday: 6:30 AM – 5:00 PM",
+     "Wednesday: 6:30 AM – 5:00 PM",
+     "Thursday: 6:30 AM – 5:00 PM",
+     "Friday: 6:30 AM – 5:00 PM",
+     "Saturday: 6:30 AM – 5:00 PM",
+     "Sunday: 6:30 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "wat-doi-thepnimit",
+   "name": "Wat Doi Thepnimit",
+   "name_he": "וואט דוי תפנימיט",
+   "region": "phuket",
+   "category": "viewpoint",
+   "lat": 7.899331,
+   "lon": 98.318453,
+   "baby": 2,
+   "tip_he": "מקדש קטן על הגבעה מעל פטונג עם נוף פנורמי על המפרץ. יפה בזריחה ובשקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Wat Doi Thepnimit",
+    "address": "V8X9+P9P, Pa Tong, Kathu District, Phuket 83120, Thailand",
+    "place_id": "ChIJGfEXwXIwUDAR2jpK3UH6WHQ",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJGfEXwXIwUDAR2jpK3UH6WHQ",
+    "rating": 4.8,
+    "reviews": 480,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0700",
+      0,
+      "2000"
+     ],
+     [
+      1,
+      "0700",
+      1,
+      "2000"
+     ],
+     [
+      2,
+      "0700",
+      2,
+      "2000"
+     ],
+     [
+      3,
+      "0700",
+      3,
+      "2000"
+     ],
+     [
+      4,
+      "0700",
+      4,
+      "2000"
+     ],
+     [
+      5,
+      "0700",
+      5,
+      "2000"
+     ],
+     [
+      6,
+      "0700",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 7:00 AM – 8:00 PM",
+     "Tuesday: 7:00 AM – 8:00 PM",
+     "Wednesday: 7:00 AM – 8:00 PM",
+     "Thursday: 7:00 AM – 8:00 PM",
+     "Friday: 7:00 AM – 8:00 PM",
+     "Saturday: 7:00 AM – 8:00 PM",
+     "Sunday: 7:00 AM – 8:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "big-buddha-trail",
+   "name": "Big Buddha Hiking Trail",
+   "name_he": "שביל ההליכה לבודהה הגדול",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.831451,
+   "lon": 98.304022,
+   "baby": 1,
+   "tip_he": "עלייה תלולה ביער עד הבודהה הגדול, כשעה. השביל לא מתוחזק, אז רק כשמתפצלים, בבוקר ועם הרבה מים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Big Buddha Hiking Trail",
+    "address": "ปฏัก, Patak Soi 14, Tambon Karon, Amphoe Mueang Phuket, Chang Wat Phuket 83100, Thailand",
+    "place_id": "ChIJqe2KZhclUDARtItv-s11_dw",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqe2KZhclUDARtItv-s11_dw",
+    "rating": 4.4,
+    "reviews": 443,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "kata-karon-trail",
+   "name": "Kata-Karon Hiking Trail",
+   "name_he": "שביל קטה-קרון",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.831817,
+   "lon": 98.31028,
+   "baby": 1,
+   "tip_he": "שביל יער בדרגה בינונית, יותר מ-200 מ' עלייה, עם נופים. לבוקר מוקדם, ועם מים ותכשיר נגד יתושים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Kata-Karon Hiking Trail",
+    "address": "Unnamed Road, R8J6+P4C ตำบล กะรน อำเภอเมืองภูเก็ต ภูเก็ต 83100, Thailand",
+    "place_id": "ChIJn2hbpcsvUDARqTaVuziNKF0",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJn2hbpcsvUDARqTaVuziNKF0",
+    "rating": 4.4,
+    "reviews": 91,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "bang-neow-dam",
+   "name": "מאגר בנג ניאו דאם",
+   "name_he": "מאגר בנג ניאו דאם",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.96706,
+   "lon": 98.333836,
+   "baby": 3,
+   "tip_he": "⭐ מאגר שקט עם שביל הליכה מסביב. המקומיים באים בבוקר להליכה ולריצה. מתאים לעגלה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "อ่างเก็บน้ำบางเหนียวดำ",
+    "address": "Soi Bang Niao Dam, Tambon Si Sunthon, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJu9hSF383UDAR-7-Szao5PHA",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu9hSF383UDAR-7-Szao5PHA",
+    "rating": 4.8,
+    "reviews": 186,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "khlong-katha-reservoir",
+   "name": "Khlong Katha Reservoir",
+   "name_he": "מאגר קלונג קטה",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.860109,
+   "lon": 98.330466,
+   "baby": 3,
+   "tip_he": "מסלול שטוח של 4 ק\"מ סביב אגם, והקפה לוקחת 30–45 דק'. בזריחה או לפני השקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khlong Katha Reservoir",
+    "address": "V86J+25W, Chalong, Mueang Phuket District, Phuket 83000, Thailand",
+    "place_id": "ChIJB5VWsOsvUDAR-POyQCyy82U",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJB5VWsOsvUDAR-POyQCyy82U",
+    "rating": 4.5,
+    "reviews": 86,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0530",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "0530",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "2000"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "2000"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "2000"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "2000"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 5:30 AM – 10:00 PM",
+     "Tuesday: 6:00 AM – 8:00 PM",
+     "Wednesday: 6:00 AM – 8:00 PM",
+     "Thursday: 6:00 AM – 8:00 PM",
+     "Friday: 6:00 AM – 8:00 PM",
+     "Saturday: 6:00 AM – 8:00 PM",
+     "Sunday: 5:30 AM – 10:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "chalong-dam",
+   "name": "Chalong Dam",
+   "name_he": "סכר חלונג",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.858185,
+   "lon": 98.327193,
+   "baby": 3,
+   "tip_he": "סכר עם מסלול הליכה וריצה של מקומיים, ליד חלונג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Chalong Dam",
+    "address": "V85G+7VG, Jaofa 69 Rd, Tambon Chalong, Amphoe Mueang Phuket, Chang Wat Phuket 83000, Thailand",
+    "place_id": "ChIJ57kuCuwvUDAReutZrCOHevk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ57kuCuwvUDAReutZrCOHevk",
+    "rating": 4.8,
+    "reviews": 52,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "saphan-hin-mangrove",
+   "name": "Saphan Hin Mangrove Walkway",
+   "name_he": "שביל המנגרובים ספאן הין",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.867727,
+   "lon": 98.398322,
+   "baby": 3,
+   "tip_he": "⭐ שביל עץ קצר בין מנגרובים ענקיים ליד העיר. לפעמים רואים לטאות מוניטור.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Saphan Hin Mangrove Walkway",
+    "address": "V99X+38W, Wichit, Mueang Phuket District, Phuket 83000, Thailand",
+    "place_id": "ChIJEw125RwtUDARhvbWjAX2GuA",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEw125RwtUDARhvbWjAX2GuA",
+    "rating": 4.6,
+    "reviews": 49,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "bang-maruan-river",
+   "name": "Bang Maruan River",
+   "name_he": "פארק נהר בנג מרואן",
+   "region": "phuket",
+   "category": "nature",
+   "lat": 7.993361,
+   "lon": 98.342226,
+   "baby": 3,
+   "tip_he": "פארק קהילתי מטופח לאורך נהר, עם ציפורים, דגים ומגרש משחקים. מגיעות אליו משפחות מקומיות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bang Maruan River",
+    "address": "X8VR+8VX, 4008, Tambon Si Sunthon, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJzSWrmRo3UDARVzuiGM-g1ME",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJzSWrmRo3UDARVzuiGM-g1ME",
+    "rating": 4.5,
+    "reviews": 540,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "2100"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "2100"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "2100"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "2100"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "2100"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "2100"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "2100"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 9:00 PM",
+     "Tuesday: 6:00 AM – 9:00 PM",
+     "Wednesday: 6:00 AM – 9:00 PM",
+     "Thursday: 6:00 AM – 9:00 PM",
+     "Friday: 6:00 AM – 9:00 PM",
+     "Saturday: 6:00 AM – 9:00 PM",
+     "Sunday: 6:00 AM – 9:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "le-phang-beach",
+   "name": "Le Phang Beach",
+   "name_he": "חוף לה פאנג",
+   "region": "phuket",
+   "category": "beach",
+   "lat": 8.009304,
+   "lon": 98.292525,
+   "baby": 3,
+   "tip_he": "חוף קטן ושקט, אחד האחרונים בפוקט שלא נבנו עליו. צפונית לבנג טאו, כ-20 דק' מנאי יאנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Le Phang Beach",
+    "address": "275V+P2C Tambon Choeng Tale Bang Tao Beach, Tambon Choeng Thale, Amphoe Thalang, Chang Wat Phuket 83110, Thailand",
+    "place_id": "ChIJPX51PqY5UDARHVFpb41DLow",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPX51PqY5UDARHVFpb41DLow",
+    "rating": 4.7,
+    "reviews": 351,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "freedom-beach",
+   "name": "Freedom Beach",
+   "name_he": "חוף פרידום",
+   "region": "phuket",
+   "category": "beach",
+   "lat": 7.875256,
+   "lon": 98.275823,
+   "baby": 1,
+   "tip_he": "חוף לבן עם מים שקופים, מהיפים בפוקט. מגיעים בלונגטייל מפטונג או בירידה תלולה ברגל. עם תינוק רק בסירה ובים רגוע.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Freedom Beach",
+    "address": "ถนนศิริราช Tambon Patong, Amphoe Kathu, Chang Wat Phuket 83100, Thailand",
+    "place_id": "ChIJBVMebEolUDARduwCCVdlNxE",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJBVMebEolUDARduwCCVdlNxE",
+    "rating": 4.4,
+    "reviews": 11012,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "hua-beach",
+   "name": "Hua Beach",
+   "name_he": "חוף הואה",
+   "region": "phuket",
+   "category": "beach",
+   "lat": 7.947216,
+   "lon": 98.264525,
+   "baby": 2,
+   "tip_he": "חוף רדוד עם אלמוגים ודגים, ויורדים אליו בשביל ג'ונגל. יש בו בר קטן, והוא שקט.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Hua Beach",
+    "address": "Hua Beach, Kamala, Kathu District, Phuket 83120, Thailand",
+    "place_id": "ChIJK-czUMs7UDAR0nEaToETFnM",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJK-czUMs7UDAR0nEaToETFnM",
+    "rating": 4.3,
+    "reviews": 546,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1800"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1800"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1800"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1800"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1800"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1800"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1800"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 6:00 PM",
+     "Tuesday: 6:00 AM – 6:00 PM",
+     "Wednesday: 6:00 AM – 6:00 PM",
+     "Thursday: 6:00 AM – 6:00 PM",
+     "Friday: 6:00 AM – 6:00 PM",
+     "Saturday: 6:00 AM – 6:00 PM",
+     "Sunday: 6:00 AM – 6:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "rayee-beach",
+   "name": "Rayee Beach",
+   "name_he": "חוף ראיי",
+   "region": "phuket",
+   "category": "beach",
+   "lat": 7.947857,
+   "lon": 98.271185,
+   "baby": 2,
+   "tip_he": "חוף טבעי ושקט דרומית לקמאלה, עם צל של עצים. הקרקעית סלעית.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Rayee Beach",
+    "address": "W7XC+4FV, Kamala Beach, Kamala, Kathu District, Phuket 83120, Thailand",
+    "place_id": "ChIJs80kjyg7UDARfCyh5_t4glY",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJs80kjyg7UDARfCyh5_t4glY",
+    "rating": 4.3,
+    "reviews": 56,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "pak-weep-beach",
+   "name": "Pak Weep Beach",
+   "name_he": "חוף פאק וויפ",
+   "region": "khaolak",
+   "category": "beach",
+   "lat": 8.757933,
+   "lon": 98.258238,
+   "baby": 3,
+   "tip_he": "חוף ארוך ושקט עם צל של עצים. בשפל נוצרות בחול תבניות יפות. מקום טוב לשקיעה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Pak Weep Beach",
+    "address": "Pak Weep Beach, Unnamed Rd Tambon Khuekkhak, Amphoe Takua Pa, Chang Wat Phang-nga 82190, Thailand",
+    "place_id": "ChIJA_GhuGTCUDARY4FvXrYur4w",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA_GhuGTCUDARY4FvXrYur4w",
+    "rating": 4.6,
+    "reviews": 322,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "khuk-khak-beach",
+   "name": "Khuk Khak Beach - หาดคึกคัก",
+   "name_he": "חוף קוק קאק",
+   "region": "khaolak",
+   "category": "beach",
+   "lat": 8.69917,
+   "lon": 98.238792,
+   "baby": 3,
+   "tip_he": "חוף ארוך ושקט של יותר מ-2 ק\"מ, עם כמה דוכני שתייה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khuk Khak Beach - หาดคึกคัก",
+    "address": "Khuk Khak Beach - หาดคึกคัก, Khuek Khak, Takua Pa District, Phang Nga, Thailand",
+    "place_id": "ChIJaxpCOXTpUDAROfiNPHj-oPk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJaxpCOXTpUDAROfiNPHj-oPk",
+    "rating": 4.8,
+    "reviews": 103,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "khao-na-yak-beach",
+   "name": "Khao Na Yak Golden Beach",
+   "name_he": "חוף קאו נה יאק",
+   "region": "khaolak",
+   "category": "beach",
+   "lat": 8.525284,
+   "lon": 98.215487,
+   "baby": 3,
+   "tip_he": "חוף בתוך הפארק הלאומי, כמעט ריק, בלי סלעים ועם מים צלולים. כדאי להביא אוכל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Na Yak Golden Beach",
+    "address": "Lam Kaen, Thai Mueang District, Phang Nga 82120, Thailand",
+    "place_id": "ChIJXShr1i3yUDARZaaG_A_-_GA",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXShr1i3yUDARZaaG_A_-_GA",
+    "rating": 4.7,
+    "reviews": 109,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "bang-lut-beach",
+   "name": "Bang Lut Beach",
+   "name_he": "חוף בנג לוט",
+   "region": "khaolak",
+   "category": "beach",
+   "lat": 8.833696,
+   "lon": 98.266601,
+   "baby": 3,
+   "tip_he": "חוף ארוך ושקט מאוד בצפון, עם סרטנים על החול.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bang Lut Beach",
+    "address": "R7M8+FJH, Thanon Phetkasem, Bang Muang, Amphoe Takua Pa, Chang Wat Phang-nga 82110, Thailand",
+    "place_id": "ChIJq8PKI4DEUDAR89njlebC7GU",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJq8PKI4DEUDAR89njlebC7GU",
+    "rating": 4.7,
+    "reviews": 52,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "poseidon-beach",
+   "name": "Poseidon beach",
+   "name_he": "חוף פוסידון",
+   "region": "khaolak",
+   "category": "beach",
+   "lat": 8.602017,
+   "lon": 98.239529,
+   "baby": 3,
+   "tip_he": "חוף שקט ונוח לרחצה ולשקיעה, עם מסז' ומיטות שיזוף.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Poseidon beach",
+    "address": "Unnamed Road Tambon Lam Kaen, Amphoe Thai Mueang, Chang Wat Phang-nga 82210, Thailand",
+    "place_id": "ChIJ58jGBmnuUDARJQVqF5zJMSk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ58jGBmnuUDARJQVqF5zJMSk",
+    "rating": 4.7,
+    "reviews": 126,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "khanim-waterfall",
+   "name": "Khanim Waterfall",
+   "name_he": "מפל קנים",
+   "region": "khaolak",
+   "category": "waterfall",
+   "lat": 8.497153,
+   "lon": 98.28311,
+   "baby": 2,
+   "tip_he": "מפל בפארק לאמפי-האט תאי מואנג. הליכה קלה ונקייה, ויש דמי כניסה לפארק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khanim Waterfall",
+    "address": "https://safety.google/safety/privacy-practices Tambon Thai Mueang, Amphoe Thai Mueang, Chang Wat Phang-nga 82120, Thailand",
+    "place_id": "ChIJk5pgVsbwUDARW0DskEbLYVs",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk5pgVsbwUDARW0DskEbLYVs",
+    "rating": 4.4,
+    "reviews": 329,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "khuan-pak-mist-viewpoint",
+   "name": "תצפית \"ים הערפל\" קואן פאק",
+   "name_he": "תצפית \"ים הערפל\" קואן פאק",
+   "region": "khaolak",
+   "category": "viewpoint",
+   "lat": 8.809321,
+   "lon": 98.381889,
+   "baby": 3,
+   "tip_he": "⭐ תצפית על ערפל מעל ההרים בטאקואה פה, והכי יפה בזריחה. יש מסעדה, ובבוקר מגישים בה קאנום ג'ין. משלבים עם מעיינות רומאני.",
+   "geo": {
+    "status": "ok",
+    "google_name": "จุดชมวิวทะเลหมอก ควนปัก ตะกั่วป่า",
+    "address": "R95J+PQC ตำบล ตำตัว อำเภอตะกั่วป่า พังงา 82110 ประเทศไทย",
+    "place_id": "ChIJrexFJBbcUDARrJE3EVe_NY0",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJrexFJBbcUDARrJE3EVe_NY0",
+    "rating": 4.7,
+    "reviews": 90,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "2200"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "2200"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "2200"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "2200"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "2200"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "2200"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "2200"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 10:00 PM",
+     "Tuesday: 10:00 AM – 10:00 PM",
+     "Wednesday: 10:00 AM – 10:00 PM",
+     "Thursday: 10:00 AM – 10:00 PM",
+     "Friday: 10:00 AM – 10:00 PM",
+     "Saturday: 10:00 AM – 10:00 PM",
+     "Sunday: 10:00 AM – 10:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "lam-ru-waterfall",
+   "name": "Lam Ru Waterfall",
+   "name_he": "מפל לאם רו",
+   "region": "phangnga",
+   "category": "waterfall",
+   "lat": 8.653184,
+   "lon": 98.44657,
+   "baby": 2,
+   "tip_he": "מפל שקט ולא מוכר בתוך היבשה. שביל קל לבריכה התחתונה, אבל חלקלק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lam Ru Waterfall",
+    "address": "MC3W+7JG, Kapong, Kapong District, Phang Nga 82170, Thailand",
+    "place_id": "ChIJhamakiniUDARfxV5UzjFuB8",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhamakiniUDARfxV5UzjFuB8",
+    "rating": 4.3,
+    "reviews": 79,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "ao-tho-li-viewpoint",
+   "name": "Ao Tho Li Viewpoint",
+   "name_he": "תצפית אאו טו לי",
+   "region": "phangnga",
+   "category": "viewpoint",
+   "lat": 8.226365,
+   "lon": 98.444588,
+   "baby": 3,
+   "tip_he": "תצפית על האיים של מפרץ פנג נגה, עם אזור קמפינג. חלופה שקטה לסמט נאנגשה, בכניסה סמלית.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Tho Li Viewpoint",
+    "address": "บ้าน อ่าว มะขาม หมู่ 8 ต คลอง เคียน อ ตะกั่วทุ่ง, จ, ตำบล คลองเคียน อำเภอตะกั่วทุ่ง พังงา 82140, Thailand",
+    "place_id": "ChIJM5M9-oNSUDARsetCKY7Nnj0",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJM5M9-oNSUDARsetCKY7Nnj0",
+    "rating": 4.6,
+    "reviews": 1144,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "wat-tham-ta-pan",
+   "name": "וואט תאם טה פאן",
+   "name_he": "וואט תאם טה פאן",
+   "region": "phangnga",
+   "category": "culture",
+   "lat": 8.453966,
+   "lon": 98.528002,
+   "baby": 2,
+   "tip_he": "מקדש מערה גדול שנכנסים אליו דרך פה של דרקון, עם פסלים של \"גיהנום\" שקצת מפחידים. יש נוף מלמעלה, והמקום מקומי מאוד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "วัดถ้ำตาปาน",
+    "address": "79 ซอย ถ้ำตาปาน 5 ตำบล ถ้ำน้ำผุด อำเภอเมืองพังงา พังงา 82000 ประเทศไทย",
+    "place_id": "ChIJXXOKgaABUTARFF9C9yr_Uok",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXXOKgaABUTARFF9C9yr_Uok",
+    "rating": 4.4,
+    "reviews": 530,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "dragon-cave-temple",
+   "name": "Dragon Cave Temple (praya nakarach cave temple)",
+   "name_he": "מקדש מערת הדרקון",
+   "region": "phangnga",
+   "category": "culture",
+   "lat": 8.520027,
+   "lon": 98.566317,
+   "baby": 2,
+   "tip_he": "⭐ מקדש בתוך מערות גיר ביער, כמעט בלי מבקרים. גם הדרך אליו בין הצוקים היא חוויה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Dragon Cave Temple (praya nakarach cave temple)",
+    "address": "GHC8+2G8, Tham Thong Lang, Thap Put District, Phang Nga 82180, Thailand",
+    "place_id": "ChIJaYFZH4IDUTARhOjlGaj3_bk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJaYFZH4IDUTARhOjlGaj3_bk",
+    "rating": 4.8,
+    "reviews": 105,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "ao-phangnga-mangrove-trail",
+   "name": "Ao Phang-nga Mangrove Nature Trail",
+   "name_he": "שביל המנגרובים של מפרץ פנג נגה",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.406012,
+   "lon": 98.510828,
+   "baby": 3,
+   "tip_he": "⭐ שביל עץ ייחודי במנגרובים ליד מטה הפארק. רואים בו המון סוגי סרטנים, ונועה תאהב.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Phang-nga Mangrove Nature Trail",
+    "address": "CG46+C84, rhTakdat, Tambon Takdat, Amphoe Mueang Phang-nga, Chang Wat Phang-nga 82000, Thailand",
+    "place_id": "ChIJ3VLEDksBUTARf0EEHFAPBJY",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ3VLEDksBUTARf0EEHFAPBJY",
+    "rating": 4.7,
+    "reviews": 96,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1600"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1600"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1600"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1600"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1600"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1600"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1600"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 4:00 PM",
+     "Tuesday: 8:30 AM – 4:00 PM",
+     "Wednesday: 8:30 AM – 4:00 PM",
+     "Thursday: 8:30 AM – 4:00 PM",
+     "Friday: 8:30 AM – 4:00 PM",
+     "Saturday: 8:30 AM – 4:00 PM",
+     "Sunday: 8:30 AM – 4:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "ao-phangnga-np",
+   "name": "Ao Phang Nga National Park",
+   "name_he": "פארק מפרץ פנג נגה – מטה וסירות",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.404666,
+   "lon": 98.508179,
+   "baby": 2,
+   "tip_he": "מטה הפארק הלאומי. מכאן יוצאות סירות לונגטייל לשייט בין צוקי הגיר והמנגרובים, ואפשר לקחת סירה פרטית לשעתיים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ao Phang Nga National Park",
+    "address": "80 หมู่ที่ 1 ถนน บ้านท่าด่าน Tambon Ko Panyi, Amphoe Mueang Phang-nga, Chang Wat Phang-nga 82000, Thailand",
+    "place_id": "ChIJdakJDW0AUTARvcQYLQ86-oQ",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJdakJDW0AUTARvcQYLQ86-oQ",
+    "rating": 4.6,
+    "reviews": 8730,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1630"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1630"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1630"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1630"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1630"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1630"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1630"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "phangnga-srinagarindra-park",
+   "name": "פארק סרינגרינדרה, פנג נגה",
+   "name_he": "פארק סרינגרינדרה, פנג נגה",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.437376,
+   "lon": 98.518261,
+   "baby": 3,
+   "tip_he": "פארק גדול בעיר פנג נגה, מוקף צוקי גיר ועם מערה. ⚠️ יש הרבה קופים, אז לא להחזיק אוכל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "สวนสมเด็จพระศรีนครินทร์ จังหวัดพังงา",
+    "address": "CGP9+X82 ตำบล ถ้ำน้ำผุด อำเภอเมืองพังงา พังงา 82000 ประเทศไทย",
+    "place_id": "ChIJdQzsba0BUTARfMqRr4I4yPQ",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJdQzsba0BUTARfMqRr4I4yPQ",
+    "rating": 4.5,
+    "reviews": 682,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1900"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1900"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1900"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1900"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1900"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1900"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1900"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 7:00 PM",
+     "Tuesday: 6:00 AM – 7:00 PM",
+     "Wednesday: 6:00 AM – 7:00 PM",
+     "Thursday: 6:00 AM – 7:00 PM",
+     "Friday: 6:00 AM – 7:00 PM",
+     "Saturday: 6:00 AM – 7:00 PM",
+     "Sunday: 6:00 AM – 7:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "tham-phueng",
+   "name": "מערת פואנג",
+   "name_he": "מערת פואנג",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.471132,
+   "lon": 98.588678,
+   "baby": 2,
+   "tip_he": "מערה עם אולם גדול ומאוורר והליכה קלה, ליד העיר פנג נגה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "ถ้ำผึ้ง",
+    "address": "FHCQ+FF3 ตำบล บ่อแสน อำเภอ ทับปุด พังงา 82180 ประเทศไทย",
+    "place_id": "ChIJnZO396MGUTARglVdTicMAkc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJnZO396MGUTARglVdTicMAkc",
+    "rating": 4.5,
+    "reviews": 63,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "tao-thong-waterfall",
+   "name": "Tao Thong Waterfall",
+   "name_he": "מפל טאו טונג",
+   "region": "phangnga",
+   "category": "waterfall",
+   "lat": 8.485444,
+   "lon": 98.585702,
+   "baby": 2,
+   "tip_he": "מפל מרשים ביער ליד העיר פנג נגה. יש בו יותר מים אחרי גשם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Tao Thong Waterfall",
+    "address": "FHPP+57G, Bo Saen, Thap Put District, Phang Nga 82180, Thailand",
+    "place_id": "ChIJ8Tuam4MGUTARJKt9udFPLfc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ8Tuam4MGUTARJKt9udFPLfc",
+    "rating": 4.2,
+    "reviews": 734,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "raman-waterfall",
+   "name": "Namtok Raman Forest Park",
+   "name_he": "פארק היער ומפל ראמאן",
+   "region": "phangnga",
+   "category": "waterfall",
+   "lat": 8.451326,
+   "lon": 98.447208,
+   "baby": 3,
+   "tip_he": "פארק יער עם מפל ובריכות. משפחות עם ילדים קטנים נהנו בו מאוד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Namtok Raman Forest Park",
+    "address": "Takdat, Mueang Phang-nga District, Phang Nga 82000, Thailand",
+    "place_id": "ChIJX35GAFv-UDARj47ORncDyZU",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJX35GAFv-UDARj47ORncDyZU",
+    "rating": 4.4,
+    "reviews": 417,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1600"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1600"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1600"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1600"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1600"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1600"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1600"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 4:00 PM",
+     "Tuesday: 8:30 AM – 4:00 PM",
+     "Wednesday: 8:30 AM – 4:00 PM",
+     "Thursday: 8:30 AM – 4:00 PM",
+     "Friday: 8:30 AM – 4:00 PM",
+     "Saturday: 8:30 AM – 4:00 PM",
+     "Sunday: 8:30 AM – 4:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "ton-pariwat-waterfall",
+   "name": "Ton Pariwat Waterfall",
+   "name_he": "מפל טון פריוואט",
+   "region": "phangnga",
+   "category": "waterfall",
+   "lat": 8.615111,
+   "lon": 98.550682,
+   "baby": 2,
+   "tip_he": "10 דק' הליכה למפל עם מים צלולים ודגים, בשמורת חיות הבר סונג פראק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ton Pariwat Waterfall",
+    "address": "JH82+27V, Song Phraek, Mueang Phang-nga District, Phang Nga 82000, Thailand",
+    "place_id": "ChIJh0E6HQIdUTARXSG7UEMAW4o",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJh0E6HQIdUTARXSG7UEMAW4o",
+    "rating": 4.5,
+    "reviews": 173,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "phu-pha-sawan-waterfall",
+   "name": "מפל פו פה סאוואן",
+   "name_he": "מפל פו פה סאוואן",
+   "region": "phangnga",
+   "category": "waterfall",
+   "lat": 8.331084,
+   "lon": 98.328409,
+   "baby": 2,
+   "tip_he": "⭐ מפל מקומי מאוד עם בריכות נקיות לשחייה. בבוקר מוכרים בכניסה ירקות ופירות. באזור תאי מואנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "น้ำตกภูผาสวรรค์(โตนสูง)",
+    "address": "88JH+C9M Unnamed Road ตำบล นาเตย อำเภอ ท้ายเหมือง พังงา 82120 ประเทศไทย",
+    "place_id": "ChIJNWbUSUlXUDARGrTXS99cCpY",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJNWbUSUlXUDARGrTXS99cCpY",
+    "rating": 4.7,
+    "reviews": 467,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "tha-taeng-pond",
+   "name": "בריכת תה טאנג",
+   "name_he": "בריכת תה טאנג",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.358612,
+   "lon": 98.265422,
+   "baby": 3,
+   "tip_he": "בריכת מכרה ישנה עם מים צלולים שבה המקומיים שוחים. יש אוכל זול. באזור תאי מואנג.",
+   "geo": {
+    "status": "ok",
+    "google_name": "ขุมน้ำท่าแตง",
+    "address": "9758+C5V ตำบล ท้ายเหมือง Thai Mppaueang District, พังงา 82120 ประเทศไทย",
+    "place_id": "ChIJA6ez8FVYUDARTk35KUGGd0k",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJA6ez8FVYUDARTk35KUGGd0k",
+    "rating": 4.4,
+    "reviews": 128,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "bor-dan-beach",
+   "name": "Bor Dan Beach",
+   "name_he": "חוף בור דאן",
+   "region": "phangnga",
+   "category": "beach",
+   "lat": 8.327929,
+   "lon": 98.264079,
+   "baby": 3,
+   "tip_he": "חוף טבעי עם שירותים, מקלחת ודוכנים, וטוב לשקיעה. לפעמים יש גלים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bor Dan Beach",
+    "address": "87H7+5JG Andaman Sea, Tambon Na Toei, Amphoe Thai Mueang, Chang Wat Phang-nga 82120, Thailand",
+    "place_id": "ChIJfXfG63VZUDARM091QNu_kHA",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJfXfG63VZUDARM091QNu_kHA",
+    "rating": 4.7,
+    "reviews": 485,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "natai-beach",
+   "name": "Natai Beach",
+   "name_he": "חוף נטאי",
+   "region": "phangnga",
+   "category": "beach",
+   "lat": 8.272894,
+   "lon": 98.276539,
+   "baby": 3,
+   "tip_he": "חוף שקט עם מטעי קוקוס וסירות דייגים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Natai Beach",
+    "address": "77FG+5J3, Khok Kloi, Takua Thung District, Phang Nga 82140, Thailand",
+    "place_id": "ChIJ1zT8EFpaUDARABCZtIENktg",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ1zT8EFpaUDARABCZtIENktg",
+    "rating": 4.6,
+    "reviews": 505,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "1030",
+      0,
+      "2130"
+     ],
+     [
+      1,
+      "1030",
+      1,
+      "2130"
+     ],
+     [
+      2,
+      "1030",
+      2,
+      "2130"
+     ],
+     [
+      3,
+      "1030",
+      3,
+      "2130"
+     ],
+     [
+      4,
+      "1030",
+      4,
+      "2130"
+     ],
+     [
+      5,
+      "1030",
+      5,
+      "2130"
+     ],
+     [
+      6,
+      "1030",
+      6,
+      "2130"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:30 AM – 9:30 PM",
+     "Tuesday: 10:30 AM – 9:30 PM",
+     "Wednesday: 10:30 AM – 9:30 PM",
+     "Thursday: 10:30 AM – 9:30 PM",
+     "Friday: 10:30 AM – 9:30 PM",
+     "Saturday: 10:30 AM – 9:30 PM",
+     "Sunday: 10:30 AM – 9:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "lot-cave-phangnga",
+   "name": "Lot Cave",
+   "name_he": "מערת לוט (מפרץ פנג נגה)",
+   "region": "phangnga",
+   "category": "nature",
+   "lat": 8.300581,
+   "lon": 98.496979,
+   "baby": 2,
+   "tip_he": "מנהרה-מערה במפרץ פנג נגה שעוברים בה בקיאק בין נטיפים. היא חלק מסיורי המפרץ.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Lot Cave",
+    "address": "8F2W+6QQ, Kalai, Takua Thung District, Phang Nga 82130, Thailand",
+    "place_id": "ChIJwwL9IqpUUDARenaZxqgsdBw",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwwL9IqpUUDARenaZxqgsdBw",
+    "rating": 4.7,
+    "reviews": 1402,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 9:00 AM – 5:00 PM",
+     "Sunday: 9:00 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "ban-nam-rad",
+   "name": "Headwater forest, Ban Nam Rad",
+   "name_he": "מעיין באן נאם ראד",
+   "region": "khaosok",
+   "category": "nature",
+   "lat": 8.842339,
+   "lon": 98.963754,
+   "baby": 3,
+   "tip_he": "⭐ מעיין טורקיז צלול בין עצי ג'ונגל ושורשים. שטים בסירה קטנה ושוחים. \"מחוץ למסלול התיירים\", כ-50 דק' מקאו סוק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Headwater forest, Ban Nam Rad",
+    "address": "บ้านน้ำราด Tambon Ban Tham Niap, Amphoe Khiri Rat Nikhom, Chang Wat Surat Thani 84180, Thailand",
+    "place_id": "ChIJkwldGV5EUTARrs23yVSlesA",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJkwldGV5EUTARrs23yVSlesA",
+    "rating": 4.4,
+    "reviews": 4549,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 8:30 AM – 5:00 PM",
+     "Sunday: 8:30 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "rajjaprabha-dam",
+   "name": "Rajjaprabha Dam",
+   "name_he": "סכר רצ'פרבהה",
+   "region": "khaosok",
+   "category": "viewpoint",
+   "lat": 8.97376,
+   "lon": 98.810452,
+   "baby": 3,
+   "tip_he": "הסכר שיצר את אגם צ'או לאן, ומכאן יוצאות הסירות. נוף מרשים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Rajjaprabha Dam",
+    "address": "XRF6+G54, Khao Phang, Ban Ta Khun District, Surat Thani 84230, Thailand",
+    "place_id": "ChIJxZCK1Ww2UTARWjZkqRtgG9U",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJxZCK1Ww2UTARWjZkqRtgG9U",
+    "rating": 4.7,
+    "reviews": 3101,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "ratchaprapha-viewpoint",
+   "name": "Ratchaprapha Dam Scenic Viewpoint",
+   "name_he": "תצפית האגם (הדוד קיאו)",
+   "region": "khaosok",
+   "category": "viewpoint",
+   "lat": 8.978809,
+   "lon": 98.824476,
+   "baby": 3,
+   "tip_he": "תצפית על האגם וצוקי הגיר. ממול יש גינת פסיפלורה של \"הדוד קיאו\" עם שייקים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Ratchaprapha Dam Scenic Viewpoint",
+    "address": "Unnamed Road, ตำบลเขาพัง อำเภอบ้านตาขุน สุราษฎร์ธานี 84230, Thailand",
+    "place_id": "ChIJIfqfTRc2UTARrI-YdHG2TrM",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIfqfTRc2UTARrI-YdHG2TrM",
+    "rating": 4.8,
+    "reviews": 142,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 9:00 AM – 5:00 PM",
+     "Sunday: 9:00 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "cheow-lan-viewpoint",
+   "name": "Cheow Lan Lake View Point",
+   "name_he": "תצפית צ'או לאן",
+   "region": "khaosok",
+   "category": "viewpoint",
+   "lat": 8.973782,
+   "lon": 98.810429,
+   "baby": 3,
+   "tip_he": "תצפית על אגם צ'או לאן מהיבשה, מגיעים ברכב.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Cheow Lan Lake View Point",
+    "address": "XRF6+G57, Khao Phang, Ban Ta Khun District, Surat Thani 84230, Thailand",
+    "place_id": "ChIJIai3crI3UTARekMt8D8ZbCk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJIai3crI3UTARekMt8D8ZbCk",
+    "rating": 4.7,
+    "reviews": 1228,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1900"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1900"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1900"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1900"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1900"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1900"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1900"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 7:00 PM",
+     "Tuesday: 6:00 AM – 7:00 PM",
+     "Wednesday: 6:00 AM – 7:00 PM",
+     "Thursday: 6:00 AM – 7:00 PM",
+     "Friday: 6:00 AM – 7:00 PM",
+     "Saturday: 6:00 AM – 7:00 PM",
+     "Sunday: 6:00 AM – 7:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "khao-sam-kloe",
+   "name": "שלושת הסלעים (\"גווילין של תאילנד\")",
+   "name_he": "שלושת הסלעים (\"גווילין של תאילנד\")",
+   "region": "khaosok",
+   "category": "viewpoint",
+   "lat": 8.996812,
+   "lon": 98.709187,
+   "baby": 2,
+   "tip_he": "⭐ שלושה סלעי גיר שבולטים מתוך האגם, הנוף הכי מפורסם של צ'או לאן. מגיעים רק בסירה. הכי יפה אחר הצהריים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "เขาสามเกลอ กุ้ยหลินเมืองไทย",
+    "address": "รัชชประภา ตำบลเขาพัง อำเภอบ้านตาขุน สุราษฎร์ธานี 84230 ประเทศไทย",
+    "place_id": "ChIJSbdSc34xUTARK_C_USrITFQ",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJSbdSc34xUTARK_C_USrITFQ",
+    "rating": 4.8,
+    "reviews": 825,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 5:00 PM",
+     "Tuesday: 9:00 AM – 5:00 PM",
+     "Wednesday: 9:00 AM – 5:00 PM",
+     "Thursday: 9:00 AM – 5:00 PM",
+     "Friday: 9:00 AM – 5:00 PM",
+     "Saturday: 9:00 AM – 5:00 PM",
+     "Sunday: 9:00 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "khlong-nam-sai-suratthani",
+   "name": "KHLONG NAM SAI",
+   "name_he": "קלונג נאם סאי (סוראט תאני)",
+   "region": "khaosok",
+   "category": "nature",
+   "lat": 9.015472,
+   "lon": 99.015696,
+   "baby": 3,
+   "tip_he": "⭐ נחל צלול בצבע כחול שהמקומיים שוחים בו, כמעט בלי תיירים. כניסה 20 באט. נמצא מזרחית לאגם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "KHLONG NAM SAI",
+    "address": "9.015490, 99.015690 ถ้าสิงขร Tambon Yan Yao, Amphoe Khiri Rat Nikhom, Chang Wat Surat Thani 84180, Thailand",
+    "place_id": "ChIJ57x5qXVSUTAR2F6lQFNk3Xo",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ57x5qXVSUTAR2F6lQFNk3Xo",
+    "rating": 4.2,
+    "reviews": 1545,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "mae-yai-waterfall",
+   "name": "Mae Yai Waterfall",
+   "name_he": "מפל מאה יאי",
+   "region": "khaosok",
+   "category": "waterfall",
+   "lat": 8.883309,
+   "lon": 98.49958,
+   "baby": 3,
+   "tip_he": "מפל ממש ליד הכביש, בלי הליכה. יש בריכה קטנה לטבול רגליים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mae Yai Waterfall",
+    "address": "VFMX+8RG, Khlong Sok, Phanom District, Surat Thani 84250, Thailand",
+    "place_id": "ChIJZSiqf5AnUTARu1bbmbP5AWQ",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJZSiqf5AnUTARu1bbmbP5AWQ",
+    "rating": 4.3,
+    "reviews": 369,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "khlong-phanom-np",
+   "name": "פארק לאומי קלונג פנום",
+   "name_he": "פארק לאומי קלונג פנום",
+   "region": "khaosok",
+   "category": "nature",
+   "lat": 8.879994,
+   "lon": 98.674082,
+   "baby": 2,
+   "tip_he": "פארק לאומי שקט עם שבילי טבע, ותצפית \"פה דונג רק\" עם בית קפה למעלה. להביא מים ותכשיר נגד יתושים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "อุทยานแห่งชาติคลองพนม",
+    "address": "อุทยานแห่งชาติคลองพนม, ต.คลองศก อ.พนม จ.สุราษฎร์ธานี, 84250 ตำบล คลองศก อำเภอพนม สุราษฎร์ธานี 84250 ประเทศไทย",
+    "place_id": "ChIJw_oW3sQ6UTARZ7v7r7cP5ms",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJw_oW3sQ6UTARZ7v7r7cP5ms",
+    "rating": 4.6,
+    "reviews": 344,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1630"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1630"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1630"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1630"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1630"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1630"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1630"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 4:30 PM",
+     "Tuesday: 8:30 AM – 4:30 PM",
+     "Wednesday: 8:30 AM – 4:30 PM",
+     "Thursday: 8:30 AM – 4:30 PM",
+     "Friday: 8:30 AM – 4:30 PM",
+     "Saturday: 8:30 AM – 4:30 PM",
+     "Sunday: 8:30 AM – 4:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "khlong-sok-bamboo-raft",
+   "name": "רפסודת במבוק על קלונג סוק",
+   "name_he": "רפסודת במבוק על קלונג סוק",
+   "region": "khaosok",
+   "category": "nature",
+   "lat": 8.883062,
+   "lon": 98.680667,
+   "baby": 2,
+   "tip_he": "שייט רגוע של כ-45 דק' ברפסודת במבוק על הנהר, עם קפה. מתאים במים רגועים, אבל לשאול על חגורת הצלה לתינוק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "คลองสก แบมบูราฟ",
+    "address": "VMMJ+67F 401 ตำบล คลองศก อำเภอพนม สุราษฎร์ธานี 84250 ประเทศไทย",
+    "place_id": "ChIJ9Z2MPcI6UTARH9Efm8lxgnc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ9Z2MPcI6UTARH9Efm8lxgnc",
+    "rating": 4.7,
+    "reviews": 191,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "thara-park",
+   "name": "Thara Park",
+   "name_he": "פארק תארה",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.052801,
+   "lon": 98.918693,
+   "baby": 3,
+   "tip_he": "פארק גדול לאורך נהר קראבי עם צל, מגרש משחקים ודוכני אוכל. בערב יש בו משפחות מקומיות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Thara Park",
+    "address": "69 Thanon Utarakit, Tambon Sai Thai, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJvYPNDqSUUTARkMD5FL0jAh0",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvYPNDqSUUTARkMD5FL0jAh0",
+    "rating": 4.4,
+    "reviews": 1827,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "saline-hot-spring",
+   "name": "Saline Hot Spring Khlong Thom",
+   "name_he": "מעיינות חמים מלוחים קלונג תום",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 7.904606,
+   "lon": 99.108407,
+   "baby": 2,
+   "tip_he": "⭐ מעיינות חמים של מים מלוחים בבריכות טבעיות. שקט ונגיש עם רמפות. לנאם רק לטבול רגליים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Saline Hot Spring Khlong Thom",
+    "address": "116 Tambon Huai Nam Khao, Amphoe Khlong Thom, Chang Wat Krabi 81120, Thailand",
+    "place_id": "ChIJj4WnkB33UTARuJI7QZ8ybns",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJj4WnkB33UTARuJI7QZ8ybns",
+    "rating": 4.3,
+    "reviews": 1491,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0500",
+      0,
+      "2000"
+     ],
+     [
+      1,
+      "0500",
+      1,
+      "2000"
+     ],
+     [
+      2,
+      "0500",
+      2,
+      "2000"
+     ],
+     [
+      3,
+      "0500",
+      3,
+      "2000"
+     ],
+     [
+      4,
+      "0500",
+      4,
+      "2000"
+     ],
+     [
+      5,
+      "0500",
+      5,
+      "2000"
+     ],
+     [
+      6,
+      "0500",
+      6,
+      "2000"
+     ]
+    ],
+    "hours": [
+     "Monday: 5:00 AM – 8:00 PM",
+     "Tuesday: 5:00 AM – 8:00 PM",
+     "Wednesday: 5:00 AM – 8:00 PM",
+     "Thursday: 5:00 AM – 8:00 PM",
+     "Friday: 5:00 AM – 8:00 PM",
+     "Saturday: 5:00 AM – 8:00 PM",
+     "Sunday: 5:00 AM – 8:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "sa-nam-phut",
+   "name": "סה נאם פוט",
+   "name_he": "סה נאם פוט",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 7.928115,
+   "lon": 99.272305,
+   "baby": 3,
+   "tip_he": "המעיין שמזין את הבריכה האמרלד: מים צלולים מאוד, ואסור להיכנס. ליד הבריכה האמרלד.",
+   "geo": {
+    "status": "ok",
+    "google_name": "สระน้ำผุด กระบี่",
+    "address": "ตำบล คลองท่อมเหนือ อำเภอคลองท่อม กระบี่ 81120 ประเทศไทย",
+    "place_id": "ChIJk4USYxQcUjARHTThIWdTDEk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJk4USYxQcUjARHTThIWdTDEk",
+    "rating": 4.5,
+    "reviews": 1398,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "1000",
+      0,
+      "1530"
+     ],
+     [
+      1,
+      "1000",
+      1,
+      "1530"
+     ],
+     [
+      2,
+      "1000",
+      2,
+      "1530"
+     ],
+     [
+      3,
+      "1000",
+      3,
+      "1530"
+     ],
+     [
+      4,
+      "1000",
+      4,
+      "1530"
+     ],
+     [
+      5,
+      "1000",
+      5,
+      "1530"
+     ],
+     [
+      6,
+      "1000",
+      6,
+      "1530"
+     ]
+    ],
+    "hours": [
+     "Monday: 10:00 AM – 3:30 PM",
+     "Tuesday: 10:00 AM – 3:30 PM",
+     "Wednesday: 10:00 AM – 3:30 PM",
+     "Thursday: 10:00 AM – 3:30 PM",
+     "Friday: 10:00 AM – 3:30 PM",
+     "Saturday: 10:00 AM – 3:30 PM",
+     "Sunday: 10:00 AM – 3:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "mount-guanyin",
+   "name": "Mount Guanyin (The Great Bodhisattva Guanyin)",
+   "name_he": "מקדש גואניין",
+   "region": "krabi",
+   "category": "viewpoint",
+   "lat": 8.039267,
+   "lon": 98.844219,
+   "baby": 2,
+   "tip_he": "מקדש גואניין עם מדרגות לתצפית מעל אאו נאנג. נכנסים רק בבגדים ארוכים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mount Guanyin (The Great Bodhisattva Guanyin)",
+    "address": "949, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJc6vZvlmVUTARLvy9HmoxeCM",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJc6vZvlmVUTARLvy9HmoxeCM",
+    "rating": 4.8,
+    "reviews": 783,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0645",
+      0,
+      "1900"
+     ],
+     [
+      1,
+      "0645",
+      1,
+      "1900"
+     ],
+     [
+      2,
+      "0645",
+      2,
+      "1900"
+     ],
+     [
+      3,
+      "0645",
+      3,
+      "1900"
+     ],
+     [
+      4,
+      "0645",
+      4,
+      "1900"
+     ],
+     [
+      5,
+      "0645",
+      5,
+      "1900"
+     ],
+     [
+      6,
+      "0645",
+      6,
+      "1900"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:45 AM – 7:00 PM",
+     "Tuesday: 6:45 AM – 7:00 PM",
+     "Wednesday: 6:45 AM – 7:00 PM",
+     "Thursday: 6:45 AM – 7:00 PM",
+     "Friday: 6:45 AM – 7:00 PM",
+     "Saturday: 6:45 AM – 7:00 PM",
+     "Sunday: 6:45 AM – 7:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "kuan-nom-sao-viewpoint",
+   "name": "Trail up to Kuan Nom Saow viewpoint",
+   "name_he": "תצפית קואן נום סאו",
+   "region": "krabi",
+   "category": "viewpoint",
+   "lat": 8.163033,
+   "lon": 98.782189,
+   "baby": 3,
+   "tip_he": "⭐ תצפית על הרי הגיר עם מסעדה קטנה וזולה למעלה. אוכל טוב ותה תאילנדי מול הנוף.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Trail up to Kuan Nom Saow viewpoint",
+    "address": "หมู่ที่ 4, Khao Thong, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJwaVMXR29UTAR783_sAtOkro",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJwaVMXR29UTAR783_sAtOkro",
+    "rating": 4.8,
+    "reviews": 291,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0630",
+      0,
+      "1830"
+     ],
+     [
+      1,
+      "0630",
+      1,
+      "1830"
+     ],
+     [
+      2,
+      "0630",
+      2,
+      "1830"
+     ],
+     [
+      3,
+      "0630",
+      3,
+      "1830"
+     ],
+     [
+      4,
+      "0630",
+      4,
+      "1830"
+     ],
+     [
+      5,
+      "0630",
+      5,
+      "1830"
+     ],
+     [
+      6,
+      "0630",
+      6,
+      "1830"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:30 AM – 6:30 PM",
+     "Tuesday: 6:30 AM – 6:30 PM",
+     "Wednesday: 6:30 AM – 6:30 PM",
+     "Thursday: 6:30 AM – 6:30 PM",
+     "Friday: 6:30 AM – 6:30 PM",
+     "Saturday: 6:30 AM – 6:30 PM",
+     "Sunday: 6:30 AM – 6:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "khlong-sa-kaeo-stream",
+   "name": "נחל קלונג סה קאו",
+   "name_he": "נחל קלונג סה קאו",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.162632,
+   "lon": 98.804966,
+   "baby": 2,
+   "tip_he": "נחל צלול וקריר שמשתכשכים ושטים בו לאורך חבלים. שקט באמצע השבוע.",
+   "geo": {
+    "status": "ok",
+    "google_name": "ล่องคลองสระแก้ว (ทางเข้า)",
+    "address": "เลขที่ 71/1 หมู่ 1, ต.เขาทอง อ.เมืองกระบี่ จ.กระบี่, 81000 ตำบล เขาทอง อำเภอเมืองกระบี่ กระบี่ 81000 ประเทศไทย",
+    "place_id": "ChIJW9tZX7G9UTARtzDwhj4OQlE",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW9tZX7G9UTARtzDwhj4OQlE",
+    "rating": 4.4,
+    "reviews": 279,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 5:00 PM",
+     "Tuesday: 8:30 AM – 5:00 PM",
+     "Wednesday: 8:30 AM – 5:00 PM",
+     "Thursday: 8:30 AM – 5:00 PM",
+     "Friday: 8:30 AM – 5:00 PM",
+     "Saturday: 8:30 AM – 5:00 PM",
+     "Sunday: 8:30 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "khao-khom-dam",
+   "name": "Khao Khom Dam",
+   "name_he": "מאגר קאו קום",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.247739,
+   "lon": 98.784298,
+   "baby": 3,
+   "tip_he": "מאגר שקט עם השתקפויות של ההרים, בכביש ירוק בלי תנועה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khao Khom Dam",
+    "address": "6QXM+3PV, Khao Khram, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJ03Mi9xGjUTARBeMyavR80AY",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ03Mi9xGjUTARBeMyavR80AY",
+    "rating": 4.6,
+    "reviews": 264,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1720"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1720"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1720"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1720"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1720"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1720"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1720"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 5:20 PM",
+     "Tuesday: 8:30 AM – 5:20 PM",
+     "Wednesday: 8:30 AM – 5:20 PM",
+     "Thursday: 8:30 AM – 5:20 PM",
+     "Friday: 8:30 AM – 5:20 PM",
+     "Saturday: 8:30 AM – 5:20 PM",
+     "Sunday: 8:30 AM – 5:20 PM"
+    ]
+   }
+  },
+  {
+   "id": "mirror-lake",
+   "name": "Mirror Lake Krabi",
+   "name_he": "אגם המראה",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.100375,
+   "lon": 98.810518,
+   "baby": 2,
+   "tip_he": "אגם צלול עם קיאקים דרך המנגרובים, ואפשר גם לשחות.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Mirror Lake Krabi",
+    "address": "Thailand, Krabi, Mueang Krabi District, Nong Thale, Unnamed Road邮政编码: 81000",
+    "place_id": "ChIJEZi6JOu_UTARF-DyeePAU8I",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJEZi6JOu_UTARF-DyeePAU8I",
+    "rating": 4.5,
+    "reviews": 229,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1730"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1730"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1730"
+     ],
+     [
+      3,
+      "0930",
+      3,
+      "1730"
+     ],
+     [
+      4,
+      "0930",
+      4,
+      "1730"
+     ],
+     [
+      5,
+      "0930",
+      5,
+      "1730"
+     ],
+     [
+      6,
+      "0930",
+      6,
+      "1730"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 5:30 PM",
+     "Tuesday: 8:30 AM – 5:30 PM",
+     "Wednesday: 9:30 AM – 5:30 PM",
+     "Thursday: 9:30 AM – 5:30 PM",
+     "Friday: 9:30 AM – 5:30 PM",
+     "Saturday: 9:30 AM – 5:30 PM",
+     "Sunday: 8:30 AM – 5:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "khlong-nam-sai-krabi",
+   "name": "Khlong nam Sai",
+   "name_he": "קלונג נאם סאי (קראבי)",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.103232,
+   "lon": 98.815379,
+   "baby": 2,
+   "tip_he": "⭐ מעיין טורקיז שהקהילה מנהלת. שטים בסירה (300 באט) עד עין המים. אמיתי ושקט, ליד קלונג רוט.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Khlong nam Sai",
+    "address": "4R38+75R ตำบล หนองทะเล อำเภอเมืองกระบี่ กระบี่ 81000 ประเทศไทย",
+    "place_id": "ChIJu1vndQ-_UTARdUTfE8G9Mls",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJu1vndQ-_UTARdUTfE8G9Mls",
+    "rating": 4.7,
+    "reviews": 492,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0630",
+      0,
+      "1730"
+     ],
+     [
+      1,
+      "0630",
+      1,
+      "1730"
+     ],
+     [
+      2,
+      "0630",
+      2,
+      "1730"
+     ],
+     [
+      3,
+      "0630",
+      3,
+      "1730"
+     ],
+     [
+      4,
+      "0630",
+      4,
+      "1730"
+     ],
+     [
+      5,
+      "0630",
+      5,
+      "1730"
+     ],
+     [
+      6,
+      "0630",
+      6,
+      "1730"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:30 AM – 5:30 PM",
+     "Tuesday: 6:30 AM – 5:30 PM",
+     "Wednesday: 6:30 AM – 5:30 PM",
+     "Thursday: 6:30 AM – 5:30 PM",
+     "Friday: 6:30 AM – 5:30 PM",
+     "Saturday: 6:30 AM – 5:30 PM",
+     "Sunday: 6:30 AM – 5:30 PM"
+    ]
+   }
+  },
+  {
+   "id": "hin-phoeng-waterfall",
+   "name": "Namtok Hin Phoeng",
+   "name_he": "מפל הין פואנג",
+   "region": "krabi",
+   "category": "waterfall",
+   "lat": 7.852866,
+   "lon": 99.249924,
+   "baby": 2,
+   "tip_he": "מפל עם כמה בריכות בטוחות לרחצה ושטח לפיקניק.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Namtok Hin Phoeng",
+    "address": "Khlong Phon, Khlong Thom District, Krabi 81170, Thailand",
+    "place_id": "ChIJW9lcijEDUjAR6FwXn4r_8Do",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJW9lcijEDUjAR6FwXn4r_8Do",
+    "rating": 4.3,
+    "reviews": 185,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0900",
+      0,
+      "1800"
+     ],
+     [
+      1,
+      "0900",
+      1,
+      "1800"
+     ],
+     [
+      2,
+      "0900",
+      2,
+      "1800"
+     ],
+     [
+      3,
+      "0900",
+      3,
+      "1800"
+     ],
+     [
+      4,
+      "0900",
+      4,
+      "1800"
+     ],
+     [
+      5,
+      "0900",
+      5,
+      "1800"
+     ],
+     [
+      6,
+      "0900",
+      6,
+      "1800"
+     ]
+    ],
+    "hours": [
+     "Monday: 9:00 AM – 6:00 PM",
+     "Tuesday: 9:00 AM – 6:00 PM",
+     "Wednesday: 9:00 AM – 6:00 PM",
+     "Thursday: 9:00 AM – 6:00 PM",
+     "Friday: 9:00 AM – 6:00 PM",
+     "Saturday: 9:00 AM – 6:00 PM",
+     "Sunday: 9:00 AM – 6:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "nong-thale-lake",
+   "name": "Nong Thale",
+   "name_he": "אגם נונג תאלה",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.093153,
+   "lon": 98.820943,
+   "baby": 3,
+   "tip_he": "אגם שקט לשחייה בין ג'ונגל ומטעי גומי, ויש ליד קיאקים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nong Thale",
+    "address": "Nong Thale, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJXT1pp4m_UTARzPNh0iPTiJg",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJXT1pp4m_UTARzPNh0iPTiJg",
+    "rating": 4.5,
+    "reviews": 129,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0600",
+      0,
+      "1900"
+     ],
+     [
+      1,
+      "0600",
+      1,
+      "1900"
+     ],
+     [
+      2,
+      "0600",
+      2,
+      "1900"
+     ],
+     [
+      3,
+      "0600",
+      3,
+      "1900"
+     ],
+     [
+      4,
+      "0600",
+      4,
+      "1900"
+     ],
+     [
+      5,
+      "0600",
+      5,
+      "1900"
+     ],
+     [
+      6,
+      "0600",
+      6,
+      "1900"
+     ]
+    ],
+    "hours": [
+     "Monday: 6:00 AM – 7:00 PM",
+     "Tuesday: 6:00 AM – 7:00 PM",
+     "Wednesday: 6:00 AM – 7:00 PM",
+     "Thursday: 6:00 AM – 7:00 PM",
+     "Friday: 6:00 AM – 7:00 PM",
+     "Saturday: 6:00 AM – 7:00 PM",
+     "Sunday: 6:00 AM – 7:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "nong-thale-peak",
+   "name": "Nong Thale Peak",
+   "name_he": "פסגת נונג תאלה",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.085615,
+   "lon": 98.776877,
+   "baby": 1,
+   "tip_he": "טיפוס רציני: 7.5 ק\"מ הלוך-חזור, 500 מ' עלייה, כ-3 שעות. ליד הווילה. רק כשמתפצלים, בבוקר מוקדם.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nong Thale Peak",
+    "address": "3QPG+6QR, Nong Thale, Mueang Krabi District, Krabi 81000, Thailand",
+    "place_id": "ChIJTb4ANeK-UTARl41Su2bVWuc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJTb4ANeK-UTARl41Su2bVWuc",
+    "rating": 4.7,
+    "reviews": 47,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0800",
+      0,
+      "1400"
+     ],
+     [
+      1,
+      "0800",
+      1,
+      "1400"
+     ],
+     [
+      2,
+      "0800",
+      2,
+      "1400"
+     ],
+     [
+      3,
+      "0800",
+      3,
+      "1400"
+     ],
+     [
+      4,
+      "0800",
+      4,
+      "1400"
+     ],
+     [
+      5,
+      "0800",
+      5,
+      "1400"
+     ],
+     [
+      6,
+      "0800",
+      6,
+      "1400"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:00 AM – 2:00 PM",
+     "Tuesday: 8:00 AM – 2:00 PM",
+     "Wednesday: 8:00 AM – 2:00 PM",
+     "Thursday: 8:00 AM – 2:00 PM",
+     "Friday: 8:00 AM – 2:00 PM",
+     "Saturday: 8:00 AM – 2:00 PM",
+     "Sunday: 8:00 AM – 2:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "antosil-beach",
+   "name": "Antosil beach Krabi",
+   "name_he": "חוף אנטוסיל",
+   "region": "krabi",
+   "category": "beach",
+   "lat": 8.045002,
+   "lon": 98.785818,
+   "baby": 3,
+   "tip_he": "⭐ חוף לבן וכמעט ריק ליד קלונג מואנג, קרוב לווילה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Antosil beach Krabi",
+    "address": "2QWP+284 Klong Muang Beach Road Tambon Nong Thale, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJ5akwEYK_UTARvb44LipV7Cs",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ5akwEYK_UTARvb44LipV7Cs",
+    "rating": 4.6,
+    "reviews": 101,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "phra-nang-cave-beach",
+   "name": "חוף מערת פרה נאנג (ריילי)",
+   "name_he": "חוף מערת פרה נאנג (ריילי)",
+   "region": "krabi",
+   "category": "beach",
+   "lat": 8.004609,
+   "lon": 98.840255,
+   "baby": 2,
+   "tip_he": "⭐ אחד החופים היפים בתאילנד, עם צוקי גיר, מים צלולים ומערת הנסיכה. מגיעים בלונגטייל לריילי ואז בהליכה קצרה ושטוחה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "ถ้ำพระนาง",
+    "address": "2R3R+R4R ตำบล อ่าวนาง อำเภอเมืองกระบี่ กระบี่ 81000 ประเทศไทย",
+    "place_id": "ChIJf2k-CoPqUTARdDu7bnB2sQw",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJf2k-CoPqUTARdDu7bnB2sQw",
+    "rating": 4.6,
+    "reviews": 7356,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "east-railay-viewpoint",
+   "name": "East Railay Viewpoint",
+   "name_he": "תצפית ריילי",
+   "region": "krabi",
+   "category": "viewpoint",
+   "lat": 8.006857,
+   "lon": 98.841543,
+   "baby": 1,
+   "tip_he": "טיפוס על סלעים עם חבלים, חלקלק. לא עם תינוק. התצפית מעל ריילי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "East Railay Viewpoint",
+    "address": "2R4R+W6 East Raylay Viewpoint Trailhead, Tambon Ao Nang, Amphoe Mueang Krabi, Chang Wat Krabi 81000, Thailand",
+    "place_id": "ChIJhZgWyovrUTARMWCu27GW5Hk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJhZgWyovrUTARMWCu27GW5Hk",
+    "rating": 4.7,
+    "reviews": 380,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "klong-haeng-reservoir",
+   "name": "Klong Haeng Reservoir",
+   "name_he": "מאגר קלונג האנג",
+   "region": "krabi",
+   "category": "nature",
+   "lat": 8.238204,
+   "lon": 98.98424,
+   "baby": 3,
+   "tip_he": "מאגר שקט ונופי, כמעט בלי אנשים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Klong Haeng Reservoir",
+    "address": "6XQM+7MQ กบ.1025 Tambon Khao Phanom, Amphoe Mueang Krabi, Chang Wat Krabi 81140, Thailand",
+    "place_id": "ChIJOSAtJ--aUTARrZY-SvE_-Fk",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJOSAtJ--aUTARrZY-SvE_-Fk",
+    "rating": 4.4,
+    "reviews": 172,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0
+   }
+  },
+  {
+   "id": "nui-bay",
+   "name": "Nui Bay",
+   "name_he": "מפרץ נוי",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.488891,
+   "lon": 99.078785,
+   "baby": 2,
+   "tip_he": "מפרץ קטן ויפה עם מים צלולים ומסעדה. ⚠️ יש קופים שחוטפים מתיקים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Nui Bay",
+    "address": "Moo 5 Ao Nui Bay Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJmwVeIXkFTjARuBXvtHPRBjc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJmwVeIXkFTjARuBXvtHPRBjc",
+    "rating": 4.6,
+    "reviews": 1851,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "klong-jak-beach",
+   "name": "Klong Jak Beach",
+   "name_he": "חוף קלונג ג'אק",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.48629,
+   "lon": 99.083347,
+   "baby": 3,
+   "tip_he": "חוף יפה ושקט בדרום-מערב, עם שקיעה מדהימה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Klong Jak Beach",
+    "address": "Ko Lanta Yai, Ko Lanta, Krabi, 81150, ตำบล เกาะลันตาใหญ่ อำเภอเกาะลันตา กระบี่ 81150, Thailand",
+    "place_id": "ChIJK3Wp6jwPTjARr59_rX1o2i4",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJK3Wp6jwPTjARr59_rX1o2i4",
+    "rating": 4.7,
+    "reviews": 661,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "bakantiang-beach",
+   "name": "Bakantiang Beach",
+   "name_he": "חוף בקנטיאנג",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.493985,
+   "lon": 99.075137,
+   "baby": 3,
+   "tip_he": "חוף שקט על רקע יער, פחות מפותח מהחופים בצפון האי.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Bakantiang Beach",
+    "address": "ทางหลวงจังหวัดหมายเลข 4245 Tambon Ko Lanta Yai, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJPW9Unm0PTjARnhFXmAFajbM",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJPW9Unm0PTjARnhFXmAFajbM",
+    "rating": 4.6,
+    "reviews": 368,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "klong-khong-beach",
+   "name": "Klong Khong Beach",
+   "name_he": "חוף קלונג קונג",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.571404,
+   "lon": 99.033638,
+   "baby": 2,
+   "tip_he": "חוף ארוך עם ברים רגועים. בשפל קשה לשחות, אבל החוף מלא צדפים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Klong Khong Beach",
+    "address": "H2CM+HF6, Sala Dan, Ko Lanta District, Krabi 81150, Thailand",
+    "place_id": "ChIJQYmvj4AFTjARnGjcOsGefEY",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJQYmvj4AFTjARnGjcOsGefEY",
+    "rating": 4.4,
+    "reviews": 453,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "relax-bay",
+   "name": "Relax Bay",
+   "name_he": "מפרץ ריליקס",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.591954,
+   "lon": 99.0322,
+   "baby": 3,
+   "tip_he": "מפרץ רגוע. בקצה הצפוני יש מסעדת דגים טובה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Relax Bay",
+    "address": "H2RM+H3Q, Sala Dan, Ko Lanta District, Krabi 81150, Thailand",
+    "place_id": "ChIJlZ-cTr4FTjAR-IysSiuTsmc",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJlZ-cTr4FTjAR-IysSiuTsmc",
+    "rating": 4.6,
+    "reviews": 244,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "klong-tob-beach",
+   "name": "Klong Tob Beach",
+   "name_he": "חוף קלונג טוב",
+   "region": "lanta",
+   "category": "beach",
+   "lat": 7.555782,
+   "lon": 99.039337,
+   "baby": 3,
+   "tip_he": "חוף סלעי ושקט, מהטובים לשקיעה בשפל.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Klong Tob Beach",
+    "address": "H24Q+8P8, Ko Lanta Yai, Ko Lanta District, Krabi 81150, Thailand",
+    "place_id": "ChIJvwEytB4FTjAREHOUvbjfktE",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJvwEytB4FTjAREHOUvbjfktE",
+    "rating": 4.4,
+    "reviews": 85,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "tung-yee-peng",
+   "name": "תונג יי פנג – תיירות קהילתית",
+   "name_he": "תונג יי פנג – תיירות קהילתית",
+   "region": "lanta",
+   "category": "nature",
+   "lat": 7.595136,
+   "lon": 99.071482,
+   "baby": 2,
+   "tip_he": "⭐ שייט בזריחה בסירה משוטה במנגרובים עם המקומיים. פרויקט של הקהילה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "ชุมชนท่องเที่ยวทุ่งหยีเพ็ง เกาะลันตา",
+    "address": "H3WC+3H5 ตำบล ศาลาด่าน อำเภอเกาะลันตา กระบี่ 81150 ประเทศไทย",
+    "place_id": "ChIJ35y2OVcFTjARDO2ND12H39c",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ35y2OVcFTjARDO2ND12H39c",
+    "rating": 4.3,
+    "reviews": 188,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0830",
+      0,
+      "1700"
+     ],
+     [
+      1,
+      "0830",
+      1,
+      "1700"
+     ],
+     [
+      2,
+      "0830",
+      2,
+      "1700"
+     ],
+     [
+      3,
+      "0830",
+      3,
+      "1700"
+     ],
+     [
+      4,
+      "0830",
+      4,
+      "1700"
+     ],
+     [
+      5,
+      "0830",
+      5,
+      "1700"
+     ],
+     [
+      6,
+      "0830",
+      6,
+      "1700"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:30 AM – 5:00 PM",
+     "Tuesday: 8:30 AM – 5:00 PM",
+     "Wednesday: 8:30 AM – 5:00 PM",
+     "Thursday: 8:30 AM – 5:00 PM",
+     "Friday: 8:30 AM – 5:00 PM",
+     "Saturday: 8:30 AM – 5:00 PM",
+     "Sunday: 8:30 AM – 5:00 PM"
+    ]
+   }
+  },
+  {
+   "id": "laem-ngu-viewpoint",
+   "name": "Laem Ngu Viewpoint",
+   "name_he": "תצפית לאם נגו (לנטה נוי)",
+   "region": "lanta",
+   "category": "viewpoint",
+   "lat": 7.634453,
+   "lon": 99.126516,
+   "baby": 3,
+   "tip_he": "מזח-תצפית בלנטה נוי. אחרי 16:30 יש שם שוק לילה מקומי, זול וטעים.",
+   "geo": {
+    "status": "ok",
+    "google_name": "Laem Ngu Viewpoint",
+    "address": "Unnamed Road J4MG+QJJ, Tambon Ko Lanta Noi, Amphoe Ko Lanta, Chang Wat Krabi 81150, Thailand",
+    "place_id": "ChIJ4RwaM_oBTjARhzrLKonXEvo",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJ4RwaM_oBTjARhzrLKonXEvo",
+    "rating": 4.4,
+    "reviews": 141,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0000",
+      0,
+      "2400"
+     ]
+    ],
+    "hours": [
+     "Monday: Open 24 hours",
+     "Tuesday: Open 24 hours",
+     "Wednesday: Open 24 hours",
+     "Thursday: Open 24 hours",
+     "Friday: Open 24 hours",
+     "Saturday: Open 24 hours",
+     "Sunday: Open 24 hours"
+    ]
+   }
+  },
+  {
+   "id": "laem-tanod-trail",
+   "name": "שביל הטבע לאם טאנוד",
+   "name_he": "שביל הטבע לאם טאנוד",
+   "region": "lanta",
+   "category": "nature",
+   "lat": 7.47084,
+   "lon": 99.097728,
+   "baby": 2,
+   "tip_he": "⭐ שביל טבע קל של כשעה בפארק הלאומי, ואפשר לראות בו קופי לנגור כהים (dusky leaf monkey). מצוין לנועה.",
+   "geo": {
+    "status": "ok",
+    "google_name": "เส้นทางศึกษาธรรมชาติแหลมโตนด",
+    "address": "86/1หมู่.6เกาะลันตาใหญ่ .อ เกาะ, ตำบล เกาะลันตาใหญ่ อำเภอเกาะลันตา กระบี่ 81150, Thailand",
+    "place_id": "ChIJqfvjupEPTjARM6cBppQs-7E",
+    "maps_url": "https://www.google.com/maps/place/?q=place_id:ChIJqfvjupEPTjARM6cBppQs-7E",
+    "rating": 4.4,
+    "reviews": 86,
+    "business_status": "OPERATIONAL",
+    "moved_km": 0,
+    "periods": [
+     [
+      0,
+      "0831",
+      0,
+      "1731"
+     ],
+     [
+      1,
+      "0831",
+      1,
+      "1731"
+     ],
+     [
+      2,
+      "0831",
+      2,
+      "1731"
+     ],
+     [
+      3,
+      "0831",
+      3,
+      "1731"
+     ],
+     [
+      4,
+      "0831",
+      4,
+      "1731"
+     ],
+     [
+      5,
+      "0831",
+      5,
+      "1731"
+     ],
+     [
+      6,
+      "0831",
+      6,
+      "1731"
+     ]
+    ],
+    "hours": [
+     "Monday: 8:31 AM – 5:31 PM",
+     "Tuesday: 8:31 AM – 5:31 PM",
+     "Wednesday: 8:31 AM – 5:31 PM",
+     "Thursday: 8:31 AM – 5:31 PM",
+     "Friday: 8:31 AM – 5:31 PM",
+     "Saturday: 8:31 AM – 5:31 PM",
+     "Sunday: 8:31 AM – 5:31 PM"
+    ]
+   }
   }
  ]
 }
