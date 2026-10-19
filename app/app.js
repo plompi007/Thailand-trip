@@ -254,9 +254,14 @@ function updateMe() {
   if (!meMarker) meMarker = L.marker(ll, { icon: L.divIcon({ className: '', html: '<div class="me-dot"></div>', iconSize: [18, 18] }), interactive: false, zIndexOffset: 1000 }).addTo(map);
   else meMarker.setLatLng(ll);
 }
+const reduceMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+function moveMap(center, zoom) {
+  if (reduceMotion()) map.setView(center, zoom, { animate: false });
+  else map.flyTo(center, zoom, { duration: 0.6 });
+}
 function flyToArea(area) {
   const [c, z] = AREAS[area].view;
-  map.flyTo(c, z, { duration: 0.8 });
+  moveMap(c, z);
 }
 
 // ---------- cards ----------
@@ -278,16 +283,18 @@ function cardHtml(p, why) {
   const g = p.geo || {};
   const sub = [distLabel(p), hoursLine(h), g.rating ? `★ ${g.rating}` : ''].filter(Boolean).join(' · ');
   const fav = state.favs.has(p.id);
-  return `<li class="card ${state.visited.has(p.id) ? 'visited' : ''}" data-id="${p.id}">
-    <div class="cat-ico" style="--c:${CAT_COLOR[p.category]}">${CAT_ICON[p.category] || '📍'}</div>
-    <div class="body">
-      <div class="name">${esc(p.name_he)}${state.visited.has(p.id) ? ' ✓' : ''}</div>
-      <div class="sub">${sub || esc(state.data.meta.regions[p.region])}</div>
-      <div class="tags">${tagsHtml(p)}</div>
-    </div>
+  return `<li class="card ${state.visited.has(p.id) ? 'visited' : ''}">
+    <button class="card-main" type="button" data-id="${p.id}">
+      <span class="cat-ico" style="--c:${CAT_COLOR[p.category]}" aria-hidden="true">${CAT_ICON[p.category] || '📍'}</span>
+      <span class="body">
+        <span class="name">${esc(p.name_he)}${state.visited.has(p.id) ? ' <span aria-label="היינו כאן">✓</span>' : ''}</span>
+        <span class="sub">${sub || esc(state.data.meta.regions[p.region])}</span>
+        <span class="tags">${tagsHtml(p)}</span>
+      </span>
+    </button>
     <div class="card-actions">
-      <a class="go" href="${navUrl(p)}" target="_blank" rel="noopener" aria-label="ניווט" data-stop>🧭</a>
-      <button class="fav" type="button" data-fav="${p.id}" aria-label="שמירה" data-stop>${fav ? '❤️' : '🤍'}</button>
+      <a class="go" href="${navUrl(p)}" target="_blank" rel="noopener" aria-label="ניווט אל ${esc(p.name_he)}"><span aria-hidden="true">🧭</span></a>
+      <button class="fav" type="button" data-fav="${p.id}" aria-pressed="${fav}" aria-label="${fav ? 'הסרה מהשמורים' : 'שמירה'}: ${esc(p.name_he)}"><span aria-hidden="true">${fav ? '❤️' : '🤍'}</span></button>
     </div>
     ${why ? `<div class="why">${why}</div>` : ''}
   </li>`;
@@ -301,7 +308,9 @@ function renderList() {
   if (state.origin) items = items.map((p) => [p, km(state.origin, p)]).sort((a, b) => a[1] - b[1]).map(([p]) => p);
   $('#originLine').innerHTML = originHtml();
   $('#list').innerHTML = items.length ? items.map((p) => cardHtml(p)).join('')
-    : `<li class="empty">${state.cat === 'fav' ? 'עוד לא שמרתם מקומות. לוחצים 🤍 על מקום כדי לשמור אותו.' : 'אין מקומות בסינון הזה'}</li>`;
+    : state.cat === 'fav'
+      ? emptyHtml('עוד לא שמרתם מקומות. לוחצים 🤍 על מקום כדי לשמור אותו.', 'לכל המקומות', 'clear-filters')
+      : emptyHtml(q ? `לא נמצא מקום בשם "${esc(state.query)}"` : 'אין מקומות בסינון הזה', q ? 'ניקוי החיפוש' : 'הסרת הסינון', q ? 'clear-search' : 'clear-filters');
 }
 
 // ---------- "what now" ----------
@@ -374,17 +383,50 @@ function renderNow() {
     ? `📍 הצעות באזור <b>${esc(AREAS[state.area].label)}</b>` : originHtml();
   $('#nowList').innerHTML = picked.length
     ? picked.map(({ p, reasons }) => cardHtml(p, esc(firstSentence(p.tip_he)) + (reasons.length ? '<br>' + reasons.map((r) => `<span class="reason">${esc(r)}</span>`).join('') : ''))).join('')
-    : `<li class="empty">${suggestOrigin() ? 'לא מצאתי משהו פתוח וקרוב עכשיו. נסו "תציע משהו אחר" או הסירו סינון.' : 'בחרו אזור (למעלה) או נקודת מוצא כדי לקבל הצעות.'}</li>`;
+    : suggestOrigin()
+      ? emptyHtml('לא מצאתי משהו פתוח וקרוב עכשיו.', 'הסרת הסינון', 'clear-filters')
+      : emptyHtml('צריך לדעת איפה אתם כדי להציע משהו קרוב.', 'בחירת אזור', 'area');
 }
 
-// ---------- place sheet ----------
-function openSheet(html) {
+function emptyHtml(text, action, kind) {
+  return `<li class="empty"><p>${text}</p><button class="btn" type="button" data-empty="${kind}">${action}</button></li>`;
+}
+function handleEmptyAction(kind) {
+  if (kind === 'area') { openAreaMenu(); return; }
+  if (kind === 'clear-search') { state.query = ''; $('#placeSearch').value = ''; }
+  if (kind === 'clear-filters') { state.cat = 'all'; state.babyOnly = false; save('babyOnly', false); state.query = ''; $('#placeSearch').value = ''; }
+  renderAll();
+}
+
+// ---------- bottom sheet (dialog) ----------
+let sheetTrigger = null;
+function openSheet(html, label) {
   $('#sheetBody').innerHTML = html;
   const card = $('.sheet-card');
+  card.setAttribute('aria-label', label || '');
   card.scrollTop = 0; card.style.transform = '';
+  if ($('#sheet').hidden) sheetTrigger = document.activeElement;
   $('#sheet').hidden = false;
+  $('#regionBtn').setAttribute('aria-expanded', String(label === 'בחירת אזור'));
+  $('.sheet .close').focus({ preventScroll: true });
 }
-function closeSheet() { $('#sheet').hidden = true; }
+function closeSheet() {
+  $('#sheet').hidden = true;
+  $('#regionBtn').setAttribute('aria-expanded', 'false');
+  if (sheetTrigger && document.contains(sheetTrigger)) sheetTrigger.focus({ preventScroll: true });
+  sheetTrigger = null;
+}
+// Keep keyboard focus inside the open sheet; Escape closes it.
+function sheetKeys(e) {
+  if ($('#sheet').hidden) return;
+  if (e.key === 'Escape') { e.preventDefault(); closeSheet(); return; }
+  if (e.key !== 'Tab') return;
+  const items = [...$('.sheet-card').querySelectorAll('a[href], button:not([disabled]), input, summary')].filter((el) => el.offsetParent !== null);
+  if (!items.length) return;
+  const first = items[0], last = items[items.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+}
 function openPlace(id) {
   const p = state.byId.get(id);
   if (!p) return;
@@ -396,14 +438,14 @@ function openPlace(id) {
   const status = [hoursLine(h), distLabel(p) && `🚗 ${distLabel(p)}`, g.rating && `★ ${g.rating} (${(g.reviews || 0).toLocaleString('en')})`].filter(Boolean);
   openSheet(`
     <div class="sh-head">
-      <div class="cat-ico" style="--c:${CAT_COLOR[p.category]}">${CAT_ICON[p.category] || '📍'}</div>
-      <div><h2>${esc(p.name_he)}</h2><div class="en">${esc(p.name)}</div></div>
+      <div class="cat-ico" style="--c:${CAT_COLOR[p.category]}" aria-hidden="true">${CAT_ICON[p.category] || '📍'}</div>
+      <div><h2>${esc(p.name_he)}</h2><div class="en" lang="en">${esc(p.name)}</div></div>
     </div>
     <div class="sh-status">${status.join('<span>·</span>')}</div>
     <div class="sh-actions">
       <a class="btn primary" href="${navUrl(p)}" target="_blank" rel="noopener">🧭 ניווט בגוגל מפות</a>
       <a class="btn" href="${waze}" target="_blank" rel="noopener">🚗 Waze</a>
-      <button class="btn ${fav ? 'on' : ''}" type="button" data-fav="${p.id}">${fav ? '❤️ שמור' : '🤍 לשמור'}</button>
+      <button class="btn ${fav ? 'on' : ''}" type="button" data-fav="${p.id}" aria-pressed="${fav}">${fav ? '❤️ שמור' : '🤍 לשמור'}</button>
     </div>
     <div class="sh-tags">
       <span class="tag">${esc(state.data.meta.categories[p.category])}</span>
@@ -422,22 +464,22 @@ function openPlace(id) {
       <div>📍 ${esc(state.data.meta.regions[p.region])}</div>
     </div>
     <div class="sh-actions">
-      <button class="btn ${visited ? 'on' : ''}" type="button" data-visit="${p.id}">${visited ? '✓ היינו כאן' : 'סמן שהיינו כאן'}</button>
+      <button class="btn ${visited ? 'on' : ''}" type="button" data-visit="${p.id}" aria-pressed="${visited}">${visited ? '✓ היינו כאן' : 'סמן שהיינו כאן'}</button>
       <button class="btn" type="button" data-fly="${p.id}">🗺️ הצג במפה</button>
-    </div>`);
+    </div>`, p.name_he);
 }
 function openAreaMenu() {
   const counts = {};
   for (const p of state.places) counts[p.region] = (counts[p.region] || 0) + 1;
   const opts = Object.entries(AREAS).map(([k, a]) =>
-    `<button class="btn ${state.area === k ? 'on' : ''}" type="button" data-area="${k}"><span>${esc(a.label)}</span><small>${k === 'all' ? state.places.length : counts[k] || 0}</small></button>`).join('');
+    `<button class="btn ${state.area === k ? 'on' : ''}" type="button" data-area="${k}" aria-pressed="${state.area === k}"><span>${esc(a.label)}</span><small>${k === 'all' ? state.places.length : counts[k] || 0}</small></button>`).join('');
   const origins = [
     ['auto', '✨ אוטומטי: GPS, ואם אין, המלון של היום'],
     ['gps', '🛰️ רק GPS'],
     ...STAYS.map((s) => [s.id, `🏨 ${s.label} (${s.from.slice(8)}.${s.from.slice(5, 7)}–${s.to.slice(8)}.${s.to.slice(5, 7)})`]),
-  ].map(([v, l]) => `<button class="btn ${state.originChoice === v ? 'on' : ''}" type="button" data-origin="${v}">${esc(l)}</button>`).join('');
+  ].map(([v, l]) => `<button class="btn ${state.originChoice === v ? 'on' : ''}" type="button" data-origin="${v}" aria-pressed="${state.originChoice === v}">${esc(l)}</button>`).join('');
   openSheet(`<h3>לאן מסתכלים?</h3><div class="opt-list two">${opts}</div>
-    <div class="sec-title">מאיפה למדוד מרחקים?</div><div class="opt-list">${origins}</div>`);
+    <div class="sec-title">מאיפה למדוד מרחקים?</div><div class="opt-list">${origins}</div>`, 'בחירת אזור');
 }
 
 // ---------- food dictionary ----------
@@ -447,28 +489,30 @@ function renderDict() {
   if (!dd) return;
   const tags = ['all', 'south', 'phuket', 'muslim', 'breakfast', 'baby', 'seafood', 'classic', 'sweet', 'drink'];
   $('#dictTags').innerHTML = tags.map((t) =>
-    `<button class="chip ${state.dictTag === t ? 'on' : ''}" data-tag="${t}" type="button">${t === 'all' ? 'הכל' : t === 'baby' ? '👶 לנאם' : esc(dd.meta.tags[t])}</button>`).join('');
+    `<button class="chip ${state.dictTag === t ? 'on' : ''}" data-tag="${t}" type="button" aria-pressed="${state.dictTag === t}">${t === 'all' ? 'הכל' : t === 'baby' ? '👶 לנאם' : esc(dd.meta.tags[t])}</button>`).join('');
   $('#phraseList').innerHTML = dd.phrases.map((ph, i) =>
-    `<li class="phrase" data-phrase="${i}"><div><div class="th">${esc(ph.th)}</div><div class="say">${esc(ph.say)}</div></div><div>${esc(ph.he)}</div></li>`).join('');
+    `<li><button class="phrase" type="button" data-phrase="${i}"><span><span class="th" lang="th">${esc(ph.th)}</span><span class="say">${esc(ph.say)}</span></span><span>${esc(ph.he)}</span></button></li>`).join('');
   const q = state.dictQuery.trim().toLowerCase();
   const items = dd.dishes.filter((x) => (state.dictTag === 'all' || x.tags.includes(state.dictTag)) &&
     (!q || [x.he, x.say, x.th, x.desc].some((f) => f.toLowerCase().includes(q))));
   $('#dictList').innerHTML = items.length ? items.map((x) => `
-    <li class="card dish" data-dish="${x.id}">
-      <div class="body">
-        <div class="name">${esc(x.he)}${x.tags.includes('baby') ? ' 👶' : ''} <span class="spice">${SPICE[x.spicy]}</span></div>
-        <div class="th">${esc(x.th)} <span class="say">· ${esc(x.say)}</span></div>
-        <div class="desc">${esc(x.desc)}</div>
-      </div></li>`).join('') : '<li class="empty">לא נמצאה מנה</li>';
+    <li class="card dish">
+      <button class="card-main" type="button" data-dish="${x.id}">
+        <span class="body">
+          <span class="name">${esc(x.he)}${x.tags.includes('baby') ? ' <span aria-label="מתאים לנאם">👶</span>' : ''} <span class="spice">${SPICE[x.spicy]}</span></span>
+          <span class="th" lang="th">${esc(x.th)} <span class="say" lang="he">· ${esc(x.say)}</span></span>
+          <span class="desc">${esc(x.desc)}</span>
+        </span>
+      </button></li>`).join('') : emptyHtml(`לא נמצאה מנה${q ? ` בשם "${esc(state.dictQuery)}"` : ''}`, 'ניקוי החיפוש', 'clear-dict');
 }
 // Big Thai text to show the waiter.
 function showThai(th, say, he, desc) {
   openSheet(`
-    <div class="show-th th">${esc(th)}</div>
+    <div class="show-th th" lang="th">${esc(th)}</div>
     <div class="show-say">${esc(say)}</div>
     <h2 style="text-align:center;margin-top:14px">${esc(he)}</h2>
     ${desc ? `<p class="sh-tip">${esc(desc)}</p>` : ''}
-    ${desc ? '<div class="show-say">רוצים פחות חריף? להוסיף: <span class="th">ไม่เผ็ด</span> (מאי פֶּט)</div>' : ''}`);
+    ${desc ? '<div class="show-say">רוצים פחות חריף? להוסיף: <span class="th" lang="th">ไม่เผ็ด</span> (מאי פֶּט)</div>' : ''}`, he);
 }
 
 // ---------- rendering & events ----------
@@ -477,7 +521,7 @@ function renderCats() {
   for (const p of state.places) counts[p.category === 'cafe' ? 'food' : p.category] = (counts[p.category === 'cafe' ? 'food' : p.category] || 0) + 1;
   const chips = [['all', 'הכל'], ['fav', `❤️ שמורים${state.favs.size ? ` (${state.favs.size})` : ''}`],
     ...CAT_ORDER.filter((c) => counts[c]).map((c) => [c, `${CAT_ICON[c]} ${CAT_SHORT[c]}`])];
-  $('#cats').innerHTML = chips.map(([c, l]) => `<button class="chip ${state.cat === c ? 'on' : ''}" data-cat="${c}" type="button">${l}</button>`).join('');
+  $('#cats').innerHTML = chips.map(([c, l]) => `<button class="chip ${state.cat === c ? 'on' : ''}" data-cat="${c}" type="button" aria-pressed="${state.cat === c}">${l}</button>`).join('');
 }
 function renderHeader() {
   $('#regionLabel').textContent = AREAS[state.area].label;
@@ -498,7 +542,10 @@ function renderAll() {
 function setView(v) {
   state.view = v;
   document.querySelectorAll('.view').forEach((el) => el.classList.toggle('active', el.id === 'view-' + v));
-  document.querySelectorAll('.tabs button').forEach((b) => b.classList.toggle('active', b.dataset.view === v));
+  document.querySelectorAll('.tabs button').forEach((b) => {
+    b.classList.toggle('active', b.dataset.view === v);
+    if (b.dataset.view === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
+  });
   document.body.classList.toggle('dict-mode', v === 'dict');
   if (v === 'map') setTimeout(() => map.invalidateSize(), 0);
   renderLists();
@@ -541,17 +588,25 @@ function bind() {
   $('#placeSearch').addEventListener('input', (e) => { state.query = e.target.value; renderList(); });
   for (const id of ['#originLine', '#originLineNow']) $(id).addEventListener('click', openAreaMenu);
   $('#locateBtn').addEventListener('click', () => {
-    if (state.origin && state.origin.kind === 'gps') map.flyTo([state.origin.lat, state.origin.lon], 14);
-    else if (state.origin) map.flyTo([state.origin.lat, state.origin.lon], 13);
+    if (state.origin) moveMap([state.origin.lat, state.origin.lon], state.origin.kind === 'gps' ? 14 : 13);
     else openAreaMenu();
   });
-  // Cards: the 🧭 / ❤️ buttons act on their own, the rest of the card opens details.
-  for (const list of ['#list', '#nowList']) {
+  // Cards: the main button opens details; 🧭 navigates; ❤️ saves.
+  for (const list of ['#list', '#nowList', '#dictList']) {
     $(list).addEventListener('click', (e) => {
+      const em = e.target.closest('[data-empty]');
+      if (em) {
+        if (em.dataset.empty === 'clear-dict') { state.dictQuery = ''; $('#dictSearch').value = ''; state.dictTag = 'all'; renderDict(); }
+        else handleEmptyAction(em.dataset.empty);
+        return;
+      }
       const f = e.target.closest('[data-fav]');
-      if (f) { toggleSet(state.favs, 'favs', f.dataset.fav); renderCats(); renderMap(); renderLists(); return; }
-      if (e.target.closest('[data-stop]')) return;
-      const li = e.target.closest('[data-id]'); if (li) openPlace(li.dataset.id);
+      if (f) {
+        toggleSet(state.favs, 'favs', f.dataset.fav); renderCats(); renderMap(); renderLists();
+        $(`${list} [data-fav="${f.dataset.fav}"]`)?.focus({ preventScroll: true });
+        return;
+      }
+      const b = e.target.closest('[data-id]'); if (b) openPlace(b.dataset.id);
     });
   }
   $('#dictSearch').addEventListener('input', (e) => { state.dictQuery = e.target.value; renderDict(); });
@@ -584,6 +639,7 @@ function bind() {
     }
   });
   bindSheetSwipe();
+  document.addEventListener('keydown', sheetKeys);
   const net = () => { $('#offline').hidden = navigator.onLine; };
   addEventListener('online', net); addEventListener('offline', net); net();
   // Re-evaluate "open now" and time-of-day every few minutes.

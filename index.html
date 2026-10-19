@@ -15,25 +15,25 @@
 </head>
 <body>
   <header class="top">
-    <button id="regionBtn" class="region-btn" type="button" aria-haspopup="dialog">
-      <span class="region-ico">🐘</span><span id="regionLabel">כל האזורים</span><span class="caret">▾</span>
+    <button id="regionBtn" class="region-btn" type="button" aria-haspopup="dialog" aria-expanded="false">
+      <span class="region-ico" aria-hidden="true">🐘</span><span id="regionLabel">כל האזורים</span><span class="caret" aria-hidden="true">▾</span>
     </button>
-    <span id="offline" class="offline" hidden>אופליין</span>
-    <button id="searchBtn" class="icon-btn" type="button" aria-label="חיפוש">🔍</button>
-    <button id="babyBtn" class="icon-btn toggle" type="button" aria-pressed="false" aria-label="רק מקומות קלים עם נאם" title="רק מקומות קלים עם נאם">👶</button>
+    <span id="offline" class="offline" role="status" hidden>אופליין</span>
+    <button id="searchBtn" class="icon-btn" type="button" aria-label="חיפוש מקום"><span aria-hidden="true">🔍</span></button>
+    <button id="babyBtn" class="icon-btn toggle" type="button" aria-pressed="false" aria-label="רק מקומות קלים עם נאם" title="רק מקומות קלים עם נאם"><span aria-hidden="true">👶</span></button>
   </header>
 
-  <nav id="cats" class="cats" aria-label="קטגוריות"></nav>
+  <nav id="cats" class="cats" aria-label="סינון לפי קטגוריה"></nav>
 
   <main>
     <section id="view-map" class="view active">
       <div id="map"></div>
-      <button id="locateBtn" class="fab" type="button" aria-label="המיקום שלי">⌖</button>
+      <button id="locateBtn" class="fab" type="button" aria-label="למיקום שלי"><span aria-hidden="true">⌖</span></button>
     </section>
 
     <section id="view-list" class="view">
       <div class="list-head">
-        <input id="placeSearch" type="search" placeholder="חיפוש מקום…" autocomplete="off">
+        <input id="placeSearch" type="search" placeholder="חיפוש מקום…" aria-label="חיפוש מקום" autocomplete="off" enterkeyhint="search">
         <button id="originLine" class="origin-line" type="button"></button>
       </div>
       <ul id="list" class="list"></ul>
@@ -41,17 +41,17 @@
 
     <section id="view-now" class="view">
       <div class="now-head">
-        <div id="nowTitle" class="now-title"></div>
+        <h1 id="nowTitle" class="now-title"></h1>
         <button id="originLineNow" class="origin-line" type="button"></button>
       </div>
-      <ul id="nowList" class="list"></ul>
+      <ul id="nowList" class="list" aria-live="polite"></ul>
       <div class="now-foot"><button id="shuffleBtn" class="btn wide" type="button">🔀 תציע משהו אחר</button></div>
     </section>
 
     <section id="view-dict" class="view">
       <div class="list-head">
-        <input id="dictSearch" type="search" placeholder="חיפוש מנה (עברית / תאית)" autocomplete="off">
-        <div id="dictTags" class="chip-row"></div>
+        <input id="dictSearch" type="search" placeholder="חיפוש מנה (עברית / תאית)" aria-label="חיפוש מנה" autocomplete="off" enterkeyhint="search">
+        <div id="dictTags" class="chip-row" role="group" aria-label="סינון מנות"></div>
       </div>
       <details class="phrases">
         <summary>💬 משפטים שימושיים במסעדה</summary>
@@ -62,16 +62,16 @@
   </main>
 
   <nav class="tabs" aria-label="תצוגה">
-    <button data-view="map" class="active" type="button"><b>🗺️</b><span>מפה</span></button>
-    <button data-view="list" type="button"><b>📋</b><span>רשימה</span></button>
-    <button data-view="now" type="button"><b>✨</b><span>מה עושים?</span></button>
-    <button data-view="dict" type="button"><b>📖</b><span>מילון אוכל</span></button>
+    <button data-view="map" class="active" type="button" aria-current="page"><b aria-hidden="true">🗺️</b><span>מפה</span></button>
+    <button data-view="list" type="button"><b aria-hidden="true">📋</b><span>רשימה</span></button>
+    <button data-view="now" type="button"><b aria-hidden="true">✨</b><span>מה עושים?</span></button>
+    <button data-view="dict" type="button"><b aria-hidden="true">📖</b><span>מילון אוכל</span></button>
   </nav>
 
   <div id="sheet" class="sheet" hidden>
-    <div class="sheet-card" role="dialog" aria-modal="true">
+    <div class="sheet-card" role="dialog" aria-modal="true" tabindex="-1">
       <div class="handle" aria-hidden="true"></div>
-      <button class="close" type="button" aria-label="סגירה">✕</button>
+      <button class="close" type="button" aria-label="סגירה"><span aria-hidden="true">✕</span></button>
       <div id="sheetBody"></div>
     </div>
   </div>
